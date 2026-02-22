@@ -1,4 +1,4 @@
-# Coming-to-Industry
+# ComingToIndustry
 This is a mod about the game Mindustry.
 这是游戏Mindustry的模组
 But now the items are not all translated into English.Don't worry, it's only temporary.
