@@ -1,9 +1,10 @@
 {
   "name":"将至",
   "displayName":"Coming to Industry"
-  "description": "不远的未来即是将至\n[orange[]][Coming to Industry][white[]]\n建议群聊:602687492\nhttps://github.com/SolitaryBlade/Mod-For-Mindustry"
+  "subtitle":"望未来如此，前进不止，因不远的未来即是将至"
+  "description": "将至-即未来\n[orange[]][Coming to Industry][white[]]\n建议群聊:602687492\nGithub链接:https://github.com/SolitaryBlade/Coming-to-Industry/releases"
   "author":"SolitaryBlade/[blue[]]金[red[]]光[orange[]]闪[purple[]]闪",
-  "version":"5.4",
+  "version":"5.5",
   "minGameVersion":"154"
 //  "main":"CTImod"
 //  "java":true
