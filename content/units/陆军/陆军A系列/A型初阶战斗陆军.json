@@ -1,0 +1,68 @@
+{
+"type":"mech"
+"name":"利刀",
+"description":"A-M-1\n[YG]基础进攻型普通陆军单位\n使用基本的小型步枪攻击前方的敌人",
+"flying":false,
+"speed":1.5
+"armor":8
+"hitSize":8
+"health": 285
+"itemCapacity":25
+"ammoCapacity":50
+   "mechStepParticles": false
+    "canDrown": true,
+    "mechFrontSway": 0.5,
+    "research":{
+   "parent":"战斗机器人工厂",
+   "requirements":[	
+    graphite/80
+	titanium/50
+   ]
+   }
+    "mechSideSway": 0.6
+  "hovering": true,
+  "allowLegStep": true,
+"weapons":[{
+  "name":"陆军机器人武器"
+  "x":-4
+  "y":0
+  "top": false
+  "rotate":false
+  "reload": 15,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 3
+               "lifetime": 50
+               "damage":18
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+{
+  "x":0
+  "y":3
+  "top": false
+  "rotate":false
+  "reload": 45
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 4
+               "type":"ArtilleryBulletType"
+               "lifetime": 50
+               "damage":26
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+]
+}
