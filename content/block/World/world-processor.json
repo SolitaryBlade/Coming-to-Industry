@@ -1,6 +1,6 @@
 {
-  "buildVisibility":shown
-  "description":"[red]请在自定义模式中启动“允许编辑世界处理器”"
+"buildVisibility":shown
+"description":"[red]请在自定义模式中启动“允许编辑世界处理器”"
   "requirements": [
 		{ "item":"钢化玻璃","amount":115},
 		{ "item":"surge-alloy","amount":100},
