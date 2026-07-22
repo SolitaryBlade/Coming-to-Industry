@@ -1,0 +1,6 @@
+{
+"type":"Floor"
+"name":"冻土层"
+"variants":3
+"attributes":{"water":0.7,"oil":1.65,"spores":-0.1}
+}

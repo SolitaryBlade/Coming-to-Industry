@@ -1,0 +1,38 @@
+{
+    "type":"Floor"
+	"status": "熔毁",
+	"statusDuration": 240,
+	"speedMultiplier": 0.1,
+	"variants": 0
+	"liquidDrop": "熔岩",
+	"name": "熔岩湖",
+	"damageTaken": 0.1
+	"isLiquid": true
+	"emitLight":true
+    "lightRadius":60
+    "lightColor":"ee381790"
+    "attributes":{"heat":2.75,}
+	"placeableOn":true,
+	"cacheLayer":"slag"
+	"albedo":0.9
+	"drownTime":600
+	"supportsOverlay":true
+}
+
+/*
+        slag = new Floor("slag"){{
+            drownTime = 150f;
+            status = StatusEffects.melting;
+            statusDuration = 240f;
+            speedMultiplier = 0.19f;
+            variants = 0;
+            liquidDrop = Liquids.slag;
+            isLiquid = true;
+            cacheLayer = CacheLayer.slag;
+            attributes.set(Attribute.heat, 0.85f);
+
+            emitLight = true;
+            lightRadius = 40f;
+            lightColor = Color.orange.cpy().a(0.38f);
+        }};
+    */
