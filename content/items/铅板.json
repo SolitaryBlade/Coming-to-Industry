@@ -1,0 +1,14 @@
+//继承 UnlockableContent
+
+{
+	"description": "基本防辐射器材，在机器内可以防止辐射大量外泄",
+	"details":"等级:B-2"
+	"color":"8c7fa9ff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "cost":1
+    "radioactivity":-1.13//辐射
+	//类型
+	"hardness":2
+	  
+"research":"钢"
+}

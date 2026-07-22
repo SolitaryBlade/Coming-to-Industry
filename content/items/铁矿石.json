@@ -1,0 +1,14 @@
+//继承 UnlockableContent
+
+{
+	"description": "刚被开采的原始矿石，需要冶炼后才可以正式投入使用\n[硬度:2]",
+	"color":"cbcbcbff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "charge":0
+	//电？也许是物品爆炸放电吧，原版就合金有
+    "hardness":2
+ 	//硬度,用于钻头采矿之类
+    "cost":1
+	//类型
+	 	"alwaysUnlocked":true,
+}

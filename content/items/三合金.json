@@ -1,0 +1,16 @@
+//继承 UnlockableContent
+//气球投稿
+{
+	"description": "继承两大物品硬的特点，建造墙的效果极佳\n用于主要建筑建造，当然打人也是个不错的选择",
+	"details":"等级:S-5;T-C-1"
+	"color":"595959ff"
+	//物品的颜色，用于物品源之类的地方显示它
+	"charge":2.1//放电
+    "radioactivity":0.46//辐射
+    "flammability":0.33//燃烧
+    "explosiveness":0.14//爆炸性
+    "cost":1
+	//类型
+	  
+"research":"能源合金"
+}

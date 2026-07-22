@@ -1,0 +1,12 @@
+//继承 UnlockableContent
+
+{
+	
+	//类型
+	//"name":"钻石"
+	"color":"00bbff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "cost":1
+	//类型
+	"research":"金刚石"
+}

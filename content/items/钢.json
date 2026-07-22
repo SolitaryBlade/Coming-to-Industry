@@ -1,0 +1,14 @@
+//继承 UnlockableContent
+
+{
+	"color":"c5c5c5ff"
+	//物品的颜色，用于物品源之类的地方显示它
+	"charge":0.1//放电
+    "radioactivity":0//辐射
+    "flammability":0//燃烧
+    "explosiveness":0//爆炸性
+    "cost":1
+	//类型
+	  
+"research":"铁"
+}

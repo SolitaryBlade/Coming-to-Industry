@@ -1,0 +1,16 @@
+//继承 UnlockableContent
+//气球投稿
+{
+	"color":"51b483ff"
+	//颜色，大概是青绿（不会ヽ(￣д￣;)ノ）
+	"charge":-0.90//放电
+    "radioactivity":0.84//辐射
+    "flammability":0.2//燃烧
+    "explosiveness":0.34//爆炸性
+    "cost":1
+	//类型 
+	"hardness":5
+ 	//硬度,用于钻头采矿之类
+	  
+"research":"铁"
+}

@@ -1,0 +1,16 @@
+//继承 UnlockableContent
+
+{
+	"description": "经过2×压缩的孢子合金，但是除了硬度以外各项属性貌似没有太大的改变",
+    "details":"但是压缩后似乎它的利用价值得到了加强\n等级:T-B-3"
+	"color":"9443ffff"
+	//物品的颜色，用于物品源之类的地方显示它
+	"charge":0.3//放电
+    "radioactivity":3.4//辐射
+    "flammability":7//燃烧
+    "explosiveness":2.9//爆炸性
+    "cost":1
+	//类型
+	  
+"research":"孢子合金"
+}

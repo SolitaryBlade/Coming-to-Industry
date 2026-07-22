@@ -1,0 +1,15 @@
+//继承 UnlockableContent
+
+{
+	"description": "工业的基本物，绝大部分建筑都需要它，当然打人也是可以的",
+	"details":"等级:C-3"
+	"color":"ddddddff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "charge":0
+	//电？也许是物品爆炸放电吧，原版就合金有
+    "hardness":2
+ 	//硬度,用于钻头采矿之类
+    "cost":1
+	//类
+"research":"基础战斗中心"
+}

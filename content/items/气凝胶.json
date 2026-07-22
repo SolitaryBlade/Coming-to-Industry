@@ -1,0 +1,15 @@
+//继承 UnlockableContent
+
+{
+	"description": "目前世界上已知最轻的固体，耐火性非常好，不过虽然是固体，但硬度不咋地",
+	"details":"等级:S-0"
+	"color":"b1b1b1b4"
+	//物品的颜色，用于物品源之类的地方显示
+    "hardness":-1
+ 	//硬度,用于钻头采矿之类
+ 	"flammability":-1//燃烧
+ 
+    "cost":1
+	//类
+"research":"物质原子"
+}

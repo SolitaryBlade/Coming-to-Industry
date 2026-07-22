@@ -1,0 +1,11 @@
+//继承 UnlockableContent
+
+{
+	"color":"e7d900ff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "charge":1.2
+    "cost":1
+	//类型
+	  
+"research":"铁"
+}

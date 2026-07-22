@@ -1,0 +1,13 @@
+//继承 UnlockableContent
+
+{
+	"color":"f1e300ff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "hardness":1
+ 	//硬度,用于钻头采矿之类
+ 	"charge":2.5
+ 
+    "cost":1
+	//类型
+"research":"物质原子"
+}

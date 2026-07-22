@@ -1,0 +1,16 @@
+//继承 UnlockableContent
+
+{
+	"description": "钛和晶状合金的融合物，同时具有两者的属性，不论是建材还是弹药，都是非常好的选择",
+	"details":"等级:S-4;T-A-0"
+	"color":"1ddef4fff"
+	//物品的颜色，用于物品源之类的地方显示它
+	"charge":6//放电
+    "radioactivity":4//辐射
+    "flammability":0//燃烧
+    "explosiveness":0.3//爆炸性
+    "cost":1
+	//类型
+	  
+"research":"晶金"
+}

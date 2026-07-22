@@ -1,0 +1,19 @@
+//继承 UnlockableContent
+
+{
+	"description": "AH使用特殊技术将钯金进行人工排序分子结构后所制造的特殊金属，现在此物品拥有了能够在特定环境或需求时进行自我修改物质形态的特性，当然自我修复能力也是有的",
+	"details":"固则刚，流则散\n等级:S-6"
+	"color":"dedededd"//银白
+	//物品的颜色，用于物品源之类的地方显示它
+    "charge":0.05
+	//电？也许是物品爆炸放电吧，原版就合金有
+	"radioactivity":0.01//辐射
+    "flammability":0//燃烧
+    "explosiveness":0//爆炸
+    "cost":2
+	//类
+	"frames":12,//贴图数量，必须为实际数量
+	"transitionFrames":1,//过渡帧
+	"frameTime":18,//帧时间
+"research":"钯金"
+}

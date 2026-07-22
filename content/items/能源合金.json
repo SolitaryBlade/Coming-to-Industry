@@ -1,0 +1,13 @@
+//继承 UnlockableContent
+
+{
+	"description": "一种经过特殊加工的合金，可以储存大量电力的合金",
+	"details":"等级:A-9"
+	"color":"f6757aff"
+	//物品的颜色，用于物品源之类的地方显示它
+	"charge":15
+    "cost":1
+	//类型
+	  
+"research":"晶金"
+}

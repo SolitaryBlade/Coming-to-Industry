@@ -1,0 +1,18 @@
+//继承 UnlockableContent
+
+{
+	"description": "一种特殊的矿石，50%纯度，强辐射，而且可以发电，并且还能作为弹药来攻击敌人\n[硬度:6]",
+	"details":"散发出一种令人着迷的颜色和一种麻麻的感觉，不过它可不是能当做观赏品的东西\n等级:T-A-7"
+	"color":"00ff00FF"
+	//物品的颜色，用于物品源之类的地方显示它
+    "charge":0.01
+	//电？也许是物品爆炸放电吧，原版就合金有
+	"radioactivity":8.88//辐射
+    "flammability":2.54//燃烧
+    "explosiveness":2.38//爆炸性
+    "hardness":6
+ 	//硬度,用于钻头采矿之类
+    "cost":1
+	//类
+"research":"气凝胶"
+}

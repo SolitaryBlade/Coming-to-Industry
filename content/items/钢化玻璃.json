@@ -1,0 +1,13 @@
+//继承 UnlockableContent
+
+{
+	"color":"c9c9d6ff"
+	//物品的颜色，用于物品源之类的地方显示它
+    "charge":0
+	//电？也许是物品爆炸放电吧，原版就合金有
+    "hardness":1
+ 	//硬度,用于钻头采矿之类
+    "cost":1
+	//类型
+"research":"铁"
+}
