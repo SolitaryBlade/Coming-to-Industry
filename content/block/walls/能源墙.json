@@ -1,0 +1,17 @@
+{
+"type":"Wall"
+	"description":"来自[YG]，使用大量能源合金制造的一种墙"
+ "flashHit":true
+	"health":4890,
+	"size":1
+	"chanceDeflect":40
+	"absorbLasers":true
+	"insulated":false//绝缘
+	"lightningChance":0.5
+    "lightningDamage":240
+	"requirements":[
+		{"item":"能源合金","amount":10}
+	]
+	"category":"defense"
+	"research":"双合金板墙"
+}

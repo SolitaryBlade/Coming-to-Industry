@@ -1,0 +1,18 @@
+{
+"type":"Wall"
+	"description":"来自[YG]，使用两种合金制造的墙"
+ "flashHit":true
+	"health":1450,
+	"size":1
+	"chanceDeflect":60
+	"absorbLasers":true
+	"insulated":true//绝缘
+	"lightningChance":0.2
+    "lightningDamage":40
+	"requirements":[
+		{"item":"晶金","amount":6}
+		{ "item": "surge-alloy", "amount": 8 },
+	]
+	"category":"defense"
+	"research":"金刚石墙"
+}

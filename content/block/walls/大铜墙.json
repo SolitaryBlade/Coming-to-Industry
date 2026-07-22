@@ -1,0 +1,15 @@
+{
+"type":"Wall"
+	"description": "来自[AH]，使用大量铜-阿尔法制造的一种墙"
+ "flashHit":true
+	"health":28900
+	"size":2
+ "chanceDeflect":80
+	"insulated":false
+	"absorbLasers":true//反弹
+	"requirements": [
+		{ "item": "铜", "amount":34 },
+	],
+	"category": "defense",
+	"research": "铜墙"
+}

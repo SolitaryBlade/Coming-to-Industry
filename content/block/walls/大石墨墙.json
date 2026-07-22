@@ -1,0 +1,11 @@
+{
+"type":"Wall"
+	"description": "来自[YG]，石墨墙"
+	"health":1968,
+	"size":2
+	"requirements": [
+		{ "item": "graphite", "amount":24 },
+	],
+	"category": "defense",
+	"research": "石墨墙"
+}

@@ -1,0 +1,11 @@
+{
+"type":"Wall"
+	"description": "来自[YG]，使用大量铅制造的墙，经过强化"
+	"health":1824
+	"size":2
+	"requirements": [
+		{ "item": "lead", "amount":24 },
+	],
+	"category": "defense",
+	"research": "铅墙"
+}

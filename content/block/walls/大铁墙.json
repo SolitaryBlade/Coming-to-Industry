@@ -1,0 +1,12 @@
+{
+"type":"Wall"
+	"description": "来自[YG]，铁墙"
+	"health":3600
+	"size":2
+	"absorbLasers":true//反弹
+	"requirements": [
+		{ "item": "铁", "amount":24 },
+	],
+	"category": "defense",
+	"research": "铁墙"
+}

@@ -1,0 +1,15 @@
+{
+"type":"Wall"
+	"description": "来自[YG]，高硬度墙"
+ "flashHit":true
+	"health":4080
+	"size":2
+ "chanceDeflect":20
+	"insulated":true
+	"absorbLasers":true//反弹
+	"requirements": [
+		{ "item": "金刚石", "amount":24 },
+	],
+	"category": "defense",
+	"research": "金刚石墙"
+}

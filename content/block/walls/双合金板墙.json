@@ -1,0 +1,18 @@
+{
+"type":"Wall"
+	"description":"来自[YG]，使用两种合金板制造的墙"
+ "flashHit":true
+	"health":2050,
+	"size":1
+	"chanceDeflect":80
+	"absorbLasers":true
+	"insulated":true//绝缘
+	"lightningChance":0.35
+    "lightningDamage":100
+	"requirements":[
+		{"item":"晶金板","amount":6}
+		{ "item": "合金板", "amount": 8 },
+	]
+	"category":"defense"
+	"research":"双合金墙"
+}

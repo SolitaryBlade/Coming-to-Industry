@@ -1,0 +1,18 @@
+{
+"type":"MendProjector"
+"name":"超巨型自塑合金墙"
+	"description":"来自[AH]，使用自塑合金所建造的墙，可以自我修复，可以被加速装置影响"
+	"health":158800,
+	"size":4
+	"reload":390
+    "range":0.1
+    "phaseRangeBoost":1
+    "hasPower":false
+    "itemCapacity":0
+    "canOverdrive":true
+	"requirements":[
+		{"item":"自塑合金","amount":164}
+	]
+	"category":"defense"
+	"research":"巨自塑墙"
+}

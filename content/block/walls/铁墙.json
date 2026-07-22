@@ -1,0 +1,11 @@
+{
+"type":"Wall"
+	"description":"来自[YG]，铁墙"
+	"health":750,
+	"size":1
+	"requirements":[
+		{"item":"铁","amount":6}
+	]
+	"category":"defense"
+	"research":"石墨墙"
+}

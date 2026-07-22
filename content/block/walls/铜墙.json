@@ -1,15 +1,15 @@
 {
 "type":"Wall"
-	"description":"来自[YG]，使用较多钯金所建造的墙"
+	"description":"来自[AH]，使用大量铜-阿尔法制造的一种墙"
  "flashHit":true
-	"health":7990,
+	"health":6420,
 	"size":1
 	"chanceDeflect":40
 	"absorbLasers":true
 	"insulated":false//绝缘
 	"requirements":[
-		{"item":"钯金","amount":10}
+		{"item":"铜","amount":10}
 	]
 	"category":"defense"
-	"research":"铜墙"
+	"research":"能源墙"
 }

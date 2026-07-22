@@ -1,0 +1,15 @@
+{
+"type":"Wall"
+	"description": "来自[YG]，在YG经过数次实验后发现钯金可能是在发现铅-阿尔法之前最硬的天然矿石墙"
+ "flashHit":true
+	"health":35600
+	"size":2
+ "chanceDeflect":80
+	"insulated":false
+	"absorbLasers":true//反弹
+	"requirements": [
+		{ "item": "钯金", "amount":36 },
+	],
+	"category": "defense",
+	"research": "钯金墙"
+}
