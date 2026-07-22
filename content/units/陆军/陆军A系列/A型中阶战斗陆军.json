@@ -1,0 +1,98 @@
+{
+"type":"mech"
+"name":"淬炼",
+"description":"A-M-2\n[YG]强化进攻型普通陆军单位\n搭载了双倍喷火枪，使用高温消灭敌人",
+"flying":false,
+"speed":1.1
+"armor":16
+"hitSize":16
+"health": 1100
+"itemCapacity":45
+"ammoCapacity":80
+   "mechStepParticles": false
+    "canDrown": true,
+    "mechFrontSway": 0.5,
+    "research":{
+   "parent":"A型初阶战斗陆军",
+   "requirements":[	
+    graphite/130
+	titanium/100
+	铁/120
+	silicon/150
+   ]
+   }
+    "mechSideSway": 0.6
+  "hovering": true,
+  "allowLegStep": true,
+"weapons":[{
+  "name":"陆军机器人武器"
+  "x":-5
+  "y":-4
+  "top": false
+  "rotate":false
+  "reload": 15
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 4
+               "lifetime": 40
+               "damage":35
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 45
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 5
+               "type":"ArtilleryBulletType"
+               "lifetime": 50
+               "damage":40
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+{
+  "x":6
+  "y":2
+  "name":"喷火器"
+  "top": false
+  "rotate":true
+  "reload": 1
+  "shootSound":"shootFlame",
+  "ejectEffect":"casing1"
+  "inaccuracy":15
+  "alternate":true,
+  "ignoreRotation": false,
+ "bullet":{
+                    "type":"BulletType"
+                    "ammoMultiplier":3
+                    "hitSize":7
+                    "lifetime":30
+                    "pierce":true
+                    "damage":24
+                    "pierceBuilding":true
+                    "pierceCap":2
+                    "statusDuration":240
+                    "shootEffect":"shootSmallFlame"
+                    "hitEffect":"hitFlameSmall"
+                    "despawnEffect":"none"
+                    "status":"burning"
+                    "keepVelocity":false
+                    "hittable":false
+                    }
+}
+]
+}

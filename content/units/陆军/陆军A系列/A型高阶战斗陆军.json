@@ -1,0 +1,123 @@
+{
+"type":"mech"
+"name":"磨难",
+"description":"A-M-3\n[YG]高级进攻型重火力陆军单位\n不但喷火器得到了升级，而且还增加了两门机枪，火力得到了保证",
+"flying":false,
+"speed":0.94
+"armor":48
+"hitSize":24
+"health": 3800
+"itemCapacity":65
+"ammoCapacity":240
+   "mechStepParticles": false
+    "canDrown": true,
+    "mechFrontSway": 0.5,
+    "research":{
+   "parent":"A型中阶战斗陆军",
+   "requirements":[	
+    plastanium/230
+	titanium/260
+	钢/210
+	phase-fabric/190
+   ]
+   }
+    "mechSideSway": 0.6
+  "hovering": true,
+  "allowLegStep": true,
+"weapons":[{
+  "name":"陆军机器人武器"
+  "x":9
+  "y":-1
+  "top": false
+  "rotate":false
+  "reload": 8
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8
+               "lifetime": 25
+               "damage":65
+}
+}
+{
+  "x":0
+  "y":0
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 60
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 13
+               "type":"ArtilleryBulletType"
+               "lifetime": 15
+               "damage":110
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+{
+  "x":9
+  "y":1
+  "name":"喷火器"
+  "top": false
+  "rotate":true
+  "reload": 1
+  "shootSound":"shootFlame",
+  "ejectEffect":"casing1"
+  "inaccuracy":15
+  "alternate":true,
+  "ignoreRotation": false,
+ "bullet":{
+                    "type":"BulletType"
+                    "ammoMultiplier":3
+                    "hitSize":7
+                    "lifetime":30
+                    "pierce":true
+                    "damage":44
+                    "pierceBuilding":true
+                    "pierceCap":2
+                    "statusDuration":240
+                    "shootEffect":"shootSmallFlame"
+                    "hitEffect":"hitFlameSmall"
+                    "despawnEffect":"none"
+                    "status":"burning"
+                    "keepVelocity":false
+                    "hittable":false
+                    }
+}
+{
+  "x":12
+  "y":0
+  "name":"机枪"
+  "top": false
+  "rotate":true
+  "reload": 5
+  "shootSound":"shootFlame",
+  "ejectEffect":"casing1"
+  "inaccuracy":2
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 10
+               "type":"BulletType"
+               "status":"burning"
+               "pierceBuilding":true;
+               "pierceCap":2
+               "statusDuration":180
+               "shootEffect":"shootSmallFlame"
+               "hitEffect":"hitFlameSmall"
+               "lifetime": 20
+               "damage":28
+}
+}
+]
+}
