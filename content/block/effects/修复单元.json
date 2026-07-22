@@ -1,0 +1,40 @@
+{
+    "type": "MendProjector",//修复仪
+    "name": "修复单元",
+    "description": "来自[YG]，单元修复建筑",
+    "health": 1100
+    "size":2
+    "reload":200
+    "range":120
+    "phaseRangeBoost":80
+    "healPercent":15
+    "phaseBoost":18
+    "useTime": 65
+    "buildCostMultiplier":0.75
+ 	"consumes": {
+ 	"power":6
+  "items":{
+		"items":[
+				{"item":"surge-alloy","amount":1}
+			],
+			"booster":true,
+			"optional": true
+		}
+		}
+    "requirements": [
+    { "item":"thorium","amount":135},
+  { "item": "surge-alloy", "amount": 55}
+  { "item": "plastanium", "amount": 85}
+  { "item": "phase-fabric", "amount": 65}
+	],
+	"category": "effect",
+	"research":{
+	"parent":"存储单元",
+    "requirements":[
+		{ "item":"thorium","amount":405},
+  { "item": "surge-alloy", "amount": 165}
+  { "item": "plastanium", "amount": 255}
+  { "item": "phase-fabric", "amount": 195}
+    ]
+    }
+}

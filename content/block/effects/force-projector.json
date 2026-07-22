@@ -1,0 +1,9 @@
+{
+"radius":203.5
+"shieldHealth":4000
+"phaseRadiusBoost":120
+"phaseShieldBoost":1500
+"cooldownNormal":6
+"cooldownLiquid":1.2
+"cooldownBrokenBase":2.5
+}

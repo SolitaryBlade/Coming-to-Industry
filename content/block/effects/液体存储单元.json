@@ -1,0 +1,24 @@
+{
+      "type":"LiquidRouter",
+      "name":"液体存储单元"
+      "description": "来自[YG]，单元的液体存储建筑",
+      "size":2
+      "health": 1000
+      "liquidCapacity": 16000
+      "requirements": [
+		{"item": "铁", "amount": 105},
+		{"item":"thorium","amount":90}
+		{"item":"titanium","amount":130}
+		{ "item":"钢化玻璃","amount":70},
+]
+	"category": "liquid",
+    "research":{
+	"parent":"存储单元",
+    "requirements":[
+		{"item": "铁", "amount": 315},
+		{"item":"thorium","amount":270}
+		{"item":"titanium","amount":390}
+		{ "item":"钢化玻璃","amount":210},
+    ]
+    }
+    }

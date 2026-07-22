@@ -1,0 +1,53 @@
+{
+	//"buildVisibility":sandboxOnly
+	"type": "OverdriveProjector",
+	"name": "区块加速矩阵核心",
+	"description": "来自[YG]，强化型矩阵核心的加速投影模式，使用一种高级合金进行强化以及大量液体进行冷却",
+	"health": 5500
+	"size": 6
+	"range": 4000
+	"liquidCapacity": 600,
+	"itemCapacity": 30,
+	"speedBoostPhase": 14
+	"useTime": 60
+	"buildTime":1946
+	"phaseRangeBoost": 800
+	"speedBoost": 20.5
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 300
+		"liquids":[
+		{"liquid":"液氮","amount":2}
+		{"liquid":"cryofluid","amount":2.2}
+		]
+      "items":{
+		"items":[
+			{"item":"能源合金","amount":2}
+			]
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+	{"item":"三合金","amount":1300}
+	{ "item":"zs","amount":1380},
+	{ "item": "合金板", "amount":1400}
+	{"item":"能源合金","amount":1350}
+	{ "item":"晶金板","amount":1480},
+	{"item":"钢","amount":1650}
+	{"item":"钛晶","amount":1350}
+	],
+	"category": "effect",
+	"research":{
+	"parent":"加速矩阵单元",
+    "requirements":[
+    {"item":"三合金","amount":3900}
+	{ "item":"zs","amount":4140},
+	{ "item": "合金板", "amount":4200}
+	{"item":"能源合金","amount":4050}
+	{ "item":"晶金板","amount":4440},
+	{"item":"钢","amount":4950}
+	{"item":"钛晶","amount":4050}
+    ]
+    }
+}

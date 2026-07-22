@@ -1,0 +1,42 @@
+{
+	"type": "OverdriveProjector",
+	"name": "加速矩阵单元",
+	"description": "来自[YG]，矩阵单元的加速模式",
+	"health": 2200
+	"size": 4
+	"range": 300
+	"speedBoostPhase": 3
+	"useTime": 60
+	"phaseRangeBoost": 180
+	"speedBoost": 6
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 18
+	"liquids":[
+	   {"liquid":"液氮","amount":0.4}
+	   ]
+  "items":{
+		"items":[
+				{"item":"晶金","amount":1}
+			],
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+	{ "item":"金刚石","amount":385},
+	 { "item": "surge-alloy", "amount": 385}
+	 {"item":"钢化玻璃","amount":350}
+	 { "item":"晶金板","amount":375},
+	],
+	"category": "effect",
+	"research":{
+	"parent":"加速单元",
+    "requirements":[
+		{ "item":"金刚石","amount":1155},
+	 { "item": "surge-alloy", "amount": 1155}
+	 {"item":"钢化玻璃","amount":1050}
+	 { "item":"晶金板","amount":1125},
+    ]
+    }
+}

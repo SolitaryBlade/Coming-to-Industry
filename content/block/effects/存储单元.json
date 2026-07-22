@@ -1,1 +1,24 @@
-
+{
+	"name": "存储单元",
+	"description": "来自[YG]，物品存储建筑",
+	"type": "StorageBlock",
+	"itemCapacity": 15000
+	"hasItems": true,
+	"health": 1550
+	"size": 2
+	"buildCostMultiplier":0.75
+	"requirements": [
+		{ "item": "铁", "amount": 250 },
+		{ "item": "thorium", "amount": 260 },
+		{ "item": "titanium", "amount": 310 }
+	],
+	"category": "effect",
+	"research":{
+	"parent":"A",
+    "requirements":[
+		{ "item": "铁", "amount": 750 },
+		{ "item": "thorium", "amount": 780 },
+		{ "item": "titanium", "amount": 630 }
+    ]
+    }
+}

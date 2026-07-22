@@ -1,0 +1,64 @@
+{
+	//"type": "ForceProjector",
+	"name": "原质盾墙构造器",
+	"description": "来自[AH]，极致的科技产物，采用了AH最新发现且未公开的特殊物质，无论是自身防御还是护盾强度都是数一数二的，当然耗电量也是数一数二的"
+	"health": 15400,
+	"size": 8,
+	"radius": 800,
+	"buildTime":1946
+	"squareSprite": false,
+	"canOverdrive": true,
+	"shieldHealth": 90000,//基础护盾容量
+	"phaseRadiusBoost": 300,//强化护盾范围
+	"phaseShieldBoost": 45000,//强化护盾量
+	"cooldownNormal": 7.5,
+	"cooldownLiquid": 2.5,
+	"cooldownBrokenBase": 7.4,
+	"coolantConsumption": 1.5,//液体消耗
+	"liquidCapacity": 600,
+	"itemCapacity": 20,
+	"absorbEffect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"sizeFrom": 5,
+		"sizeTo": 0,
+		"length": 0,
+		"baseLength": 0,
+		"lifetime": 180,
+		"sizeInterp": "pow3In",
+		"colorFrom": "FEEBB3",
+		"colorTo": "FEEBB300"
+	},
+	"consumes": {
+		"power": 200
+	},
+	"requirements": [
+		"原质/1800"
+		"铜/1860"
+		"三合金/1885"
+		"钯金/1920"
+		"钛晶/1990"
+		"能源合金/2060"
+		"陨铁/2110"
+		"晶金板/2160"
+		"zs/2210"
+		"合金板/2350"
+		
+	],
+	"research":{
+	"parent":"加速矩阵单元",
+    "requirements":[
+		"原质/5400"
+		"铜/5580"
+		"三合金/5655"
+		"钯金/5760"
+		"钛晶/5970"
+		"能源合金/6180"
+		"陨铁/6330"
+		"晶金板/6480"
+		"zs/6630"
+		"合金板/7050"
+    ]
+    }
+	"category": "effect"
+}

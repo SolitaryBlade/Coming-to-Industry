@@ -1,0 +1,48 @@
+{
+    //"buildVisibility":sandboxOnly
+    "type": "MendProjector",//修复仪
+    "name": "修复矩阵核心",
+    "description": "来自[YG]，矩阵核心的修复投影模式",
+    "health": 5700
+    "size":4
+    "reload":100
+    "range":560
+    "phaseRangeBoost":90
+    "liquidCapacity": 360,
+	"itemCapacity": 30,
+	"buildTime":1278
+    "healPercent":10
+    "phaseBoost":35
+    "useTime": 120
+    "buildCostMultiplier":0.75
+ 	"consumes": {
+ 	"power":145
+ 	 "liquids":[
+ 	      {"liquid":"液氮","amount":1.5}
+ 	      {"liquid":"cryofluid","amount":1.9}
+ 	      ]
+       "items":{
+		   "items":[
+				{"item":"能源合金","amount":2}
+			],
+			"booster":true,
+			"optional": true
+		}
+		}
+    "requirements": [
+    { "item":"zs","amount":740},
+  { "item": "合金板", "amount": 750}
+  { "item": "能源合金", "amount": 695}
+  { "item": "晶金板", "amount": 735}
+	],
+	"category": "effect",
+	"research":{
+	"parent":"修复矩阵单元",
+    "requirements":[
+		{ "item":"zs","amount":2220},
+  { "item": "合金板", "amount": 2250}
+  { "item": "能源合金", "amount": 2085}
+  { "item": "晶金板", "amount": 2205}
+	],
+    }
+}

@@ -1,0 +1,27 @@
+{
+      "type":"LiquidRouter",
+      "name":"液体存储矩阵单元"
+      "description": "来自[YG]，存储矩阵单元的液体存储模式",
+      "size":4,
+      "health": 3300
+      "liquidCapacity": 79000
+      "buildTime":1134
+      "requirements": [
+		{"item": "铁", "amount": 325},
+		{"item":"thorium","amount":370}
+		{"item":"surge-alloy","amount":350}
+		{ "item":"钢化玻璃","amount":375},
+		{ "item": "金刚石", "amount": 365 }
+]
+	"category": "liquid",
+    "research":{
+	"parent":"液体存储单元",
+    "requirements":[
+		{"item": "铁", "amount": 975},
+		{"item":"thorium","amount":1110}
+		{"item":"surge-alloy","amount":1050}
+		{ "item":"钢化玻璃","amount":1125},
+		{ "item": "金刚石", "amount": 1095 }
+    ]
+    }
+    }

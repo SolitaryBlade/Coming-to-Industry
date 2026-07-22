@@ -1,0 +1,50 @@
+{
+	//"type": "ForceProjector",
+	"name": "量子护盾发生器",
+	"description": "来自[YG]，使用晶金所制造的护盾发生器，可以提供十分强劲的保护"
+	"health": 4800,
+	"size": 6,
+	"radius": 360,
+	"squareSprite": false,
+	"canOverdrive": true,
+	"shieldHealth": 25500,//基础护盾容量
+	"phaseRadiusBoost": 160,//强化护盾范围
+	"phaseShieldBoost": 9500,//强化护盾量
+	"cooldownNormal": 6.5,
+	"cooldownLiquid": 2.5,
+	"cooldownBrokenBase": 6.3,
+	"coolantConsumption": 0.2,//液体消耗
+	"liquidCapacity": 600,
+	"itemCapacity": 20,
+	"absorbEffect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"sizeFrom": 5,
+		"sizeTo": 0,
+		"length": 0,
+		"baseLength": 0,
+		"lifetime": 180,
+		"sizeInterp": "pow3In",
+		"colorFrom": "FEEBB3",
+		"colorTo": "FEEBB300"
+	},
+	"consumes": {
+		"power": 60
+	},
+	"requirements": [
+		"合金板/630",
+		"晶金/650",
+		"zs/560"
+		"气凝胶/600"
+	],
+	"research":{
+	"parent":"加速矩阵单元",
+    "requirements":[
+		"合金板/1890",
+		"晶金/1950",
+		"zs/1680"
+		"气凝胶/1800"
+    ]
+    }
+	"category": "effect"
+}

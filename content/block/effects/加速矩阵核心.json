@@ -1,0 +1,43 @@
+{
+	"type": "OverdriveProjector",
+	"name": "加速矩阵核心",
+	"description": "来自[YG]，矩阵核心的加速投影模式",
+	"health": 6200
+	"size": 4
+	"range": 450
+	"speedBoostPhase": 5
+	"useTime": 120
+	"phaseRangeBoost": 150
+	"speedBoost": 8.5
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 40
+	"liquids":[
+	   {"liquid":"液氮","amount":1.45}
+	   {"liquid":"cryofluid","amount":1.95}
+	   ]
+  "items":{
+		"items":[
+				{"item":"晶金","amount":2}
+			],
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+	{ "item":"zs","amount":385},
+	 { "item": "合金板", "amount": 415}
+	 {"item":"钢","amount":450}
+	 { "item":"晶金板","amount":410},
+	],
+	"category": "effect",
+	"research":{
+	"parent":"加速矩阵单元",
+    "requirements":[
+		{ "item":"zs","amount":1155},
+	 { "item": "合金板", "amount": 1245}
+	 {"item":"钢","amount":1350}
+	 { "item":"晶金板","amount":1230},
+    ]
+    }
+}

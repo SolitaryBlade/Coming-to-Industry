@@ -1,0 +1,39 @@
+{
+	"type": "OverdriveProjector",
+	"name": "加速单元",
+	"description": "来自[YG]，单元加速建筑",
+	"health": 1250
+	"size": 2
+	"range": 170
+	"speedBoostPhase": 2.2
+	"useTime": 60
+	"phaseRangeBoost": 75
+	"speedBoost": 3.8
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 6
+  "items":{
+		"items":[
+				{"item":"phase-fabric","amount":1}
+			],
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+	{ "item":"titanium","amount":175},
+	 { "item": "phase-fabric", "amount": 70}
+	 {"item":"thorium","amount":135}
+	 { "item":"plastanium","amount":90},
+	],
+	"category": "effect",
+	"research":{
+	"parent":"存储单元",
+    "requirements":[
+		{ "item":"titanium","amount":325},
+	 { "item": "phase-fabric", "amount": 210}
+	 {"item":"thorium","amount":405}
+	 { "item":"plastanium","amount":270},
+    ]
+    }
+}
