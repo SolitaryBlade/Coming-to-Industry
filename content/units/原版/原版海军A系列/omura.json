@@ -1,0 +1,34 @@
+{
+	"details":"高额的伤害，无所畏惧。"
+	"health": 40000
+	"weapons": [
+		{
+			"name": "海神1",
+			"reload": 95,
+			"x": 0,
+			"y": 0,
+			"shootY": 10,
+			"cooldownTime": 85,
+			"rotate": true,
+			"rotateSpeed": 5,
+			"mirror": false,
+			"inaccuracy": 0,
+			"shootSound": "shootOmura",
+			"shake": 8,
+			"bullet": {
+				"type": "RailBulletType",
+				"damage": 3820,
+				"pierce": true,
+				"pierceBuilding": true,
+				"pierceEffect": "railHit",
+				"pointEffect": "railTrail",
+				"hitEffect": "massiveExplosion",
+				"shootEffect": "railShoot",
+				"smokeEffect": "smokeCloud",
+				"pierceDamageFactor": 0.167,
+				"length": 765,
+				"despawnEffect": "bigShockwave"
+			}
+		}
+	]
+}
