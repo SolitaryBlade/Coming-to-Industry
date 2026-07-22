@@ -1,0 +1,119 @@
+{
+"type":"tank"
+"name":"毁坏",
+"description":"C-M-4\n[AH]列位级坦克单位，经过AH改良后的坦克单位\n对主炮进行了升级，还额外增加了两门麻痹炮用于近战防卫及突袭",
+"details":"一类高强度兵种\n[red]在部分类型的地图中无法正常显示履带"
+"flying":false,
+"speed":0.64
+"armor":264
+"hitSize":32
+"health": 31000
+"itemCapacity":89
+"ammoCapacity":280
+    "research":{
+   "parent":"C型高阶战斗陆军",
+   "requirements":[	
+   晶金/510
+	金刚石/570
+	surge-alloy/535
+	钢/560
+   ]
+   }
+"weapons":[{
+  
+  "x":-14
+  "y":0
+  "top": false
+  "rotate":false
+  "reload": 15,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 6
+               "type":"MissileBulletType"
+               "lifetime": 55
+               "damage":75
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 90
+  "shootSound":"shootArtillery",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":false
+  "ignoreRotation": false,
+  "bullet":{
+               "type":"ArtilleryBulletType"
+               "damage":1040
+               "speed":10
+               "lifetime":30
+}
+}
+{
+  "x":9
+  "y":-3
+  "name":"机枪"
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8
+               "type":"BasicBulletType"
+               "lifetime": 38
+               "damage":40
+}
+}
+{
+  "x":12
+  "y":0
+  "name":"尖刀1"
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8.5
+               "type":"ArtilleryBulletType"
+               "lifetime": 42
+               "damage":200
+}
+}
+{
+  "x":9
+  "y":-3
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8
+               "type":"LightningBulletType"
+               "lifetime": 38
+               "damage":20
+               "status":"electrified"
+               "statusDuration":240
+}
+}
+]
+}

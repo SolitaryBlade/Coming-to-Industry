@@ -1,0 +1,99 @@
+{
+"type":"tank"
+"name":"冲击",
+"description":"C-M-3\n[YG]高阶突破型坦克单位，有一门大威力的主炮及一些中小威力的副炮\nYG出品的最后一代坦克单位，即使这样，仍然升级了三连炮台",
+"details":"一类高强度兵种\n[red]在部分类型的地图中无法正常显示履带"
+"flying":false,
+"speed":0.88
+"armor":128
+"hitSize":20
+"health": 4800
+"itemCapacity":65
+"ammoCapacity":160
+    "research":{
+   "parent":"C型中阶战斗陆军",
+   "requirements":[	
+   plastanium/325
+	phase-fabric/310
+	thorium/340
+	铁/365
+   ]
+   }
+"weapons":[{
+  
+  "x":-8
+  "y":0
+  "top": false
+  "rotate":false
+  "reload": 15,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 6
+               "type":"MissileBulletType"
+               "lifetime": 50
+               "damage":55
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 90
+  "shootSound":"shootArtillery",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":false
+  "ignoreRotation": false,
+  "bullet":{
+               "type":"ArtilleryBulletType"
+               "damage":130
+               "speed":10
+               "lifetime":30
+}
+}
+{
+  "x":6
+  "y":-3
+  "name":"机枪"
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8
+               "type":"BasicBulletType"
+               "lifetime": 32
+               "damage":30
+}
+}
+{
+  "x":8
+  "y":0
+  "name":"尖刀1"
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8.5
+               "type":"ArtilleryBulletType"
+               "lifetime": 38
+               "damage":84
+}
+}
+]
+}

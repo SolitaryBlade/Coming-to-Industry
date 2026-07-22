@@ -1,0 +1,79 @@
+{
+"type":"tank"
+"name":"突破",
+"description":"C-M-2\n[YG]进阶突破型坦克单位",
+"details":"一类高强度兵种\n[red]在部分类型的地图中无法正常显示履带"
+"flying":false,
+"speed":1
+"armor":42
+"hitSize":12
+"health": 1600
+"itemCapacity":45
+"ammoCapacity":90
+    "research":{
+   "parent":"C型初阶战斗陆军",
+   "requirements":[	
+   graphite/220
+	titanium/240
+	thorium/260
+   ]
+   }
+"weapons":[{
+  
+  "x":-4
+  "y":0
+  "top": false
+  "rotate":false
+  "reload": 15,
+  "shootSound":"shootArc",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 3
+               "type":"MissileBulletType"
+               "lifetime": 50
+               "damage":45
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 90
+  "shootSound":"shootArtillery",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":false
+  "ignoreRotation": false,
+  "bullet":{
+               "type":"ArtilleryBulletType"
+               "damage":70
+               "speed":10
+               "lifetime":30
+}
+}
+{
+  "x":3
+  "y":-3
+  "name":"机枪"
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8
+               "type":"BasicBulletType"
+               "lifetime": 25
+               "damage":28
+}
+}
+]
+}
