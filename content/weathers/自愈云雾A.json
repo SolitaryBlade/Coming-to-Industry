@@ -1,0 +1,20 @@
+{
+"type":"ParticleWeather"
+//雾类天气
+"color":"84f491ff"
+"sound":"wind"
+//音效
+"sizeMax":5.5
+"sizeMin":1.5
+"minAlpha":9.5
+"maxAlpha":2
+"baseSpeed":9.4
+"soundVol":1
+//音量
+"status":"自愈1",
+"attrs":{
+    "light":0.5,
+    "water":0.2,
+}
+}
+//本文件放在content/weathers中

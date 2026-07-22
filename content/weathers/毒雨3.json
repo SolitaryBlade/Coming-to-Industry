@@ -1,0 +1,15 @@
+{
+"type":"rainWeather"
+//雨类天气
+"color":"265717ff"
+"sound":"rain"
+//音效
+"soundVol":1
+//音量
+"status":"膏肓",
+"attrs":{
+    "light":0.5,
+    "water":0.2,
+}
+}
+//本文件放在content/weathers中
