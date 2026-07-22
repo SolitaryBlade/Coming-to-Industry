@@ -1,0 +1,155 @@
+{
+"type":"mech"
+"name":"0",
+"description":"HC-M-6\n一种奇怪的单位，在拥有强劲火力的情况下还有较高的移速，而且还有极强的防御力",
+"flying":false,
+"speed":0.74
+"armor":232
+"hitSize":24
+"health": 286800
+"itemCapacity":170
+"ammoCapacity":480
+   "mechStepParticles": false
+    "canDrown": false,
+    "mechFrontSway": 0.5,
+  //  "research":{}
+    "mechSideSway": 0.6
+  "hovering": true,
+  "allowLegStep": true,
+"weapons":[{
+  "name":"大型机枪"
+  "x":15
+  "y":0
+  "top": false
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 25
+               "lifetime": 25
+               "damage":900
+               "width":20
+               "height":20
+}
+}
+{
+  "x":18
+  "y":-3
+  "name":"中型火炮"
+  "top": false
+  "rotate":false
+  "reload": 60
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 25
+               "type":"ArtilleryBulletType"
+               "lifetime": 25
+               "damage":3850
+               "width": 20
+               "shrinkY":0
+               "height": 20
+            "fragBullets": 4
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 20
+				"height": 20
+				"shrinkY": 0.25,
+				"splashDamage": 2400,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 1,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 0
+				"collidesGround":true
+			}
+}
+}
+{
+  "x":30
+  "y":0
+  "name":"大型喷火器"
+  "top": false
+  "rotate":true
+  "reload": 1
+  "shootSound":"shootFlame",
+  "ejectEffect":"casing1"
+  "inaccuracy":15
+  "alternate":true,
+  "ignoreRotation": false,
+ "bullet":{
+                    "type":"BulletType"
+                    "ammoMultiplier":3
+                    "hitSize":7
+                    "lifetime":30
+                    "pierce":true
+                    "damage":978
+                    "pierceBuilding":true
+                    "pierceCap":2
+                    "statusDuration":240
+                    "shootEffect":"shootSmallFlame"
+                    "hitEffect":"hitFlameSmall"
+                    "despawnEffect":"none"
+                    "status":"burning"
+                    "keepVelocity":false
+                    "hittable":false
+                    }
+}
+{
+  "x":15
+  "y":4
+  "name":"中型火炮"
+  "top": false
+  "rotate":true
+  "reload": 100
+  "shootSound":"shootFlame",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 25
+               "type":"BulletType"
+               "status":"burning"
+               "pierceBuilding":true;
+               "pierceCap":2
+              // "height":20
+              // "width":20
+               "statusDuration":180
+               "shootEffect":"shootSmallFlame"
+               "hitEffect":"hitFlameSmall"
+               "lifetime": 25
+               "damage":6000
+             "fragBullets": 3
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 20
+				"height": 20
+				"shrinkY": 0.25,
+				"splashDamage": 4800,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 1,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 0
+				"collidesGround":true
+			}
+}
+}
+]
+}
