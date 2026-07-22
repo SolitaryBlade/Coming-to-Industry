@@ -1,0 +1,12 @@
+{
+//"type":"StatusEffect"
+	"damageMultiplier":4
+	//攻击力倍率（数值越大，攻击力越高）
+	"healthMultiplier":5
+	//血量倍率（数值越大，血量最大上限越高）
+	"speedMultiplier":1.5
+	//速度倍率（数值越大，移动越快）
+	"reloadMultiplier":3
+	//射速倍率（数值越大，射速越快
+	"details":"超高血量，超高攻击力，更快攻速，这才叫BOSS"
+}
