@@ -1,0 +1,100 @@
+{
+"type":"flying"
+"defaultCommand":rebuild
+"name":"蔚护C",
+"description":"Core-F-3\n来自[YG]，全新一代核心保卫单位",
+"flying":true
+"Controller":"BuilderAI"
+"speed":11.5
+"armor":11
+"hitSize":20
+"health": 1650
+"itemCapacity":120
+"ammoCapacity":480
+	"mineSpeed":21
+    "mineTier":8
+    "buildSpeed":13
+    "research":"壁垒核心"
+"weapons":[
+{
+  "x":6
+  "y":1
+  "name":"小型导弹"
+  "top": true
+  "rotate":true
+  "reload": 60
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 50
+               "damage":360
+               "width": 7
+               	"buildingDamageMultiplier":0.36
+}
+}
+{
+  "x":0
+  "y":-4
+  "name":"脉冲枪"
+  "top": true
+  "rotate":false
+  "reload": 90
+  "shootSound":"shootLancer",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "lifetime": 50
+               "type":"LaserBulletType"
+               "damage":410
+               "width": 7
+               	"buildingDamageMultiplier":0.36
+}
+}
+{
+  "x":6
+  "y":-3
+  "name":"机枪"
+  "top": true
+  "rotate":true
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 50
+               "damage":125
+               "width": 7
+               	"buildingDamageMultiplier":0.36
+}
+}
+{
+  "x":6
+  "y":-4
+  "name":"HZ机枪"
+  "top": true
+  "rotate":true
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 50
+               "damage":99
+               "width": 7
+               	"buildingDamageMultiplier":0.36
+}
+}
+]
+}

@@ -1,0 +1,80 @@
+{
+"type":"flying"
+"defaultCommand":rebuild
+"name":"蔚护A",
+"description":"Core-F-1\n来自[KT]，被[YG]购入，基础核心保卫型单位",
+"flying":true
+"Controller":"BuilderAI"
+"speed":6.5
+"armor":6
+"hitSize":11
+"health": 500
+"itemCapacity":65
+"ammoCapacity":240
+	"mineSpeed":8
+    "mineTier":5
+    "buildSpeed":6
+    "research":"基础战斗中心"
+"weapons":[
+{
+  "x":6
+  "y":1
+  "name":"小型蓄能枪"
+  "top": true
+  "rotate":true
+  "reload": 35
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 50
+               "damage":110
+               "width": 7
+               	"buildingDamageMultiplier":0.2
+}
+}
+{
+  "x":0
+  "y":-4
+  "name":"脉冲枪"
+  "top": true
+  "rotate":false
+  "reload": 130
+  "shootSound":"shootLancer",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "lifetime": 50
+               "type":"LaserBulletType"
+               "damage":180
+               "width": 7
+               	"buildingDamageMultiplier":0.2
+}
+}
+{
+  "x":6
+  "y":-3
+  "name":"HZ机枪"
+  "top": true
+  "rotate":true
+  "reload": 10
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 50
+               "damage":50
+               "width": 7
+               	"buildingDamageMultiplier":0.2
+}
+}
+]
+}
