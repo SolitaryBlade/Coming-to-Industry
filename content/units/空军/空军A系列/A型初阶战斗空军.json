@@ -1,0 +1,62 @@
+{
+"type":"flying"
+"name":"悬浮者",
+"description":"A-F-1\n[YG]基础攻击型飞行单位\n便宜好用，是个当炮灰的好材料",
+"flying":true,
+"speed":3
+"hitSize":8
+"health": 200
+"itemCapacity":40
+"ammoCapacity":68
+"allDatabaseTabs":true
+    "research":{
+   "parent":"战斗空军工厂",
+   "requirements":[	
+    铁/40
+    silicon/35
+   ]
+   }
+"weapons":[{
+  "name":"基础空军武器"
+  "x":2
+  "y":-2
+  "top": false
+  "rotate":false
+  "reload": 5,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 35
+               "damage":19
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+{
+  "x":0
+  "y":3
+  "top": false
+  "rotate":false
+  "reload": 20
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 10
+               "type":"ArtilleryBulletType"
+               "lifetime": 25
+               "damage":58
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+]
+}
