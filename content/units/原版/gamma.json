@@ -1,0 +1,78 @@
+{
+	"health": 500,
+	"details": "由Glaive战艇改造而来，加装导弹系统",
+	"mineSpeed": 4.5,
+	"mineTier": 4,
+	"buildSpeed": 3.5,
+	"speed": 4.5,
+	"drag": 0.08,
+	"weapons": [
+		{
+			    "name":"B枪",
+			    "top":false,
+                "reload":15,
+                "x":1,
+                "y":2,
+                "shoot":{
+                    "shots":2,
+                    "shotDelay":3,
+                }
+                "inaccuracy":3,
+                "shootSound":"shootAlpha",
+                "bullet":{
+                    "type": "LaserBoltBulletType",
+                    "keepVelocity":false,
+                    "width":1.5,
+                    "height":5,
+                    "damage":13,
+                    "speed":4.5
+                    "hitEffect": "hitBulletColor",
+                    "despawnEffect": "hitBulletColor",
+                    "trailWidth":1.2,//拖尾宽
+                    "trailLength":4,//拖尾长
+                    "shootEffect": "shootSmallColor",
+                    "smokeEffect": "hitLaserColor",
+                    "backColor": "ffd57fff",
+                    "trailColor": "ffd57fff",
+                    "hitColor": "ffd57fff",
+                    "frontColor": "ffffffff",
+                    "lifetime":70,
+                    "buildingDamageMultiplier":0.01,
+                    "homingPower":0.04,
+				    "status": "burning",
+				    "statusDuration": 600,
+			}
+			},
+		{
+			"name": "伽马1",
+			"x": -3.5,
+			"y": 3.5,
+			"reload": 50,
+			"shootSound": "shootMissile",
+			"inaccuracy": 50,
+			"shoot":{
+				"shots":3
+			},
+			"bullet": {
+				"type": "MissileBulletType",
+				"backColor": "FF8C00",
+				"frontColor": "FFB90F",
+				"trailColor": "FF8C00",
+				"buildingDamageMultiplier": 0.01,
+				"damage": 8,
+				"splashDamageRadius": 10,
+				"splashDamage": 13,
+				"homingRange": 40,
+				"homingPower": 0.06,
+				"hitEffect": "blastExplosion",
+				"despawnEffect": "explosion",
+				"width": 8,
+				"height": 9,
+				"speed": 6,
+				"lifetime": 42
+				"status": "burning",
+				"statusDuration": 600,
+			}
+		}
+	]
+}
