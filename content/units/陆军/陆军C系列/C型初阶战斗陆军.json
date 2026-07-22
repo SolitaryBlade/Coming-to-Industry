@@ -1,0 +1,78 @@
+{
+"type":"tank"
+"name":" 冲破",
+"description":"C-M-1\n[YG]基础防卫突破型坦克单位",
+"details":"一类高强度兵种\n[red]在部分类型的地图中无法正常显示履带"
+"flying":false,
+"speed":1.4
+"armor":14
+"hitSize":10
+"health": 360
+"itemCapacity":25
+"ammoCapacity":50
+    "research":{
+   "parent":"战斗机器人工厂",
+   "requirements":[	
+   graphite/120
+	titanium/100
+   ]
+   }
+"weapons":[{
+  
+  "x":-4
+  "y":0
+  "top": false
+  "rotate":false
+  "reload": 15,
+  "shootSound":"shootArc",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 3
+               "type":"MissileBulletType"
+               "lifetime": 50
+               "damage":21
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 75
+  "shootSound":"shootArtillery",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":false
+  "ignoreRotation": false,
+  "bullet":{
+               "type":"ArtilleryBulletType"
+               "damage":30
+               "speed":10
+               "lifetime":30
+}
+}
+{
+  "x":3
+  "y":-3
+  "name":"机枪"
+  "top":true
+  "rotate":false
+  "reload": 5
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 8
+               "type":"BasicBulletType"
+               "lifetime": 25
+               "damage":10
+}
+}
+]
+}
