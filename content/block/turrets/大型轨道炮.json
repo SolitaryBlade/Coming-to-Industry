@@ -1,0 +1,214 @@
+//气球投稿
+{
+	"type":"PowerTurret",//类型，消耗电力的炮台
+    "description":"来自[KT]，发射一枚离子电浆弹，即使子弹本体没有命中，仍然会分裂为大量小型电浆弹，纸面伤害不代表一切，但是其高额的电力和液体消耗，让不少普通基地望而止步"//介绍
+    "details":"“不要只看伤害，强劲的液体加速可以帮你毁灭一切，不论是轻单位还是重单位”\n对敌人的毁灭同时也是对自己GPU的毁灭\n[red]请勿攻击反弹墙"//末尾介绍
+    "size":8//尺寸
+    "range":2400//范围
+    "reload":800//炮台攻速
+	"health":13500,//生命值
+	"buildTime":1840
+	"inaccuracy":0//炮台攻击误差角度
+	"targetAir":true//索敌空军单位
+	"targetGround":true,//索敌地面单位
+	"liquidCapacity":580
+	"shootSound":"shootCollaris"//攻击音效
+	"consumes": {
+	"power":160//电力消耗，1比60
+		"coolant": {
+			"amount": 2.5,
+			"optional": true
+		}
+	}
+	"shootType":{
+			"type":"BasicBulletType",
+	        "shrinkX":0//子弹消失时长度收缩到原来的多少倍
+            "shrinkY":0//同上，但是是宽度
+			"width":35
+			"height":45
+			"speed":75//子弹速度
+			"damage":700//子弹伤害
+			"ammoMultiplier":2,//弹药装填倍数
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":50
+			"collidesTiles":true,
+			"lightning": 12,
+			"lightningLength": 33
+			"collidesGround":true,//碰撞陆地单位
+			"collidesTeam":false,//碰撞己方
+			"collidesAir":true,//碰撞空中单位
+			"collides":true,//是否有碰撞体积
+			"keepVelocity":true,
+			"backColor": "395787",
+			"frontColor": "FFFFFF",
+			"trailColor": "395787",			
+			"status": "老化",
+			"statusDuration": 180
+			"splashDamage":950//范围伤害
+			"splashDamageRadius":340//范围伤害的范围
+			"lifetime":38.5//子弹存在时间，60为一秒
+			"trailEffect": {
+				"type": "WaveEffect",
+				"interp": "circleOut",
+				"lifetime": 30,
+				"sizeFrom": 4,
+				"sizeTo": 46,
+				"strokeFrom": 6,
+				"strokeTo": 0,
+				"colorFrom": "395787",
+				"colorTo": "BFEAFF"
+			}
+			"hitEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 80,
+						"sizeFrom": 50,
+						"sizeTo": 0,
+						"length": 135,
+						"baseLength": 33,
+						"lifetime": 35,
+						"colorFrom": "395787",
+						"colorTo": "FFFFFF"
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 92,
+						"line": true,
+						"strokeFrom": 8,
+						"strokeTo": 0,
+						"lenFrom": 0,
+						"lenTo": 45,
+						"length": 203,
+						"baseLength": 53,
+						"lifetime": 32,
+						"colorFrom": "FFFFFF",
+						"colorTo": "395787"
+					},
+					{
+						"type": "WaveEffect",
+						"lifetime": 50,
+						"sizeFrom": 20,
+						"sizeTo": 240,
+						"strokeFrom": 45,
+						"strokeTo": 0,
+						"colorFrom": "395787",
+						"colorTo": "FFFFFF"
+					},
+					{
+						"type": "WaveEffect",
+						"lifetime": 10,
+						"sizeFrom": 1,
+						"sizeTo": 78,
+						"strokeFrom": 8,
+						"strokeTo": 0,
+						"colorFrom": "395787",
+						"colorTo": "FFFFFF"
+					}
+				]
+			},
+			"smokeEffect": "smokeCloud",
+			"fragLifeMin": 0.3,
+			"fragBullets": 35,
+			"fragBullet": {
+				"collidesTiles": false,
+				"width": 16,
+				"height": 16,
+				"sprite": "circle-bullet",
+				"shrinkY": 0,
+				"hitShake": 8,
+				"backColor": "395787",
+				"frontColor": "FFFFFF",
+				"hitEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"sizeFrom": 80,
+							"sizeTo": 9,
+							"length": 0,
+							"baseLength": 0,
+							"lifetime": 18,
+							"colorFrom": "25C9AB80",
+							"colorTo": "FFFFFF00"
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 20,
+							"sizeFrom": 10,
+							"sizeTo": 0,
+							"length": 35,
+							"baseLength": 133,
+							"lifetime": 35,
+							"colorFrom": "395787",
+							"colorTo": "FFFFFF"
+						},
+						{
+							"type": "WaveEffect",
+							"lifetime": 45,
+							"interp": "circleOut",
+							"sizeFrom": 0,
+							"sizeTo": 160,
+							"strokeFrom": 13,
+							"strokeTo": 0,
+							"colorFrom": "395787",
+							"colorTo": "395787"
+						}
+					]
+			},
+			"despawnEffect": {
+					"type": "ParticleEffect",
+					"particles": 13,
+					"line": true,
+					"strokeFrom": 6,
+					"strokeTo": 0,
+					"lenFrom": 200,
+					"lenTo": 0,
+					"length": 1,
+					"baseLength": 3,
+					"lifetime": 22,
+					"colorFrom": "FFFFFF",
+					"colorTo": "395787"
+				},
+				"collides": false,
+				"status": "老化",
+				"statusDuration": 70
+				"lightningDamage": 480,
+				"lightning": 6,
+				"lightningLength": 18,
+				"lightningLengthRand": 9,
+				"lightningColor": "395787",
+				"speed": 8,
+				"lifetime": 150,
+				"splashDamagePierce": true,
+				"splashDamageRadius": 240,
+				"splashDamage": 580
+			}
+		}
+	"requirements": [
+		{ "item":"三合金","amount":3400},
+		{ "item":"钴","amount":4520},
+		{ "item":"晶金","amount":4800},
+		{ "item":"能源合金","amount":3800}
+		{ "item":"气凝胶","amount":4900}
+		{ "item":"钛晶","amount":3860}
+	],//建造消耗
+	"category": "turret",
+	"heatColor":"86cdfaff"
+	"research":{
+	"parent":"穿云",
+    "requirements":[
+	{ "item":"三合金","amount": 10200},
+		{ "item":"钴","amount": 13560},
+		{ "item":"晶金","amount": 14400},
+		{ "item":"能源合金","amount": 11400}
+		{ "item":"气凝胶","amount": 14700}
+		{ "item":"钛晶","amount": 11580}
+    ]
+    }//前置科技树
+}
+/*
+"buildingDamageMultiplier":x（对建筑伤害倍率）

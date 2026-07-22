@@ -1,0 +1,81 @@
+{
+// "type":"ContinuousLiquidTurret"//类型
+	"description": "来自[AH]，是一款利用熔岩来融化敌人的神奇武器，但由于其特殊的弹药导致其整体结构强度并不高",//介绍
+	"details":"当前伤害为代码×12;实际伤害为代码×12×炮口数"
+	"name":"炙烤"
+	"targetGround": true,//是否攻击陆军
+	"health": 300,	//血量
+	"targetAir":true,//攻击天空
+	"inaccuracy": 0,//误差度数90为90度
+	"reload":60
+	"shoot":{ 
+    "shots":3//单次射击数量
+    "shotDelay":3
+    "type":"ShootAlternate" 
+    "barrels":2, //炮口数量
+    "spread":3
+    }
+	"liquidCapacity":180
+	"range":200,//射程8为1格
+	"size": 2
+	"drawer": {
+        "type":"DrawTurret",
+    },
+    "heatColor":"ffef00ff",
+    "buildCostMultiplier":1,
+    "coolantMultiplier":4,
+    "targetInterval":5
+    "newTargetInterval":30
+    "targetUnderBlocks":false
+	"shootSound" : "none",
+	"shootEffect": "none",
+    "smokeEffect": "none",
+	"rotateSpeed": 1.5,
+		"ammoTypes":{
+		"slag":{
+	        "type":"ContinuousFlameBulletType"
+           "hitEffect":"hitLancer"
+    		"despawnEffect":"none"
+    		"length":240
+    		"lifetime":100//子弹显示时间
+    		"drawSize":800
+			"damage":65
+			"knockback":3
+            "pierceCap":8
+            "timescaleDamage":true
+			"collidesAir":true
+			}
+		"熔岩":{
+	        "type":"ContinuousFlameBulletType"
+           "hitEffect":"hitLancer"
+    		"despawnEffect":"none"
+    		"flareColor":"ffbd00ff"//炮口光效颜色
+    		"lightColor":"ffbd00ff"
+    		"hitColor":"ffbd00ff"
+    		"length":300
+    		"lifetime":100//子弹显示时间
+    		"drawSize":800
+			"damage":125
+			"rangeChange":56
+			"knockback":3
+            "pierceCap":8
+            "timescaleDamage":true
+			"collidesAir":true
+			}
+ }
+	"requirements": [
+			{"item":"thorium","amount":50}
+			{"item":"金刚石","amount":45}
+			{"item":"钢化玻璃","amount":45}
+	],
+	"category": "turret",//菜单种类
+	"research":{
+	"parent":"多管激光塔",
+    "requirements":[
+            {"item":"thorium","amount":150}
+			{"item":"金刚石","amount":135}
+			{"item":"钢化玻璃","amount":135}
+    ]
+    }
+}
+

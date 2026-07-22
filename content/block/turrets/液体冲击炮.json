@@ -1,0 +1,136 @@
+{
+	"type":"LiquidTurret",
+	"name":"液体冲击炮"
+    "description":"来自[YG]，单次发射3颗液体弹，不论是打人还是灭火都是个好能手",
+	"size":2,
+	"health":2550,
+	"range":290,
+	"reload":3
+	"liquidCapacity":20
+	"inaccuracy":7
+	"maxAmmo":20,
+	"targetAir":true
+	"scaledHealth":450
+	"shootEffect":"shootLiquid"
+		 "shoot":{ 
+    "shots":3//单次射击数量
+    "shotDelay":1, 
+    "type":"ShootAlternate" 
+    "barrels":6, //炮口数量
+    "spread":0
+    }
+	"targetGround":true,
+    "ammoTypes":{
+    "冷凝水":{
+    "type":"LiquidBulletType",
+    "damage": 2.2
+    "liquid":"冷凝水"
+	"statusDuration":480,
+    "status":"wet",
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1.6
+    "ammoMultiplier":2
+    "reloadMultiplier":1//开火速度
+    }
+    "water":{
+    "type":"LiquidBulletType",
+    "damage": 0.7
+    "liquid":"water"
+    "status":"wet",
+	"statusDuration":480,
+    "speed":3.6
+    "lifetime": 90,
+    "knockback":0.8
+    "ammoMultiplier":3
+    "reloadMultiplier":1.11//开火速度
+    }
+    "cryofluid":{
+    "type":"LiquidBulletType",
+    "damage": 1.8
+    "liquid":"cryofluid"
+    "status":"freezing",
+	"statusDuration":480,
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1.4
+    "ammoMultiplier":2
+    "reloadMultiplier":0.98//开火速度
+    }
+   "oil":{
+    "type":"LiquidBulletType",
+    "damage": 1.1
+    "liquid":"oil"
+    "status":"tarred",
+	"statusDuration":480,
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1.1
+    "ammoMultiplier":0.9
+    "reloadMultiplier":0.81//开火速度
+    }
+    "slag":{
+    "type":"LiquidBulletType",
+    "damage": 5
+    "liquid":"slag"
+    "status":"burning",
+	"statusDuration":480,
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1
+    "ammoMultiplier":0.75
+    "reloadMultiplier":0.65//开火速度
+    }
+        "液氮":{
+    "type":"LiquidBulletType",
+    "damage": 2.8
+    "liquid":"液氮"
+    "status":"freezing",
+	"statusDuration":480,
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1.8
+    "ammoMultiplier":1.5
+    "reloadMultiplier":0.67//开火速度
+    }
+        "极寒":{
+    "type":"LiquidBulletType",
+    "damage": 37.9
+    "liquid":"液氮"
+    "status":"冰破",
+	"statusDuration":480,
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1.3
+    "ammoMultiplier":0.5
+    "reloadMultiplier":0.83//开火速度
+    }
+    "熔岩":{
+    "type":"LiquidBulletType",
+    "damage": 41
+    "liquid":"熔岩"
+    "status":"熔毁",
+	"statusDuration":480,
+    "lifetime": 90,
+    "speed":3.6
+    "knockback":1.4
+    "ammoMultiplier":0.5
+    "reloadMultiplier":0.54//开火速度
+    }
+    }
+	"requirements": [
+		{ "item":"lead","amount":45},
+		{"item":"titanium","amount":35}
+		{"item":"metaglass","amount":25}
+	],
+	"category": "turret",
+	"heatColor":"fffd00ff"
+	"research":{
+	"parent":"钢管",
+    "requirements":[
+	{ "item":"lead","amount":135},
+		{"item":"titanium","amount":105}
+		{"item":"metaglass","amount":75}
+    ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+// "type":"itemTurret"//类型
+	"description": "[AH]武器库出品，不是极品就是圾品\n“要吃糖葫芦吗？”",//介绍
+	"name":"歼星"
+	"targetGround": true,//是否攻击陆军
+	"health": 5400,	//血量
+	"targetAir":true,//攻击天空
+	"hasPower":true
+	"inaccuracy": 0,//误差度数90为90度
+	"reload":300
+	"buildTime":2346
+	"liquidCapacity":180
+	"range":1250,//射程8为1格
+	"size": 8
+    "heatColor":"ffef00ff",
+    "buildCostMultiplier":1,
+    "coolantMultiplier":4,
+    "consumes": {
+		"power": 35
+		"liquid":"液氮/1"
+	},
+	"hasPower": true,
+	"shootSound" : "shootCorvus",
+	"shootEffect": "lancerLaserShoot",
+    "smokeEffect": "lightningShoot",
+	"rotateSpeed": 1.5,
+		"ammoTypes":{
+		"能源合金":{
+	        "type":"LaserBulletType"
+           "hitEffect":"hitLancer"
+    		"despawnEffect":"none"
+    		"length":1500
+    		"width":100//宽
+    		"lifetime":100//子弹显示时间
+    		"drawSize":800
+			"damage":28200
+			"collidesAir":true
+			}
+		"晶金":{
+	        "type":"LaserBulletType"
+           "hitEffect":"hitLancer"
+    		"despawnEffect":"none"
+    		"length":1500
+    		"width":100//宽
+    		"lifetime":100//子弹显示时间
+    		"drawSize":800
+			"damage":36800
+			"collidesAir":true
+			}
+ }
+	"requirements": [
+		{ "item": "晶金", "amount": 2560 },
+		{ "item": "合金板", "amount": 2570 }
+		{ "item": "zs", "amount": 2530 }
+		{ "item": "能源合金","amount":2460 }
+	],
+	"category": "turret",//菜单种类
+	"research":{
+	"parent":"毁灭者",
+    "requirements":[
+	{ "item": "晶金", "amount": 7680 },
+		{ "item": "合金板", "amount": 7710 }
+		{ "item": "zs", "amount": 7590 }
+		{ "item": "能源合金","amount":7380 }
+    ]
+    }
+}

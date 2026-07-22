@@ -1,0 +1,79 @@
+{
+	"type":"ItemTurret",
+    "size":16
+    "range":3000
+    "reload":40000
+	"health":12500,
+	"inaccuracy":0
+	"buildTime":4315
+	"maxAmmo":500
+	"targetAir":true
+	"targetGround":true,
+	"canOverdrive":false
+	"ammoPerShot": 50,
+	"liquidCapacity":120
+	"shootSound":"shootArtillerySapBig"
+	"consumes": {
+		"power": 13000
+		"coolant":{
+		"amount":3
+		"optional":true
+		"booster":true
+		}
+	}
+	"ammoTypes":{
+        "铀":{
+			"type":"MissileBulletType",
+	        "smokeEffect":"shootSmokeMissileColor"
+	        "shootEffect":"shootSmall"
+			"width":100,
+			"height":350,
+			"speed":4
+			"sprite":"将至-核弹"
+			"status":"膏肓"
+			//"statusduration":600
+			"damage":1760000
+			"ammoMultiplier":1
+			"inaccuracy":0
+			"hitSize":90,
+			"trailColor":"ff483b6e"
+			"backColor":"ff483b37"
+			"collidesTiles":true,
+			"reloadMultiplier":1.21//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":1150000
+			"splashDamageRadius":800,
+			"lifetime":720
+			"buildingDamageMultiplier":11.87
+			}
+	}
+	"requirements": [
+		{ "item":"钛晶","amount":5850},
+		{ "item":"能源合金","amount":5980},
+		{ "item":"合金板","amount":6550},
+		{"item":"晶金板","amount":6350}
+		{"item":"陨铁","amount":6150}
+		{"item":"zs","amount":6580}
+		{"item":"压缩孢子合金","amount":6100}
+		{"item":"铀","amount":6700}
+	],
+	"category": "turret",
+	"heatColor":"ff7800ff"
+	"research":{
+	"parent":"歼星",
+    "requirements":[
+	{ "item":"钛晶","amount":17550},
+		{ "item":"能源合金","amount":17940},
+		{ "item":"合金板","amount":19650},
+		{"item":"晶金板","amount":19050}
+		{"item":"陨铁","amount":18450}
+		{"item":"zs","amount":19740}
+		{"item":"压缩孢子合金","amount":18300}
+		{"item":"铀","amount":20100}
+    ]
+    }
+}

@@ -1,0 +1,592 @@
+{
+	"type":"ItemTurret",
+	"size":4
+	"health":23800
+	"range":750
+	"reload":1.65
+	"buildTime":2897
+	"inaccuracy":1
+	"maxAmmo":3000
+	"targetAir":true
+	"shoot":{ 
+    "shots":6//单次射击数量
+    "shotDelay":0
+    "type":"ShootAlternate" 
+    "barrels":3, //炮口数量
+    "spread":2
+    }
+	"targetGround":true,
+	"shootSound":"shootNavanax"
+	"consumes": {
+	"coolant":{
+    "amount":1.4
+    "optional":true,
+    "booster":true
+    }
+	}
+	"ammoTypes":{
+        "铁":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":330
+			"ammoMultiplier":4,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"collidesTiles":true,
+			"reloadMultiplier":1.415//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":165
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"thorium":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":345
+			"ammoMultiplier":4,
+			"status":"corroded"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"collidesTiles":true,
+			"reloadMultiplier":0.813//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":172.5
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"铅板":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":360
+			"ammoMultiplier":4,
+			"status":"corroded"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"rangeChange":37//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":0.904//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":180
+			"splashDamageRadius":45,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"钢":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":378
+			"ammoMultiplier":4,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"collidesTiles":true,
+			"reloadMultiplier":1.206//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":189
+			"splashDamageRadius":48,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"钴":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":391
+			"ammoMultiplier":4,
+			"status":"剧毒"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":64//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"rangeChange":36//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":0.864//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":195.5
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"surge-alloy":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":414
+			"ammoMultiplier":4,
+			"status":"shocked"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"collidesTiles":true,
+			"reloadMultiplier":1.416//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":207
+			"splashDamageRadius":45,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 120,
+		    "lightning": 6,
+		    "lightningLength": 8,
+		    "lightningAngle": 20,
+		    "lightningCone": 360,
+			}
+		"晶金":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":431
+			"ammoMultiplier":4,
+			"status":"shocked"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"collidesTiles":true,
+			"reloadMultiplier":1.458//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":215.5
+			"splashDamageRadius":45,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 135,
+		    "lightning": 6,
+	    	"lightningLength": 8,
+		    "lightningAngle": 20,
+	    	"lightningCone": 360,
+			}
+		"合金板":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":450.9
+			"ammoMultiplier":4,
+			"status":"shocked"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8
+			"rangeChange":30//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":1.428//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":225.45
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 150,
+		    "lightning": 6,
+		    "lightningLength": 8,
+		    "lightningAngle": 20,
+		    "lightningCone": 360,
+			}
+		"晶金板":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":463.7
+			"ammoMultiplier":4,
+			"status":"shocked"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"rangeChange":36//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":1.504//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":231.88
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 158,
+		    "lightning": 6,
+		    "lightningLength": 8,
+		    "lightningAngle": 20,
+		    "lightningCone": 360,
+			}
+		"zs":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":477.8
+			"ammoMultiplier":4,
+			"inaccuracy":1,
+			"hitSize":8,
+			"rangeChange":30//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":1.327//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":238.9
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"能源合金":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":496.1
+			"ammoMultiplier":4,
+			"status":"electrified"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"collidesTiles":true,
+			"reloadMultiplier":1.691//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":248.05
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 168,
+		    "lightning": 6,
+		    "lightningLength": 8,
+		    "lightningAngle": 20,
+		    "lightningCone": 360,
+			}
+		"铀":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":473.98
+			"ammoMultiplier":4,
+			"status":"剧毒"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"rangeChange":48//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":0.818//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":236.99
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"fragBullets": 5,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"damage":194
+				"splashDamage": 164,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "剧毒",
+				"speed": 6
+				"collidesGround":true
+			}
+			}
+		"陨铁":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":504.8
+			"ammoMultiplier":4,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"rangeChange":48//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":1.3//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":252.4
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"钛晶":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":519
+			"ammoMultiplier":4,
+			"status":"electrified"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"collidesTiles":true,
+			"reloadMultiplier":1.328//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":259.5
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 198.5,
+		    "lightning": 6,
+		    "lightningLength": 8,
+		    "lightningAngle": 20,
+		    "lightningCone": 360,
+			}
+		"钯金":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":533.4
+			"ammoMultiplier":4,
+			"status":"slow"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"collidesTiles":true,
+			"reloadMultiplier":1.704//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":266.7
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			}
+		"三合金":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":552.1
+			"ammoMultiplier":4,
+			"status":"shocked"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"rangeChange":48//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":0.918//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":276.05
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"lightningColor": "FBFF00FF",
+		    "lightningDamage": 221.4,
+		    "lightning": 6,
+		    "lightningLength": 8,
+		    "lightningAngle": 20,
+		    "lightningCone": 360,
+			"fragBullets": 3,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"damage":214.3
+				"splashDamage": 186.1,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "electrified",
+				"speed": 6
+				"collidesGround":true
+				"lightningColor": "FBFF00FF",
+		        "lightningDamage": 110,
+		        "lightning":3,
+		        "lightningLength": 8,
+		        "lightningAngle": 20,
+		        "lightningCone": 360,
+			}
+			}
+		"钍钢":{
+			"type":"BasicBulletType"
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":18,
+			"height":18,
+			"speed":10,
+			"damage":382.1
+			"ammoMultiplier":4,
+			"inaccuracy":1,
+			"hitSize":8,
+			"homingRange":48//追踪范围(8:1)
+			"homingPower":50//追踪力度
+			"rangeChange":48//弹药增加范围
+			"collidesTiles":true,
+			"reloadMultiplier":0.875//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":191.05
+			"splashDamageRadius":40,
+			"lifetime":85,//持续时间(60:1s)
+			"fragBullets": 4,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"damage":178.4
+				"splashDamage": 156.3,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "corroded",
+				"speed": 6
+				"collidesGround":true
+			}
+			}
+	}
+	"requirements": [
+		{"item":"三合金","amount":3350}
+		{"item":"钯金","amount":3300}
+		{"item":"钛晶","amount":3390}
+		{"item":"能源合金","amount":3450}
+		{"item":"陨铁","amount":3410}
+		{"item":"晶金板","amount":3510}
+		{"item":"合金板","amount":3550}
+		{"item":"钴","amount":3600}
+		{"item":"铅板","amount":3700}
+	],
+	"category": "turret",
+	"research":{
+	"parent":"极速",
+    "requirements":[
+        {"item":"三合金","amount":10050}
+		{"item":"钯金","amount":9900}
+		{"item":"钛晶","amount":10170}
+		{"item":"能源合金","amount":10350}
+		{"item":"陨铁","amount":10230}
+		{"item":"晶金板","amount":10530}
+		{"item":"合金板","amount":10650}
+		{"item":"钴","amount":10800}
+		{"item":"铅板","amount":11100}
+    ]
+    }
+    
+}

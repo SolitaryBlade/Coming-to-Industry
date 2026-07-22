@@ -1,0 +1,133 @@
+{
+"health":3280
+"range":536
+"reload":4.5
+"recoilTime":14
+"coolantMultiplier":0.5
+"liquidCapacity":120
+"ammoUseEffect":"casing3"
+"inaccuracy":3
+"recoil":3
+"shake":2
+"size":4
+"shootCone":24
+"shootSound":"shootSpectre"
+"scaledHealth":160
+"depositCooldown":2.0
+ "ammoTypes":{
+  "graphite":{
+  "type":"BasicBulletType"
+  "hitSize":4.8
+  "width":15
+  "speed":9
+  "damage":125
+  "height":21
+  "shootEffect":"shootBig"
+  "ammoMultiplier":4
+  "reloadMultiplier":1.7
+  "knockback":0.3
+  "lifetime":60
+  "backColor": "95ABD9FF",
+  "frontColor": "95ABD9FF",
+  "trailColor": "95ABD9FF",
+ },
+ "silicon":{
+  "type":"BasicBulletType"
+  "hitSize":4.8
+  "width":15
+  "speed":9.8
+  "damage":120
+  "height":21
+  "rangeChange":48
+  "shootEffect":"shootBig"
+  "ammoMultiplier":4
+  "reloadMultiplier":1.6
+  "lifetime":60
+  "backColor": "7E7E91FF",
+  "frontColor": "7E7E91FF",
+  "trailColor": "7E7E91FF",
+  "homingRange":48
+  "homingPower":50
+ },
+ "thorium":{
+  "type":"BasicBulletType"
+  "hitSize":5
+  "width":16
+  "speed":9.4
+  "damage":180
+  "height":23
+  "shootEffect":"shootBig"
+  "pierceCap":6
+  "pierceBuilding":true
+  "knockback":0.7
+  "lifetime":60
+  "backColor": "F9A3C7FF",
+  "frontColor": "F9A3C7FF",
+  "trailColor": "F9A3C7FF",
+ },
+ "pyratite":{
+  "type":"BasicBulletType"
+  "hitSize":5
+  "width":16
+  "speed":9.4
+  "damage":147.5
+  "height":21
+  "status":"burning"
+  "shootEffect":"shootBig"
+  "makeFire":true
+  "pierceCap":2
+  "pierceBuilding":true
+  "knockback":0.6
+  "ammoMultiplier":3
+  "splashDamage":98
+  "splashDamageRadius":25
+  "lifetime":60
+  "backColor": "FFAA5FFF",
+  "frontColor": "FFAA5FFF",
+  "trailColor": "FFAA5FFF",
+ },
+ "blast-compound":{
+  "type":"BasicBulletType"
+  "hitSize":5
+  "width":16
+  "speed":9.4
+  "damage":152
+  "height":21
+  "status":"blasted"
+  "shootEffect":"shootBig"
+  "pierceCap":4
+  "pierceBuilding":true
+  "knockback":0.6
+  "ammoMultiplier":3
+  "splashDamage":118
+  "splashDamageRadius":25
+  "lifetime":60
+  "backColor": "FF795EFF",
+  "frontColor": "FF795EFF",
+  "trailColor": "FF795EFF",
+  }
+  "钢化玻璃":{
+  "type":"BasicBulletType"
+  "hitSize":5
+  "width":16
+  "speed":9
+  "damage":160
+  "height":21
+  "reloadMultiplier":1.45
+  "shootEffect":"shootBig"
+  "pierceCap":2
+  "pierceBuilding":true
+  "knockback":1.2
+  "ammoMultiplier":3
+  "splashDamage":125
+  "splashDamageRadius":25
+  "lifetime":60
+  "backColor": "7E7E8FFF",
+  "frontColor": "7E7E8FFF",
+  "trailColor": "7E7E8FFF",
+  }
+  
+},
+
+
+}

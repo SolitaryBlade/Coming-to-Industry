@@ -1,0 +1,250 @@
+{
+	"type":"ItemTurret",
+	"name":"极速"
+    "description":"来自[YG]，超高级高速机炮，使用部分普通金属及所有合金对敌人进行饱和持续范围轰击",
+    "details":"强化机炮-范围高爆弹药发射装置\n代号-极速"
+	"size":6
+	"health":4850
+	"range":750
+	"buildTime":2518
+	"reload":10
+	"inaccuracy":2
+	"maxAmmo":1800
+	"targetAir":true
+	"targetGround":true,
+	"shootSound":"shootMalign"
+	"consumes": {
+	"power":25
+	"coolant":{
+            "amount":0.2,
+            "optional":true,
+            "booster":true
+        }
+        }
+    "shoot":{ 
+    "shots":3//单次射击数量
+    "shotDelay":3, 
+    "type":"ShootAlternate" 
+    "barrels":4, //炮口数量
+    "spread":0
+    }
+	"ammoTypes":{
+	        "铁":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":378
+			"ammoMultiplier":15
+			"reloadMultiplier":1.2//开火速度
+			"hitSize":2,
+			"splashDamage":210
+			"splashDamageRadius":75,
+			"lifetime":55
+			}
+			"钢":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":410
+			"ammoMultiplier":15
+			"reloadMultiplier":1//开火速度
+			"hitSize":2,
+			"splashDamage":250
+			"splashDamageRadius":75,
+			"lifetime":55
+			}
+			"晶金":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":530
+			"ammoMultiplier":15
+			"reloadMultiplier":1.5//开火速度
+			"hitSize":2,
+			"splashDamage":390
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"晶金板":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":610
+			"ammoMultiplier":15
+			"reloadMultiplier":1.6//开火速度
+			"hitSize":2,
+			"splashDamage":470
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"surge-alloy":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":450
+			"ammoMultiplier":15
+			"reloadMultiplier":1.2//开火速度
+			"hitSize":2,
+			"splashDamage":290
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"合金板":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":570
+			"ammoMultiplier":15
+			"reloadMultiplier":1.4//开火速度
+			"hitSize":2,
+			"splashDamage":430
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"能源合金":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":650
+			"ammoMultiplier":15
+			"reloadMultiplier":2.1//开火速度
+			"hitSize":2,
+			"splashDamage":510
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"孢子合金":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":690
+			"ammoMultiplier":15
+			"reloadMultiplier":0.85//开火速度
+			"hitSize":2,
+			"splashDamage":550
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"zs":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":490
+			"ammoMultiplier":15
+			"reloadMultiplier":1.1//开火速度
+			"hitSize":2,
+			"splashDamage":350
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"钛晶":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":730
+			"ammoMultiplier":15
+			"reloadMultiplier":1//开火速度
+			"hitSize":2,
+			"splashDamage":590
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+			"压缩孢子合金":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":745
+			"ammoMultiplier":15
+			"reloadMultiplier":0.89//开火速度
+			"hitSize":2,
+			"splashDamage":620
+			"splashDamageRadius":75,
+			"lifetime":50
+			}
+		   "陨铁":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":15
+			"damage":765
+			"ammoMultiplier":15
+			"reloadMultiplier":1.44//开火速度
+			"hitSize":2,
+			"splashDamage":645
+			"splashDamageRadius":75,
+			"lifetime":50
+			"fragBullets": 4,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"splashDamage": 480,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 6
+				"collidesGround":true
+			}
+			}
+			}
+	"requirements":[
+		{ "item":"能源合金","amount":2350}
+		{ "item":"zs","amount":2450}
+		{ "item":"晶金板","amount":2480}
+		{ "item":"钢","amount":2430}
+		{ "item":"合金板","amount":2460}
+	],
+	"category": "turret",
+	"heatColor":"74a7ffff"
+	"research":{
+	"parent":"电磁加速炮",
+    "requirements":[
+	{ "item":"能源合金","amount":7050}
+		{ "item":"zs","amount":7350}
+		{ "item":"晶金板","amount":7440}
+		{ "item":"钢","amount":7290}
+		{ "item":"合金板","amount":7380}
+    ]
+    }
+}

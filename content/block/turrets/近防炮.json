@@ -1,0 +1,340 @@
+{
+//	"type":"ItemTurret",
+	"name":"近防炮"
+    "description":"来自[KT]，一款不错的高射速中期防空武器",
+    "details":"[YG]:一个板子不错的炮台，只不过只能打空军，可惜了"
+	"size":2
+	"health":1557
+	"range":240//射程（8为1格）
+	"reload":25//射速（12为1）
+	"inaccuracy":14
+	"maxAmmo":100
+	"buildTime":268
+	 "shoot":{ 
+    "shots":4//单次射击数量
+    "shotDelay":3//发射间隔
+    "type":"ShootAlternate" 
+    "barrels":1, //炮口数量
+    "spread":4//炮口间隔
+    }
+	"targetGround":false,
+    "targetAir":true,//攻击天空
+	"shootSound":"shoot"
+	"consumes": {
+	"coolant":{
+            "amount":0.25
+            "optional":true,
+            "booster":true
+        }
+	}
+	"ammoTypes":{
+        "thorium":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":31
+			"ammoMultiplier":1
+				"reloadMultiplier":0.8//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			}
+		"metaglass":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":9
+			"ammoMultiplier":6,
+				"reloadMultiplier":1.4//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			"fragBullets": 3,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"splashDamage": 4.5,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 6
+				"collidesGround":false
+			}
+		}
+		"graphite":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":11
+			"ammoMultiplier":6,
+				"reloadMultiplier":1.4//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			}
+		"scrap":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":8
+			"ammoMultiplier":10,
+				"reloadMultiplier":1.6//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			"fragBullets": 3
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"splashDamage": 3.5,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 6
+				"collidesGround":false
+			}
+	}
+	    "lead":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":10
+			"ammoMultiplier":3,
+				"reloadMultiplier":1//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			"fragBullets": 3,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"splashDamage": 6.5,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 6
+				"collidesGround":false
+			}
+	}
+	    "titanium":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":15
+			"ammoMultiplier":2,
+				"reloadMultiplier":1.1//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			}
+		"silicon":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":18
+			"ammoMultiplier":2,
+				"reloadMultiplier":1.2//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":30,
+			"homingRange":40
+			"homingPower":50
+			}
+		"铁":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":17
+			"ammoMultiplier":2,
+				"reloadMultiplier":1//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			"homingRange":48
+			"homingPower":48
+		    "fragBullets": 4,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"splashDamage": 9,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 6
+				"collidesGround":false
+			}
+	}
+	    "钢":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":26
+			"ammoMultiplier":1,
+				"reloadMultiplier":1.25//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			}
+	    "钢化玻璃":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":10,
+			"height":10,
+			"speed":7
+			"damage":21
+			"ammoMultiplier":6,
+				"reloadMultiplier":1.4//开火速度
+			"inaccuracy":1,
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":false,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true
+			"lifetime":35,
+			"fragBullets": 6,
+            "fragRandomSpread": 30,
+            "fragLifeMin": 0.4,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"width": 6,
+				"height": 6,
+				"shrinkY": 0.25,
+				"splashDamage": 15,
+                "splashDamageRadius": 40,
+                "knockback": 0.5,
+                "scaledSplashDamage": true,
+				"lifetime": 25,
+                "hitEffect": "blastExplosion",
+                "status": "blasted",
+				"speed": 6
+				"collidesGround":false
+			}
+	}
+	}
+	"requirements": [
+		{ "item":"silicon","amount":60}
+		{"item":"lead","amount":55}
+		{"item":"铁","amount":35}
+	],
+	"category": "turret",
+	"research":{
+	"parent":"基础机枪",
+    "requirements":[
+	    { "item":"silicon","amount":180}
+		{"item":"lead","amount":165}
+		{"item":"铁","amount":105}
+    ]
+    }
+}

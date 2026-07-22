@@ -1,0 +1,141 @@
+//气球投稿/厄兆加强
+{
+	"range": 720,
+	"rotateSpeed": 3,
+	"fogRadiusMultiplier": 0.6888,
+	"coolantMultiplier": 1.5,
+	"consumes": {
+		"power": 18
+	},
+	"ammoTypes": {
+		"surge-alloy": {
+			"type": "PointBulletType",
+			"trailSpacing": 19,
+			"hitEffect": "instHit",
+			"smokeEffect": "smokeCloud",
+			"trailEffect": "instTrail",
+			"despawnEffect": "instBomb",
+			"damage": 2750,
+			"hitShake": 6,
+			"ammoMultiplier": 1,
+			"lightningDamage": 25,
+			"lightning": 4,
+			"lightningLength": 10,
+			"speed": 200,
+			"lifetime": 60,
+			"shootEffect": "instShoot",
+			"buildingDamageMultiplier": 0.45
+		},
+		"能源合金": {
+			"type": "PointBulletType",
+			"damage":3850
+			"shootEffect": "instShoot",
+			"despawnEffect": {
+				"type": "ParticleEffect",
+				"particles": 13,
+				"sizeFrom": 8,
+				"sizeTo": 0,
+				"length": 100,
+				"baseLength": 0,
+				"lifetime": 13,
+				"colorFrom": "E56B32FF",
+				"colorTo": "FF9747FF",
+				"cone": 60
+			},
+			"hitEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 1,
+						"sizeFrom": 9,
+						"sizeTo": 0,
+						"length": 0,
+						"baseLength": 0,
+						"lifetime": 30,
+						"colorFrom": "E56B32FF",
+						"colorTo": "FF9747FF",
+						"cone": 60
+					},
+					{
+						"type": "WaveEffect",
+						"lifetime": 20,
+						"sizeFrom": 5,
+						"sizeTo": 80,
+						"strokeFrom": 3,
+						"strokeTo": 0,
+						"colorFrom": "E56B32FF",
+						"colorTo": "FF9747FF"
+					}
+				]
+			},
+			"smokeEffect": "smokeCloud",
+			"trailEffect": {
+				"type": "ParticleEffect",
+				"particles": 1,
+				"baseLength": 0.1,
+				"length": 0.1,
+				"lifetime": 30,
+				"line": true,
+				"randLength": false,
+				"lenFrom": 11,
+				"lenTo": 11,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "E56B32FF",
+				"colorTo": "FF9747FF",
+				"cone": 0
+			},
+			"trailSpacing": 10,
+			"hitShake": 6,
+			"speed": 200,
+			"lifetime": 60,
+			"ammoMultiplier": 1,
+			"status": "disarmed",
+			"statusDuration": 120,
+			"buildingDamageMultiplier":0.8
+			"splashDamageRadius": 60,
+			"splashDamage": 2250,
+			"fragBullets": 3,
+			"fragBullet": {
+				"type": "PointBulletType",
+				"trailEffect": {
+					"type": "ParticleEffect",
+					"particles": 1,
+					"baseLength": 0.1,
+					"length": 0.1,
+					"lifetime": 22,
+					"line": true,
+					"randLength": false,
+					"lenFrom": 9,
+					"lenTo": 9,
+					"strokeFrom": 5,
+					"strokeTo": 0,
+					"colorFrom": "E56B32FF",
+					"colorTo": "FF9747FF",
+					"cone": 0
+				},
+				"hitEffect": {
+					"type": "ParticleEffect",
+					"particles": 1,
+					"sizeFrom": 9,
+					"sizeTo": 0,
+					"length": 0,
+					"baseLength": 0,
+					"lifetime": 30,
+					"colorFrom": "BFFFDB",
+					"colorTo": "FF9747FF",
+					"cone": 60
+				},
+				"trailSpacing": 8,
+				"hitShake": 3,
+				"speed": 20,
+				"lifetime": 8,
+				"splashDamageRadius": 16,
+				"splashDamage": 3000
+			}
+				"despawnEffect": "none"
+				"lifetime": 30
+				}
+}
+}

@@ -1,0 +1,63 @@
+{
+ "type":"laserTurret"//类型
+	"size": 8,
+	"health": 20050,
+	"shootEffect":"shootBigSmoke2",
+	"shootSound":"shootMeltdown",
+	"range": 1600,
+	"reload":31000,
+	"buildTime":2631
+	"loopSound":"beamMeltdown"
+    "loopSoundVolume":4
+	"liquidCapacity": 3000,
+	"inaccuracy": 0,
+	"recoil": 3,
+	"canOverdrive":false
+	"recoilTime": 20
+	"rotateSpeed": 9,
+	"targetHealing": true,
+	"shake": 4
+	"warmupMaintainTime": 20
+	"coolEffect":"steam",
+	"cooldownTime":1500,
+    "consumes": {
+	"power": 22707
+	"liquid":"液氮/4"
+	},
+	"shootType":{
+	"type":"ContinuousLaserBulletType",
+	"hitEffect": "hitMeltdown",
+	"hitColor":"9500ffff"
+	"width":30,	
+	"hitSize":120
+	"length":1700,
+	"knockback":0,
+	"lifetime":75
+	"damage":75000,	
+	"incendChance": 0,
+	"incendSpread": 0,
+	"incendAmount": 0,
+//  "collidesTeam": true,
+//	"timescaleDamage":true
+	"ammoMultiplier":1
+	},
+	"shootDuration": 300,
+	"requirements": [
+   { "item": "晶金板", "amount": 8600},
+   { "item": "合金板", "amount": 8800},
+   { "item": "zs", "amount": 8500}
+   { "item": "能源合金", "amount": 8250}
+   { "item": "钛晶", "amount": 8000}
+],
+"category": "turret",
+	"research":{
+	"parent":"歼星",
+    "requirements":[
+	 { "item": "晶金板", "amount": 25800},
+     { "item": "合金板", "amount": 26400},
+     { "item": "zs", "amount": 25500}
+     { "item": "能源合金", "amount": 24750}
+     { "item": "钛晶", "amount": 24000}
+    ]
+  }
+}

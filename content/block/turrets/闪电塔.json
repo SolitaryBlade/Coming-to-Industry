@@ -1,0 +1,53 @@
+{
+ "type":"PowerTurret"//类型
+	"description": "来自[AH]，对电弧进行强化，拥有更高的射速和伤害",//介绍
+	"name":"闪电塔"
+	"targetGround": true,//是否攻击陆军
+	"health": 650,	//血量
+	"targetAir":true,//攻击天空
+	"hasPower":true
+	"inaccuracy": 0,//误差度数90为90度
+	"reload":20
+	"range":150,//射程8为1格
+	"size": 2,
+    "buildCostMultiplier":1,
+    "coolantMultiplier":4,
+    "consumes": {
+		"power": 7.5
+		"coolant":{
+            "amount":0.2
+            "optional":true,
+            "booster":true
+        }
+	},
+	"hasPower": true,
+	"shootSound" : "shootArc",
+	"shootEffect": "lightningShoot",
+    "smokeEffect": "lightningShoot",
+		"shootType":{
+	        "type":"LightningBulletType"
+           "hitEffect":"hitLancer"
+           "lightColor":"ffef00ff"
+    		"despawnEffect":"none"
+    		"lifetime":10//子弹显示时间
+    		"drawSize":400
+			"damage":180
+			"collidesAir":true
+ }
+	"requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "titanium", "amount": 50 }
+		{ "item":"graphite","amount":45},
+		{ "item": "thorium", "amount": 35 },
+	],
+	"category": "turret",//菜单种类
+	"research":{
+	"parent":"钢管",
+    "requirements":[
+	{ "item": "silicon", "amount": 120 },
+		{ "item": "titanium", "amount": 150 }
+		{ "item":"graphite","amount":135},
+		{ "item": "thorium", "amount": 105 },
+    ]
+    }
+}

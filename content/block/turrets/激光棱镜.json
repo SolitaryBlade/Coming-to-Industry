@@ -1,0 +1,67 @@
+{
+"type":"ContinuousTurret"
+	"name":"激光棱镜"
+    "description":"来自[AH]，发射多道强有力的单体光线，能够对单点目标造成恐怖的瞬时伤害，停止射击时会在炮口处残留闪电",
+    "size":16
+    "range":1560
+    "reload":100
+	"health":17600
+	"hasPower":true
+	"inaccuracy":0
+	"buildTime":1943
+	"maxAmmo":150
+		 "shoot":{ 
+    "shots":6//单次射击数量
+    "shotDelay":0, 
+    "type":"ShootAlternate" 
+    "barrels":6, //炮口数量
+    "spread":6
+    }
+	"targetAir":true
+	"targetGround":true,
+	"liquidCapacity":240
+	"shootSound":"blockExplodeElectric"
+	"loopSound":"beamPlasmaSmall"
+	"shootType":{
+	       "type":"PointLaserBulletType"
+           "hitEffect":"hitLancer"
+    		"despawnEffect":"none"
+    		"lifetime":50//子弹显示时间
+    		"drawSize":100
+			"damage":7000
+			"collidesAir":true
+			
+		"lightningColor": "ffee00ff",
+		"lightningDamage": 90000,
+		"lightning": 15,
+		"lightningLength": 50,
+		"lightningAngle": 20,
+		"lightningCone": 360,
+ }
+    "consumes": {
+		"power": 150
+		"liquids":[
+		{"liquid":"液氮","amount":0.85},
+		{"liquid":"cryofluid","amount":1}
+		]
+	},
+	"requirements": [
+		{ "item":"surge-alloy","amount":1050},
+		{ "item":"气凝胶","amount":1000},
+		{ "item":"晶金板","amount":1100},
+		{ "item":"物质原子","amount":900}
+		{ "item":"zs","amount":1050},
+	],
+	"category": "turret",
+	"heatColor":"ffee00ff"
+	"research":{
+	"parent":"毁灭者",
+    "requirements":[
+	{ "item":"surge-alloy","amount":3150},
+		{ "item":"气凝胶","amount":3000},
+		{ "item":"晶金板","amount":3300},
+		{ "item":"物质原子","amount":2700}
+		{ "item":"zs","amount":3150},
+    ]
+    }
+}

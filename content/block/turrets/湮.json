@@ -1,0 +1,62 @@
+{
+	"type":"ItemTurret",
+	"name":"湮"
+    "description":"来自[Hz]，一种发射巨型反物质炮弹的高级毁灭武器，对于建筑有很强的杀伤力\n代号：湮",
+    "size":12
+    "range":1600
+    "reload":150
+	"health":12500
+	"inaccuracy":0
+	"buildTime":2678
+	"maxAmmo":10
+	"targetAir":true
+	"canOverdrive":false
+	"targetGround":true,
+	"liquidCapacity":120
+	"ammoPerShot": 3,
+	"shootSound":"explosionReactor2"
+	"ambientSoundVolume":1
+	"ammoTypes":{
+        "能源合金":{
+			"type":"BasicBulletType",
+	        "smokeEffect":"shootSmallSmoke"
+	        "shootEffect":"shootSmall"
+			"width":60
+			"height":90
+			"speed":8
+			"damage":281000
+			"ammoMultiplier":1,
+			"inaccuracy":1,
+			"status":"disarmed"
+			"hitSize":8,
+			"collidesTiles":true,
+			"reloadMultiplier":1.1//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":185000
+			"splashDamageRadius":400
+			"lifetime":200
+			"buildingDamageMultiplier":6.54
+			}
+	}
+	"requirements": [
+		{ "item":"晶金板","amount":3550},
+		{ "item":"zs","amount":3850},
+		{ "item":"合金板","amount":3650},
+		{ "item":"能源合金","amount":3300}
+	],
+	"category": "turret",
+	"heatColor":"86cdfaff"
+	"research":{
+	"parent":"电磁加速炮",
+    "requirements":[
+	{ "item":"晶金板","amount":10650},
+		{ "item":"zs","amount":11550},
+		{ "item":"合金板","amount":10950},
+		{ "item":"能源合金","amount":9900}
+    ]
+    }
+}

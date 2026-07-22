@@ -1,0 +1,154 @@
+{
+//	"type":"ItemTurret",
+	"name":"导弹"
+    "description":"来自[KT]，发射一颗大威力定点追踪导弹",
+    "size":4
+    "range":700
+    "reload":180
+	"health":1750
+	"inaccuracy":1
+	"buildTime":1247
+	"maxAmmo":15
+	"targetAir":true
+	"targetGround":true
+	"liquidCapacity":120
+	"ammoPerShot": 10
+	"shootSound":"shootMissileLong"
+	"ammoTypes":{
+        "铁":{
+			"type":"MissileBulletType",
+	        "hitEffect":"flakExplosion",//子弹击中特效
+	        "trailColor":"FF4900FF",
+	        "despawnEffect":"flakExplosion"
+			"width":45
+			"height":80
+			"speed":8
+			"damage":1350
+			"hitSize":2,
+			"collidesTiles":true,
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"lifetime":90
+			"homingRange":48
+			"homingPower":50
+			"splashDamageRadius": 175,//爆炸伤害半径
+            "splashDamage": 1050,
+			}
+        "thorium":{
+			"type":"MissileBulletType"
+	        "hitEffect":"flakExplosion",//子弹击中特效
+	        "trailColor":"FF4900FF",
+	        "despawnEffect":"flakExplosion"
+			"width":45
+			"height":80
+			"speed":8
+			"damage":1880
+			"hitSize":30
+			"collidesTiles":true,
+			"collidesGround":true
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"lifetime":90
+			"homingRange":48
+			"homingPower":55
+			"splashDamageRadius": 180,//爆炸伤害半径
+            "splashDamage": 1480
+			}
+        "surge-alloy":{
+			"type":"MissileBulletType"
+	        "hitEffect":"flakExplosion",//子弹击中特效
+	        "trailColor":"FF4900FF",
+	        "despawnEffect":"flakExplosion"
+			"width":45
+			"height":80
+			"speed":8
+			"damage":2385
+			"hitSize":30
+			"rangeChange":80
+			"reloadMultiplier":1.2//开火速度
+			"collidesTiles":true,
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"lifetime":100
+			"homingRange":48
+			"homingPower":60
+			"splashDamageRadius": 190,//爆炸伤害半径
+            "splashDamage": 1850
+			}
+		"晶金":{
+			"type":"MissileBulletType"
+	        "hitEffect":"flakExplosion",//子弹击中特效
+	        "trailColor":"FF4900FF",
+	        "despawnEffect":"flakExplosion"
+			"width":45
+			"height":80
+			"speed":8
+			"damage":3685
+			"hitSize":30
+			"rangeChange":48
+			"reloadMultiplier":1.6//开火速度
+			"collidesTiles":true,
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"lifetime":100
+			"homingRange":48
+			"homingPower":60
+			"splashDamageRadius": 190,//爆炸伤害半径
+            "splashDamage": 2550
+			}
+		"能源合金":{
+			"type":"MissileBulletType"
+	        "hitEffect":"flakExplosion",//子弹击中特效
+	        "trailColor":"FF4900FF",
+	        "despawnEffect":"flakExplosion"
+			"width":45
+			"height":80
+			"speed":8
+			"damage":4410
+			"hitSize":30
+			"rangeChange":120
+			"reloadMultiplier":1.4//开火速度
+			"collidesTiles":true,
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"lifetime":100
+			"homingRange":48
+			"homingPower":60
+			"splashDamageRadius": 190,//爆炸伤害半径
+            "splashDamage": 3250
+			}
+	}
+	"requirements": [
+		{ "item":"铁","amount":670},
+		{ "item":"thorium","amount":660},
+		{ "item":"钢化玻璃","amount":645},
+		{ "item":"surge-alloy","amount":630}
+		{ "item":"晶金板","amount":645},
+	],
+	"category": "turret",
+	"heatColor":"fffd00ff"
+	"research":{
+	"parent":"动能炮",
+    "requirements":[
+	{ "item":"铁","amount":2010},
+		{ "item":"thorium","amount":1980},
+		{ "item":"钢化玻璃","amount":1935},
+		{ "item":"surge-alloy","amount":1890}
+		{ "item":"晶金板","amount":1935},
+    ]
+    }
+}

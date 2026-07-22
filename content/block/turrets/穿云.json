@@ -1,0 +1,153 @@
+{
+	"type":"ItemTurret",
+	"name":"穿云"
+    "description":"来自[AH]，以造价低廉，弹药奇葩而出名\n发射一枚低速高爆子弹，以大范围伤害并减速陆地敌人",
+	"details":"“AH总是不干人事”"
+    "size":4
+    "range":550
+    "reload":100
+	"health":1650,
+	"inaccuracy":0
+	"maxAmmo":800,
+	"targetAir":false
+	"targetGround":true,
+	"ammoPerShot": 2
+	"liquidCapacity":120
+	"shootSound":"shootMissileLarge"
+	"consumes": {
+	"power":8
+	}
+	"ammoTypes":{
+        "spore-pod":{
+			"type":"ArtilleryBulletType",
+	        "smokeEffect":"shootSmokeTitan"
+	        "shootEffect":"shootTitan"
+	        "hitEffect":"titanExplosion"
+	        "backColor":"ea8878"
+	        "shrinkX":0.2
+            "shrinkY":0.1
+			"width":35
+			"height":45
+			"speed":6
+			"damage":460
+			"ammoMultiplier":8,
+			"status":"spore-slowed"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"collidesTiles":true,
+			"reloadMultiplier":1.14//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":380
+			"splashDamageRadius":80,
+			"lifetime":110
+			}
+			"thorium":{
+			"type":"ArtilleryBulletType",
+	        "smokeEffect":"shootSmokeTitan"
+	        "shootEffect":"shootTitan"
+	        "hitEffect":"titanExplosion"
+	        "backColor":"ea8878"
+	        "shrinkX":0.2
+            "shrinkY":0.1
+			"width":35
+			"height":45
+			"speed":6
+			"damage":610
+			"ammoMultiplier":6,
+			"status":"slow"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"collidesTiles":true,
+			"reloadMultiplier":0.88//开火速度
+			"collidesGround":true,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":510
+			"splashDamageRadius":80,
+			"lifetime":110
+			}
+        "孢子合金":{
+			"type":"ArtilleryBulletType"
+	        "smokeEffect":"shootSmokeTitan"
+	        "shootEffect":"shootTitan"
+	        "backColor":"ea8878"
+	        "shrinkX":0.2
+            "shrinkY":0.1
+	        "hitEffect":"titanExplosion"
+			"width":35
+			"height":45
+			"speed":6
+			"damage":880
+			"ammoMultiplier":2,
+			"status":"spore-slowed"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"rangeChange":80
+			"collidesTiles":true,
+			"collidesGround":true,
+			"reloadMultiplier":1.22//开火速度
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":700,
+			"splashDamageRadius":80,
+			"lifetime":140
+			}
+		"压缩孢子合金":{
+			"type":"ArtilleryBulletType"
+	        "smokeEffect":"shootSmokeTitan"
+	        "shootEffect":"shootTitan"
+	        "backColor":"ea8878"
+	        "shrinkX":0.2
+            "shrinkY":0.1
+	        "hitEffect":"titanExplosion"
+			"width":35
+			"height":45
+			"speed":6
+			"damage":1480
+			"ammoMultiplier":2,
+			"status":"spore-slowed"
+			"statusDuration":600,
+			"inaccuracy":1,
+			"hitSize":8,
+			"rangeChange":80
+			"collidesTiles":true,
+			"collidesGround":true,
+			"reloadMultiplier":0.84//开火速度
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collides":true,
+			"keepVelocity":true,
+			"splashDamage":1240,
+			"splashDamageRadius":80,
+			"lifetime":140
+			}
+	}
+	"requirements": [
+		{ "item":"silicon","amount":85},
+		{ "item":"titanium","amount":110},
+		{ "item":"metaglass","amount":95},
+		{ "item":"thorium","amount":70}
+	],
+	"category": "turret",
+	"heatColor":"86cdfaff"
+	"research":{
+	"parent":"近防炮",
+    "requirements":[
+	{ "item":"silicon","amount":255},
+		{ "item":"titanium","amount":330},
+		{ "item":"metaglass","amount":285},
+		{ "item":"thorium","amount":210}
+    ]
+    }
+}

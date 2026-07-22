@@ -1,1 +1,81 @@
-
+{
+	"requirements": [
+		{ "amount": 5100, "item": "三合金" },
+		{ "amount": 6300, "item": "铀" },
+		{ "amount": 6800, "item": "zs" },
+		{ "amount": 7000, "item": "钴" },
+		{ "amount": 6100, "item": "能源合金" },
+		{ "amount": 5800, "item": "钛晶" },
+		{ "amount": 5500, "item": "陨铁" },
+		{ "amount": 6300, "item": "晶金板" },
+		{ "amount": 6500, "item": "合金板" },
+		{ "amount": 6000, "item": "铜" },
+	],
+	"shootSound": "explosionObviate",
+	"maxAmmo": 500,
+	"ammoTypes": {
+		"三合金": {
+		"type": "PointBulletType",
+		"splashDamageRadius": 400,
+		"splashDamage": 400000,
+		"shootEffect": "instShoot",
+		"smokeEffect": "smokeCloud",
+		"trailEffect": "instTrail",
+		"despawnEffect": "instBomb",
+		"trailSpacing": 5,
+		"lifetime": 200,
+		"damage": 500000,
+		"drawSize": 60,
+		"makeFire": true,
+		"status":"膏肓"
+		"statusDuration":600
+		"speed": 20,
+		"hitShake": 1,
+		"ammoMultiplier": 1,
+		"pierce": true,
+		"lightningColor": "FBFF00FF",
+		"lightningDamage": 85000,
+		"lightning": 10,
+		"lightningLength": 50,
+		"lightningAngle": 20,
+		"lightningCone": 360,
+		"incendAmount": 100,
+		"incendSpread": 80,
+		"incendChance": 100,
+		}
+	},
+	"rotateSpeed": 15.25,
+	"reload": 600
+	"ammoUseEffect": "casing3Double",
+	"recoil": 10
+	"size": 8,
+	"coolantMultiplier": 1,
+	"health": 35000,
+	"consumes": {
+	"power": 13500
+	},
+	"category": "turret",
+	"range": 1900,
+	"buildTime":3187
+	"research":{
+	"parent":"核弹",
+    "requirements":[
+	    { "amount": 15300, "item": "三合金" },
+		{ "amount": 18900, "item": "铀" },
+		{ "amount": 20400, "item": "zs" },
+		{ "amount": 21000, "item": "钴" },
+		{ "amount": 18300, "item": "能源合金" },
+		{ "amount": 17400, "item": "钛晶" },
+		{ "amount": 16500, "item": "陨铁" },
+		{ "amount": 18900, "item": "晶金板" },
+		{ "amount": 19500, "item": "合金板" },
+		{ "amount": 18000, "item": "铜" },
+    ]
+    }
+	"ammoPerShot": 5,
+	"type": "ItemTurret",
+	"heatColor": "FF00FFFF",
+	"shootCone": 5,
+	"rebuildable": true,
+	"baseExplosiveness": 800
+}

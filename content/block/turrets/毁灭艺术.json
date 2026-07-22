@@ -1,0 +1,69 @@
+{
+ "type":"itemTurret"//类型
+	"description": "来自[KT]的强力武器，能够以超高射速不断发射高爆型追踪导弹",//介绍
+	"name":"毁灭艺术"
+	"targetGround": true,//是否攻击陆军
+	"health": 4300,	//血量
+	"targetAir":true,//攻击天空
+	"hasPower":true
+	"inaccuracy": 3,//误差度数90为90度
+	"reload":25
+	"buildTime":1447
+	"liquidCapacity":90
+	"range":750,//射程8为1格
+	"size": 8
+    "heatColor":"ffef00ff",
+    "buildCostMultiplier":1,
+    "coolantMultiplier":4,
+    "ammoPerShot": 15
+    "consumes": {
+		"coolant":{
+            "amount":0.2
+            "optional":true,
+            "booster":true
+        }
+	},
+	"hasPower": true,
+	"shootSound" : "shootCorvus"
+	"rotateSpeed": 1.5,
+		"ammoTypes":{
+		"能源合金":{
+	        "type":"MissileBulletType"
+           "hitEffect":"flakExplosion"
+    		"despawnEffect":"none"
+    		"height":90
+    		"speed":8
+    		"width":30
+    		"lifetime":100//子弹显示时间
+			"damage":6800
+			"collidesAir":true
+			}
+		"孢子合金":{
+	        "type":"MissileBulletType"
+           "hitEffect":"flakExplosion"
+    		"despawnEffect":"none"
+    		"height":90
+    		"speed":8
+    		"width":30
+    		"lifetime":100//子弹显示时
+			"damage":8100
+			"collidesAir":true
+			}
+ }
+	"requirements": [
+		{ "item": "晶金", "amount": 880 },
+		{ "item": "孢子合金", "amount": 800 }
+		{ "item": "钛晶", "amount": 780 }
+		{ "item": "能源合金","amount":740 }
+	],
+	"category": "turret",//菜单种类
+	"research":{
+	"parent":"激光棱镜",
+    "requirements":[
+	{ "item": "晶金", "amount": 2640 },
+		{ "item": "孢子合金", "amount": 2400 }
+		{ "item": "钛晶", "amount": 2340 }
+		{ "item": "能源合金","amount":2220 }
+    ]
+    }
+}
