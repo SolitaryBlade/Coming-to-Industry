@@ -1,0 +1,38 @@
+{
+	"name": "热能钻头",
+	"description": "来自[YG]，通过使用高温液体提供的能量进行挖掘\n[等级:4]",
+	"type": "Drill",
+	"size": 2,
+	"drillEffect": "hitFlameSmall",
+	"health": 370,
+	"tier": 4
+	"drillTime": 270
+	"liquidCapacity":30
+	"itemCapacity":45
+	"ambientSound":"loopDrill"
+	"ambientSoundVolume":0.4
+	"liquidBoostIntensity":3.5
+	"hasShadow": true,
+	"rotateSpeed": 0.75
+	"consumes": {
+	"power":0.5
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 45 }
+		{ "item":"graphite","amount":55 },
+	],
+	"category": "production",
+	"research":{
+	"parent":"基础钻头",
+    "requirements":[
+		{ "item":"silicon","amount":135},
+		{"item":"graphite","amount":105}
+    ]
+    }
+}

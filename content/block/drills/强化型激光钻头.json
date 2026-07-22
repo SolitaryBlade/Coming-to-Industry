@@ -1,0 +1,42 @@
+{
+	"name": "强化型激光钻头",
+	"description": "来自[KT]，被[YG]购入，激光钻头的强化版本可以挖掘高级矿石\n[等级:5]",
+	"type": "Drill",
+	"size": 3,
+	"drillEffect": "hitFlameSmall",
+	"health": 450,
+	"tier": 5,
+	"drillTime": 140
+	"liquidCapacity":30
+	"itemCapacity":75
+	"liquidBoostIntensity":5
+	"hasShadow": true,
+	"rotateSpeed": 0.75
+	"ambientSound":"loopDrill"
+	"ambientSoundVolume":0.7
+	"consumes": {
+	"power":1.5
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "铁", "amount": 80 }
+		{ "item":"titanium","amount":85},
+		{ "item":"silicon","amount":75},
+		{ "item":"thorium","amount":70},
+	],
+	"category": "production",
+	"research":{
+	"parent":"热能钻头",
+    "requirements":[
+		{ "item": "铁", "amount": 340 }
+		{ "item":"titanium","amount":255},
+		{ "item":"silicon","amount":225},
+		{ "item":"thorium","amount":210},
+    ]
+    }
+}

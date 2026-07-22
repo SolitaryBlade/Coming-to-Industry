@@ -1,0 +1,31 @@
+{
+	"type": "SolidPump",
+	"name": "超频抽水机",
+	"description": "来自[AH]，在深层抽水机的基础上强化了装置强度，引擎效率",
+	"size": 2,
+  "health": 1875
+   	"liquidCapacity":1450
+    "hasLiquids": true,
+    "pumpAmount":5
+    "attribute":"water"
+    "buildCostMultiplier":0.75
+        "consumes": {
+    "power":12.5
+	},
+	"requirements": [
+		{"item": "晶金板","amount": 340}
+		{ "item": "zs", "amount": 285 }
+		{ "item": "物质原子", "amount": 305 }
+		{"item":"合金板","amount":350}
+	],
+	"category": "production",
+	"research":{
+	"parent":"深层抽水机",
+    "requirements":[
+		{"item": "晶金板","amount": 1020}
+		{ "item": "zs", "amount": 855 }
+		{ "item": "物质原子", "amount": 915 }
+		{"item":"合金板","amount":1050}
+    ]
+    }
+}

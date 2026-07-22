@@ -1,0 +1,39 @@
+{
+	"name": "超频钻头",
+	"description": "来自[AH]，使用目前最新的合金制造的钻机，追求小体积极致速度，且能够挖掘当前阶段全部矿石\n[等级:12]",
+	"type": "Drill",
+	"size": 6
+	"drillEffect": "smeltsmoke",
+	"health": 2800
+	"tier": 12
+	"drillTime": 6
+	"liquidCapacity":150
+	"itemCapacity":175
+	"liquidBoostIntensity":11
+	"hasShadow": true,
+	"rotateSpeed": 3.75
+	"ambientSound":"beamHeal"
+	"ambientSoundVolume":4.7
+	"consumes": {
+	"power":18
+		"liquid": {
+			"liquid": "液氮",
+			"amount": 0.9
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "自塑合金", "amount": 600 }
+		{"item":"能源合金","amount":750}
+	],
+	"category": "production",
+	"research":{
+	"parent":"裂变钻头",
+    "requirements":[
+		{ "item": "自塑合金", "amount": 1800 }
+		{"item":"能源合金","amount":2250}
+    ]
+    }
+	"drawRim": true
+}

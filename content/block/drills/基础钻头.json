@@ -1,1 +1,37 @@
-
+{
+	"name": "基础钻头",
+	"description": "来自[YG]，能够使用热容量大的液体强化挖掘速度，能够挖掘一部分低级矿石\n[等级:2]",
+	"type": "Drill",
+	"size": 2,
+	"drillEffect": "hitFlameSmall",
+	"health": 150,
+	"tier": 2,
+	"drillTime": 300
+	"liquidCapacity":30
+	"itemCapacity":25
+	"liquidBoostIntensity":2
+	"hasShadow": true,
+	"rotateSpeed": 0.75
+	"ambientSound":"loopDrill"
+	"ambientSoundVolume":0.4
+	"consumes": {
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 22 }
+		{ "item":"graphite","amount":26},
+	],
+	"category": "production",
+	"research":{
+	"parent":"A",
+    "requirements":[
+		{ "item": "lead", "amount": 66 }
+		{ "item":"graphite","amount":78},
+    ]
+    }
+}

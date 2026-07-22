@@ -1,0 +1,45 @@
+{
+	"name": "极限钻头",
+	"description": "来自[AH]，使用极寒强化挖掘速度，能够挖掘阿克苏上所有矿石，以及部分外来矿物，但是我们不确定是否能够挖掘其他未知星球的矿石\n[等级:10]",
+	"type": "Drill",
+	"size": 7
+	"drillEffect": "smeltsmoke",
+	"health": 1500
+	"tier": 10
+	"drillTime": 10
+	"liquidCapacity":90
+	"itemCapacity":115
+	"liquidBoostIntensity":9.5
+	"hasShadow": true,
+	"rotateSpeed": 0.75
+	"ambientSound":"beamHeal"
+	"ambientSoundVolume":0.7
+	"consumes": {
+	"power":8
+		"liquid": {
+			"liquid": "液氮",
+			"amount": 0.9
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "合金板", "amount": 240 }
+		{"item":"能源合金","amount":215}
+		{ "item":"钛晶","amount":195},
+		{ "item": "晶金板", "amount": 235 },
+		{ "item": "压缩孢子合金", "amount": 205 },
+	],
+	"category": "production",
+	"research":{
+	"parent":"钛晶钻头",
+    "requirements":[
+		{ "item": "合金板", "amount": 720 }
+		{"item":"能源合金","amount":635}
+		{ "item":"钛晶","amount":585},
+		{ "item": "晶金板", "amount": 705 },
+		{ "item": "压缩孢子合金", "amount": 615 },
+    ]
+    }
+	"drawRim": true
+}

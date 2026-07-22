@@ -1,0 +1,38 @@
+{
+	"name": "新机械钻头",
+	"description": "来自[AH]，使用极寒强化挖掘速度，矿石挖掘顺序等级应该与机械钻头同样，但是速度不佳\n[等级:12]",
+	"type": "Drill",
+	"size": 3
+	"drillEffect": "smeltsmoke",
+	"health": 1500
+	"tier": 12
+	"drillTime": 100
+	"liquidCapacity":60
+	"itemCapacity":60
+	"liquidBoostIntensity":2.5
+	"hasShadow": true,
+	"rotateSpeed": 0.75
+	"ambientSound":"loopDrill"
+	"ambientSoundVolume":0.15
+	"consumes": {
+		"liquid": {
+			"liquid": "液氮",
+			"amount": 0.2
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "铜", "amount":68}
+		{"item":"合金板","amount":75}
+	],
+	"category": "production",
+	"research":{
+	"parent":"裂变钻头",
+    "requirements":[
+		{ "item":"铜","amount":220},
+		{"item":"合金板","amount":280}
+    ]
+    }
+	//"drawRim": true//钻头发光
+}

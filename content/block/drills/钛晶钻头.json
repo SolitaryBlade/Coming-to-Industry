@@ -1,0 +1,43 @@
+{
+	"name": "钛晶钻头",
+	"description": "来自[AH]，被[YG]购入，能够使用极寒强化挖掘速度，能够挖掘所有当前星球矿石，包括部分外来矿物\n[等级:8]",
+	"type": "Drill",
+	"size": 6
+	"drillEffect": "smeltsmoke",
+	"health": 650
+	"tier": 8
+	"drillTime": 15
+	"liquidCapacity":65
+	"itemCapacity":95
+	"liquidBoostIntensity":8
+	"hasShadow": true,
+	"rotateSpeed": 0.75
+	"ambientSound":"loopDrill"
+	"ambientSoundVolume":0.7
+	"consumes": {
+	"power":6
+		"liquid": {
+			"liquid": "液氮",
+			"amount": 0.3
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "合金板", "amount": 120 }
+		{ "item":"钛晶","amount":95},
+		{ "item": "晶金板", "amount": 135 },
+		{ "item": "气凝胶", "amount": 80 },
+	],
+	"category": "production",
+	"research":{
+	"parent":"裂变钻头",
+    "requirements":[
+		{ "item": "合金板", "amount": 360 }
+		{ "item":"钛晶","amount":285},
+		{ "item": "晶金板", "amount": 405 },
+		{ "item": "气凝胶", "amount": 240 },
+    ]
+    }
+	"drawRim": true
+}

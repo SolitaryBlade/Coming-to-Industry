@@ -1,0 +1,43 @@
+{
+	"name": "裂变钻头",
+	"description": "来自[KT]，被[YG]购入，能够使用高温强化挖掘速度，能够挖掘所有矿石，除了一些外来矿物\n[等级:6]",
+	"type": "Drill",
+	"size": 4
+	"drillEffect": "smeltsmoke",
+	"health": 650
+	"tier": 6
+	"drillTime": 55
+	"liquidCapacity":65
+	"itemCapacity":95
+	"liquidBoostIntensity":6.5
+	"hasShadow": true,
+	"ambientSound":"loopDrill"
+	"ambientSoundVolume":0.7
+	"rotateSpeed": 0.75
+	"consumes": {
+	"power":4
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.3
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "金刚石", "amount": 110 }
+		{ "item":"surge-alloy","amount":125},
+		{ "item": "晶金", "amount": 95 },
+		{ "item": "thorium", "amount": 145 },
+	],
+	"category": "production",
+	"research":{
+	"parent":"强化型激光钻头",
+    "requirements":[
+		{ "item": "金刚石", "amount": 330 }
+		{ "item":"surge-alloy","amount":375},
+		{ "item": "晶金", "amount": 285 },
+		{ "item": "thorium", "amount": 435 },
+    ]
+    }
+	"drawRim": true
+}

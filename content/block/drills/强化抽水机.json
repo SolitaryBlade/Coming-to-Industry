@@ -1,0 +1,29 @@
+{
+	"type": "SolidPump",
+	"name": "强化抽水机",
+	"description": "来自[YG]，强化版的抽水机",
+	"size": 2,
+  "health": 175
+   	"liquidCapacity":180
+    "hasLiquids": true,
+    "pumpAmount":1.2
+    "attribute":"water"
+    "buildCostMultiplier":0.75
+        "consumes": {
+    "power":2
+	},
+	"requirements": [
+		{"item": "钢化玻璃","amount": 75}
+		{ "item": "silicon", "amount": 65 }
+		{ "item": "铁", "amount": 89 }
+	],
+	"category": "production",
+	"research":{
+	"parent":"基础抽水机",
+    "requirements":[
+		{"item": "钢化玻璃","amount": 225}
+		{ "item": "silicon", "amount": 195 }
+		{ "item": "铁", "amount": 267 }
+    ]
+    }
+}

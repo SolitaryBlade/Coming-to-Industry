@@ -1,0 +1,29 @@
+{
+	"type": "SolidPump",
+	"name": "抽水机",
+	"description": "来自[YG]，最基础的抽水机",
+	"size": 2,
+  "health": 120
+   	"liquidCapacity":75
+    "hasLiquids": true,
+    "pumpAmount":0.4
+    "attribute":"water"
+    "buildCostMultiplier":0.75
+        "consumes": {
+    "power":1
+	},
+	"requirements": [
+		{"item": "metaglass","amount": 45}
+		{ "item": "silicon", "amount": 55 }
+		{ "item": "titanium", "amount": 40 }
+	],
+	"category": "production",
+	"research":{
+	"parent":"热能钻头",
+    "requirements":[
+		{"item": "metaglass","amount": 135}
+		{ "item": "silicon", "amount": 165 }
+		{ "item": "titanium", "amount": 1240 }
+    ]
+    }
+}

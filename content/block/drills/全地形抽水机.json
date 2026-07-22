@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter",
+	"name":"全地形深层抽水机"
+	"description": "来自[YG]，可以在除深液体区域的任何地形进行抽水的特制抽水机，但不受任何地形影响效率",
+	"health": 450,
+	"itemCapacity": 10,
+	"liquidCapacity":180
+	"hasLiquids":true
+	"outputsLiquid":true
+	"outputLiquid": {"liquid": "water","amount": 2.85},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 25
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 7.4
+	},
+	"requirements": [
+		{ "item": "钢化玻璃", "amount": 60 }
+		{"item":"plastanium","amount":55}
+		{"item":"thorium","amount":70}
+		{"item":"钢","amount":55}
+	]
+	"category": "production",
+ "research":{
+	"parent":"强化抽水机",
+    "requirements":[
+        { "item": "钢化玻璃", "amount": 180 }
+		{"item":"plastanium","amount":165}
+		{"item":"thorium","amount":210}
+		{"item":"钢","amount":165}
+    ]
+    }
+}

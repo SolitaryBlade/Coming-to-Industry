@@ -1,0 +1,31 @@
+{
+	"type": "SolidPump",
+	"name": "深层抽水机",
+	"description": "来自[YG]，直接深入地底深层抽水",
+	"size": 2,
+  "health": 375
+   	"liquidCapacity":600
+    "hasLiquids": true,
+    "pumpAmount":3
+    "attribute":"water"
+    "buildCostMultiplier":0.75
+        "consumes": {
+    "power":2.5
+	},
+	"requirements": [
+		{"item": "钢","amount": 170}
+		{ "item": "surge-alloy", "amount": 155 }
+		{ "item": "phase-fabric", "amount": 158 }
+		{"item":"plastanium","amount":165}
+	],
+	"category": "production",
+	"research":{
+	"parent":"强化抽水机",
+    "requirements":[
+		{"item": "钢","amount": 510}
+		{ "item": "surge-alloy", "amount": 465 }
+		{ "item": "phase-fabric", "amount": 474 }
+		{"item":"plastanium","amount":495}
+    ]
+    }
+}
