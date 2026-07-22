@@ -1,0 +1,28 @@
+{  
+    "root":[ 
+        { 
+        "planet":"将至-阿克苏",//星球"aaa" 模组星球为"模组名称-星球名称"
+        "items":["copper","lead","graphite","silicon","titanium","metaglass","plastanium","surge-alloy","phase-fabric","thorium","spore-pod","pyratite","blast-compound","coal","sand","scrap"],//物品 ["aaa","bbb",...] 模组物品为"模组名称-物品名称"
+        "liquids":["water","slag","cryofluid","oil"],//液体["aaa","bbb",...] 名称同上
+        "units":["aegires","alpha","antumbra","arkyid","atrax","beta","bryde","corvus","crawler","cyerce","dagger","eclipse","flare","fortress","gamma","horizon","mace","mega","minke","mono","navanax","nova","oct","omura","oxynoe","poly","pulsar","quad","quasar","reign","retusa","risso","scepter","sei","toxopid","vela","zenith"]//单位 ["aaa","bbb",...] 名称同上
+        },
+        { 
+        "planet":"将至-阿切斯",//字符串类型 "aaa" 
+        "items":["自塑合金","原质","钯金","铜","铅板","zs","金刚石","铁","钢","晶金","晶金板","合金板","物质原子","铀","气凝胶","能源合金","钛晶","孢子合金","压缩孢子合金","钢化玻璃","铁矿石","陨铁","钴","三合金","钍钢","copper","lead","graphite","silicon","titanium","metaglass","plastanium","surge-alloy","phase-fabric","thorium","spore-pod","pyratite","blast-compound","coal","sand","scrap"],//字符串数组 ["aaa","bbb",...] 
+        "liquids":["液氮","冷凝水","熔岩","气化熔岩","孢子液","液氧","极寒","water","slag","cryofluid","oil"],//字符串数组 ["aaa","bbb",...] 
+        "units":["A型初阶战斗空军","A型中阶战斗空军","A型高阶战斗空军","A型列位空军","A型初阶战斗陆军","A型中阶战斗陆军","A型高阶战斗陆军","A型列位陆军","B型初阶战斗陆军","B型中阶战斗陆军","C型初阶战斗陆军","C型中阶战斗陆军","HZ1型空天机","HZ2型空天机","HC陆军","aegires","alpha","antumbra","arkyid","atrax","beta","bryde","corvus","crawler","cyerce","dagger","eclipse","flare","fortress","gamma","horizon","mace","mega","minke","mono","navanax","nova","oct","omura","oxynoe","poly","pulsar","quad","quasar","reign","retusa","risso","scepter","sei","toxopid","vela","zenith"]//字符串数组 ["aaa","bbb",...] 
+        },
+        {
+        "planet":"将至-诺昂克",//字符串类型 "aaa" 
+        "items":["自塑合金","原质","钯金","铜","铅板","zs","金刚石","铁","钢","晶金","晶金板","合金板","物质原子","铀","气凝胶","能源合金","钛晶","孢子合金","压缩孢子合金","钢化玻璃","铁矿石","陨铁","钴","三合金","钍钢","copper","lead","graphite","silicon","titanium","metaglass","plastanium","surge-alloy","phase-fabric","thorium","spore-pod","pyratite","blast-compound","coal","sand","scrap"],//字符串数组 ["aaa","bbb",...] 
+        "liquids":["液氮","冷凝水","熔岩","气化熔岩","孢子液","液氧","极寒","water","slag","cryofluid","oil"],//字符串数组 ["aaa","bbb",...] 
+        "units":["A型初阶战斗空军","A型中阶战斗空军","A型高阶战斗空军","A型列位空军","A型初阶战斗陆军","A型中阶战斗陆军","A型高阶战斗陆军","A型列位陆军","B型初阶战斗陆军","B型中阶战斗陆军","C型初阶战斗陆军","C型中阶战斗陆军","HZ1型空天机","HZ2型空天机","HC陆军","aegires","alpha","antumbra","arkyid","atrax","beta","bryde","corvus","crawler","cyerce","dagger","eclipse","flare","fortress","gamma","horizon","mace","mega","minke","mono","navanax","nova","oct","omura","oxynoe","poly","pulsar","quad","quasar","reign","retusa","risso","scepter","sei","toxopid","vela","zenith"]//字符串数组 ["aaa","bbb",...] 
+        },
+        {
+        "planet":"serpulo",//字符串类型 "aaa" 
+        "items":["自塑合金","原质","钯金","铜","铅板","zs","金刚石","铁","钢","晶金","晶金板","合金板","物质原子","铀","气凝胶","能源合金","钛晶","孢子合金","压缩孢子合金","钢化玻璃","铁矿石","陨铁","钴","三合金","钍钢"],//字符串数组 ["aaa","bbb",...] 
+        "liquids":["液氮","冷凝水","熔岩","气化熔岩","孢子液","液氧","极寒"],//字符串数组 ["aaa","bbb",...] 
+        "units":["A型初阶战斗空军","A型中阶战斗空军","A型高阶战斗空军","A型列位空军","A型初阶战斗陆军","A型中阶战斗陆军","A型高阶战斗陆军","A型列位陆军","B型初阶战斗陆军","B型中阶战斗陆军","C型初阶战斗陆军","C型中阶战斗陆军","HZ1型空天机","HZ2型空天机","HZ3型空天机","HC陆军"]//字符串数组 ["aaa","bbb",...] 
+        },
+    ]
+}
