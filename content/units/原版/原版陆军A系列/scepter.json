@@ -1,0 +1,92 @@
+{
+"details":"更换装甲模板，强化主炮，携带等离子护盾！！",
+"armor": 19,
+"health": 22800,
+//"range": 490,
+"abilities": [
+	{
+		"type": "ShieldArcAbility",
+		"radius": 25,
+		"width": 15,
+		"max": 4000,//护盾生命值
+		"regen": 5,
+		"cooldown": 120,
+		"angle": 120,
+		"angleOffset": 0
+	},
+	]
+	"weapons": [
+		{
+			"name": "权杖",
+			"reload": 40,
+			"shoot": {
+				"shots": 4,
+				"shotDelay": 3
+			},
+			"x": 16,
+			"y": 0,
+			"shootY": 10,
+			"rotate": false,
+			"inaccuracy": 3,
+			"shootSound": "shoot",
+			"alternate": true,
+			"top": false,
+			"ejectEffect": "casing4",
+			"shake": 3,
+			"bullet": {
+				"damage": 80,
+				"splashDamage": 65,
+				"splashDamageRadius": 35,
+				"lightningDamage": 25,
+				"lightning": 3,
+				"lightningLength": 8,
+				"lightningLengthRand": 3,
+				"status": "shocked",
+				"statusDuration": 60,
+				"speed": 6,
+				"lifetime": 42,
+				"smokeEffect": "shootBig",
+				"width": 10,
+				"height": 15,
+				"hitEffect": "flakExplosionBig",
+				"despawnEffect": "flakExplosionBig"
+			}
+		},
+		{
+			"name": "权杖2",
+			"reload": 10,
+			"x": 10,
+			"y": 7,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"inaccuracy": 0,
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 45,
+				"speed": 8,
+				"lifetime": 23,
+				"width": 5,
+				"height": 8
+			}
+		},
+		{
+			"name": "权杖2",
+			"reload": 15,
+			"x": 10,
+			"y": -8,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"inaccuracy": 0,
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 55,
+				"speed": 8,
+				"lifetime": 23,
+				"width": 5,
+				"height": 8
+			}
+		}
+	]
+}
