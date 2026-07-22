@@ -1,0 +1,43 @@
+{
+	"type": "Reconstructor",
+	"name": "列位单位升级工厂",
+	"description": "[AH],[KT]对[Hz]遗址研究修改，将输入的列位单位升级为限制级战斗单位",
+    "health":3800,
+	"size":9
+	"consumes":{
+		"power":90
+		"items":[
+			合金板/860
+			钢/1140
+			晶金/950
+			zs/1030
+			]
+		"liquids":[
+		液氮/4
+		]
+	},
+	"upgrades":[
+		["A型列位陆军","A型限制陆军"],
+        //["B型列位陆军","B型限制陆军"],
+        //["C型列位陆军","C型限制陆军"],
+        
+    ],
+	"constructTime":6400,
+	"requirements": [
+	钢/1650
+	合金板/1360
+	晶金/1480
+	zs/1550
+	],
+	"category":"units",
+	"buildVisibility":"shown",
+	"research":{
+	"parent":"高级单位升级工厂",
+    "requirements":[
+	钢/4950
+	合金板/4080
+	晶金/4440
+	zs/4650
+    ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+	"type": "Reconstructor",
+	"name": "初级单位升级工厂",
+	"description": "来自[YG]，将输入的初级单位升级为中级单位",
+    "health":1500,
+	"size":3,
+	"consumes":{
+		"power":15
+		"items":[
+			graphite/65
+			titanium/50
+			铁/50
+			]
+	},
+	"upgrades":[
+		["A型初阶战斗陆军","A型中阶战斗陆军"],
+        ["B型初阶战斗陆军","B型中阶战斗陆军"],
+        ["C型初阶战斗陆军","C型中阶战斗陆军"],
+        
+        ["A型初阶战斗空军","A型中阶战斗空军"],
+        //["B型初阶战斗空军","B型初阶战斗空军"],
+        //["C型初阶战斗空军","C型初阶战斗空军"]
+    ],
+	"constructTime":900,
+	"requirements": [
+	graphite/120
+	titanium/80
+	铁/110
+	silicon/100
+	],
+	"category":"units",
+	"buildVisibility":"shown",
+	"research":{
+	"parent":"战斗机器人工厂",
+    "requirements":[
+	graphite/360
+	titanium/240
+	铁/330
+	silicon/300
+    ]
+    }
+}

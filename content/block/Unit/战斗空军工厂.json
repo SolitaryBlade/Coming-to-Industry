@@ -1,1 +1,41 @@
-
+{
+	"type": "UnitFactory",
+	"name": "基础空军[F]工厂",
+	"description": "来自[YG]，可以生产多种型号的基础空军单位",
+ "health":600,
+ "size":3
+ "buildCostMultiplier":0.75
+	"consumes":{
+	"power":20
+	},
+	"plans":[
+		{ "unit": "A型初阶战斗空军", "time": 1200, "requirements": [
+		{ "item": "铁", "amount": 20 }
+		{"item":"silicon","amount":15}
+		]},
+        /*{ "unit": "B型初阶战斗空军", "time": 1500, "requirements": [
+		{ "item": "铁", "amount": 45 }
+		{"item":"thorium","amount":35}
+		{"item":"graphite","amount":35}
+		]},
+	    { "unit": "C型初阶战斗空军", "time": 1500, "requirements": [
+		{ "item": "titanium", "amount": 65 
+		{"item":"铁","amount":60}
+		{ "item":"graphite","amount":80}
+		]},*/
+		]
+	"requirements": [
+		{ "item": "铁", "amount": 95}
+		{"item":"silicon","amount":115}
+		{"item":"titanium","amount":125}
+	],
+	"category":"units",
+	"research":{
+	"parent":"战斗机器人工厂",
+    "requirements":[
+	{ "item": "铁", "amount": 285}
+		{"item":"silicon","amount":345}
+		{"item":"titanium","amount":375}
+    ]
+    }
+}

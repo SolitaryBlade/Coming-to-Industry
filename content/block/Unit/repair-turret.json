@@ -1,0 +1,12 @@
+{
+"length":6
+"repairSpeed":9
+"repairRadius":295
+"powerUse":5
+"beamWidth":2
+"pulseRadius":12
+"coolantUse":0.16
+"coolantMultiplier":1.6
+"acceptCoolant":true
+"ambientSoundVolume":1.25
+}

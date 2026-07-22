@@ -1,0 +1,45 @@
+{
+	"type": "UnitFactory",
+	"name": "基础陆军[M]工厂",
+	"description": "来自[YG]，可以生产多种型号的基础陆军单位",
+ "health":600,
+ "size":3
+ "buildCostMultiplier":0.75
+	"consumes":{
+	"power":15
+	},
+	"plans":[
+		{ "unit": "A型初阶战斗陆军", "time": 1200, "requirements": [
+		{ "item": "铁", "amount": 25 }
+		{"item":"silicon","amount":15}
+		{ "item":"titanium","amount":20}
+	    {"item":"graphite","amount":30}
+		]},
+        { "unit": "B型初阶战斗陆军", "time": 1500, "requirements": [
+		{ "item": "铁", "amount": 45 }
+		{"item":"thorium","amount":35}
+		{ "item":"titanium","amount":40}
+		{"item":"graphite","amount":35}
+		]},
+	    { "unit": "C型初阶战斗陆军", "time": 1500, "requirements": [
+		{ "item": "titanium", "amount": 65 }
+		{"item":"thorium","amount":65}	
+		{"item":"铁","amount":60}
+		{ "item":"graphite","amount":80}
+		]},
+		]
+	"requirements": [
+		{ "item": "铁", "amount": 60}
+		{"item":"silicon","amount":65}
+		{"item":"titanium","amount":70}
+	],
+	"category":"units",
+	"research":{
+	"parent":"A",
+    "requirements":[
+	{ "item": "铁", "amount": 180}
+		{"item":"silicon","amount":195}
+		{"item":"titanium","amount":210}
+    ]
+    }
+}

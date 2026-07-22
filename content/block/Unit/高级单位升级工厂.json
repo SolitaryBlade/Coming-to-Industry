@@ -1,0 +1,47 @@
+{
+	"type": "Reconstructor",
+	"name": "高级单位升级工厂",
+	"description": "[YG],[KT],[AH]对[Hz]遗址研究修改，将输入的高级单位升级为列位级单位",
+    "health":2600,
+	"size":7
+	"consumes":{
+		"power":30
+		"items":[
+			phase-fabric/635
+			钢化玻璃/650
+			surge-alloy/635
+			钢/665
+			]
+		"liquids":[
+		液氮/3
+		]
+	},
+	"upgrades":[
+		["A型高阶战斗陆军","A型列位陆军"],
+        ["B型高阶战斗陆军","B型列位陆军"],
+        ["C型高阶战斗陆军","C型列位陆军"],
+        
+        ["A型高阶战斗空军","A型列位空军"],
+        //["B型高阶战斗空军","B型列位空军"],
+        //["C型高阶战斗空军","C型列位空军"],
+        
+    ],
+	"constructTime":4800,
+	"requirements": [
+	钢/1145
+	钢化玻璃/1165
+	phase-fabric/1135
+	surge-alloy/1110
+	],
+	"category":"units",
+	"buildVisibility":"shown",
+	"research":{
+	"parent":"中级单位升级工厂",
+    "requirements":[
+	钢/3435
+	钢化玻璃/3495
+	phase-fabric/3405
+	surge-alloy/3330
+    ]
+    }
+}
