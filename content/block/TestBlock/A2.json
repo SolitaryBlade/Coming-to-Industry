@@ -1,0 +1,21 @@
+{
+"type":"Wall"
+	"health":1,
+	"size":2
+	"requirements":[]
+	"category":"defense"
+	"research":{
+	"parent":"A1",
+    "requirements":[
+		{"item":"钯金","amount":11100}
+		{"item":"压缩孢子合金","amount":12200}
+		{"item":"晶金板","amount":12830}
+		{"item":"合金板","amount":12840}
+		{"item":"钛晶","amount":11480}
+		{"item":"能源合金","amount":11860}
+		{"item":"三合金","amount":11240}
+		{"item":"陨铁","amount":11780}
+		{"item":"铜","amount":11350}
+    ]
+    }
+}

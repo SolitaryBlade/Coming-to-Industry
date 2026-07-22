@@ -1,0 +1,21 @@
+{
+    "buildVisibility":sandboxOnly
+    "category": "turret",
+    "size": 2,
+    "health": 2147483647,
+    "range": 8,
+    "reload": 1,
+    "inaccuracy": 0,
+    "rotateSpeed": 22,
+    "targetInterval": 0,
+    "shootCone": 2,
+    "shootSound": "shoot",
+    "consumes": {
+        "coolant": {
+            "amount": 6
+        }
+    },
+    "coolantMultiplier": 0.8333333,
+    "requirements": [],
+ //   "research": null
+}

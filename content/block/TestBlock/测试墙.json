@@ -1,0 +1,9 @@
+{
+//"type":"Wall"
+	"buildVisibility":sandboxOnly
+	"health":999999999999999999999999999999
+	"size":1
+	"requirements":[]
+	"category":"defense"
+//	"research":"none"
+}
