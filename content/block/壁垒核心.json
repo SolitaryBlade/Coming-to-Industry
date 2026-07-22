@@ -1,0 +1,37 @@
+{
+	"name": "壁垒型区块核心",
+	"type":"CoreBlock"
+	"description": "来自[YG]，如同壁垒一般的区块核心\n如果被摧毁，您的区块也会丢失",
+	"itemCapacity":65000,
+	"hasItems": true,
+	"health": 40000
+	"size": 7
+	"buildTime":19647
+	"unitCapModifier":96
+	"outputsPower":10
+	"allDatabaseTabs":true
+	"unitType":"HZ3型空天机",
+	"placeableLiquid":true,
+	"requirements": [
+		{"item":"zs","amount":8580},
+		{ "item": "铀", "amount": 8600}
+		{ "item": "合金板", "amount": 8160}
+		{ "item": "晶金板", "amount": 8000 }
+		{ "item":"能源合金","amount":7900},
+		{"item":"陨铁","amount":7750}
+		{"item":"钛晶","amount":7280}
+	],
+	"category": "effect",
+	"research":{
+	"parent":"战斗平台",
+    "requirements":[
+	{"item":"zs","amount":25740},
+		{ "item": "铀", "amount": 25800}
+		{ "item": "合金板", "amount": 24480}
+		{ "item": "晶金板", "amount": 24000 }
+		{ "item":"能源合金","amount":23700},
+		{"item":"陨铁","amount":23250}
+		{"item":"钛晶","amount":21840}
+    ]
+    }
+}
