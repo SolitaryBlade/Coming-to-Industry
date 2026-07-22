@@ -1,0 +1,2698 @@
+Signature-Version: 1.0
+Created-By: Android Gradle 8.0.2
+SHA1-Digest-Manifest: Qcwdj7f5E6+1ETWKeJpNB+3TnR8=
+X-Android-APK-Signed: 2,3
+
+Name: adc.json
+SHA1-Digest: KbrbhGzDfrYboO18SywaszvpOj0=
+
+Name: bundles/bundle.properties
+SHA1-Digest: c+sEjRZPUPsVNJiaOrT7D297bEI=
+
+Name: bundles/bundle_zh_CN.properties
+SHA1-Digest: Nk5wBApcPBTQEQScdfXyRrxEpoE=
+
+Name: content/blocks/TestBlock/A.json
+SHA1-Digest: S9XKpQP17Xoj3iX1J0HqEiUmchA=
+
+Name: content/blocks/TestBlock/A1.json
+SHA1-Digest: 00a0Gjzaam3Dppe3wbqmOLyv/Gg=
+
+Name: content/blocks/TestBlock/A2.json
+SHA1-Digest: Juz4vmuLaZTBISIGHzNOe6LjVGc=
+
+Name: content/blocks/TestBlock/C.json
+SHA1-Digest: Oa3BsECWXID3nzMfnzenX4j0SD8=
+
+Name: content/blocks/TestBlock/D.json
+SHA1-Digest: E7HB/xJwSGmyaxU4DxfDz1MUN9c=
+
+Name: content/blocks/TestBlock/测试墙.json
+SHA1-Digest: xa0HJPsBrptWjNECBrOXR6RVD7E=
+
+Name: content/blocks/TestBlock/秒杀炮.json
+SHA1-Digest: pfHPXshCzbkXbceLKh+S/7Ez7AI=
+
+Name: content/blocks/Unit/repair-turret.json
+SHA1-Digest: pQSSbKQ2PPO5ZPrXoAyieuee+yA=
+
+Name: content/blocks/Unit/中级单位升级工厂.json
+SHA1-Digest: hHfd3d48UJXlcXk2iqyeQkBA4xs=
+
+Name: content/blocks/Unit/列位单位升级工厂.json
+SHA1-Digest: 0cq+PenWk7kORpspWguoMYgOs2s=
+
+Name: content/blocks/Unit/初级单位升级工厂.json
+SHA1-Digest: NIPpKSV13PxdMc+v1m8PWPi3kd8=
+
+Name: content/blocks/Unit/战斗机器人工厂.json
+SHA1-Digest: 4bD4JuqVNYPY7XkUKit5YZLoIf0=
+
+Name: content/blocks/Unit/战斗空军工厂.json
+SHA1-Digest: /PmwxNgf+35u/cQT3FC421JY83s=
+
+Name: content/blocks/Unit/高级单位升级工厂.json
+SHA1-Digest: bnEHPBrWQzoyIE8htsNEAl0ZJ9k=
+
+Name: content/blocks/World/world-cell.json
+SHA1-Digest: RAOw7EsrIqxnqCPgHUlNmDvBGuI=
+
+Name: content/blocks/World/world-message.json
+SHA1-Digest: d/vquwLTvikmSej/RgaOpJPh3Ik=
+
+Name: content/blocks/World/world-processor.json
+SHA1-Digest: s7ljVD0zw2RNJ1gwITkdLW9ivYc=
+
+Name: content/blocks/World/world-switch.json
+SHA1-Digest: /Jpcm0Sx5YxuakRLbyIENg4QsAA=
+
+Name: content/blocks/distribution/item-source.json
+SHA1-Digest: KZwcOZ+r8A+M4NesBz9skGmXuZM=
+
+Name: content/blocks/distribution/liquid-source.json
+SHA1-Digest: G5y6QNVEi/ECpRPFtCQAH+ysAJw=
+
+Name: content/blocks/distribution/基础泵.json
+SHA1-Digest: /ux2DVb8eYL/97Z5Edo1GkRYWvw=
+
+Name: content/blocks/distribution/强化泵.json
+SHA1-Digest: 2tWU6NXYNvsy4XC7H+jiXfDS7eE=
+
+Name: content/blocks/distribution/强化质驱.json
+SHA1-Digest: tabym8XeSkOs7+ufnJF2ZLd87Dw=
+
+Name: content/blocks/distribution/气凝胶液体管.json
+SHA1-Digest: 2YUdM7ObMhpAdtX+uvbjoT96HWc=
+
+Name: content/blocks/distribution/漩涡泵.json
+SHA1-Digest: OyGDyixX2v6/LqNIMpqhc9dn2SQ=
+
+Name: content/blocks/distribution/超频泵.json
+SHA1-Digest: IZsF+C4Q5w/QreszlUp/gHRK7fk=
+
+Name: content/blocks/distribution/钍钢卸载器.json
+SHA1-Digest: 478/KURDumPg5EA6V5t9Tz62fAA=
+
+Name: content/blocks/distribution/钢传送带.json
+SHA1-Digest: MlCWqO357nMoP7isknQyqDSsKnU=
+
+Name: content/blocks/distribution/钢液体管.json
+SHA1-Digest: dMNY7sUq8SuqaF+jKGyHqB1aR/U=
+
+Name: content/blocks/drills/turbine-condenser.json
+SHA1-Digest: 4BQd/dzP7drtESK/kxdDbYO0RJo=
+
+Name: content/blocks/drills/全地形抽水机.json
+SHA1-Digest: ywdfcz6YXNhEluUsI6CUH7GJkX4=
+
+Name: content/blocks/drills/基础抽水机.json
+SHA1-Digest: ZnaWIKoOSlmN/0TX+nVmKqtlARQ=
+
+Name: content/blocks/drills/基础钻头.json
+SHA1-Digest: vo2tkBwSgLaxZ1+4nuVvjPHMv/w=
+
+Name: content/blocks/drills/强化型激光钻头.json
+SHA1-Digest: aVdm+signQBIwvYDgjj+8S1iLRk=
+
+Name: content/blocks/drills/强化抽水机.json
+SHA1-Digest: ZL0lpd+M0J4VvHD7ikUdKuGan3E=
+
+Name: content/blocks/drills/新铜钻头.json
+SHA1-Digest: eCTgz0vZ2TfJf5aBk5xN6rZLm7g=
+
+Name: content/blocks/drills/极限钻头.json
+SHA1-Digest: sTwcYB+OBfCwcKTKlp1qZrP0hPA=
+
+Name: content/blocks/drills/深层抽水机.json
+SHA1-Digest: Oi8dhaY63JbQMHZtZRdb+jdJHoQ=
+
+Name: content/blocks/drills/热能钻头.json
+SHA1-Digest: mZWY+iFSXOQ4A/Zwl0P4ojiaI3Q=
+
+Name: content/blocks/drills/裂变钻头.json
+SHA1-Digest: 9wPedPp8tBtGkd4+qmBLO8yeqO4=
+
+Name: content/blocks/drills/超频抽水机.json
+SHA1-Digest: DaZJRMNYsowNvvefmhc6n79ax5I=
+
+Name: content/blocks/drills/超频钻头.json
+SHA1-Digest: s2URcNuOSzHarTduqEmrfQ5iZms=
+
+Name: content/blocks/drills/钛晶钻头.json
+SHA1-Digest: XY2ULEyDkQUTyi9g2Wu0uEjwvw0=
+
+Name: content/blocks/effects/修复单元.json
+SHA1-Digest: 0XSL7sPAiRvmL1SI0sdyk+dCwWQ=
+
+Name: content/blocks/effects/修复矩阵单元.json
+SHA1-Digest: otP4vHWKgomkKeXygLXV5QKW6Xo=
+
+Name: content/blocks/effects/修复矩阵核心.json
+SHA1-Digest: Ov0oGj0pdXzPXWyRmyqKUbY9c9g=
+
+Name: content/blocks/effects/加速单元.json
+SHA1-Digest: /Q+z964vLsW5K9tsgeUuRzxtyAs=
+
+Name: content/blocks/effects/加速矩阵单元.json
+SHA1-Digest: BfvyMUrGl3Tf1phW1hAfoQOtdGY=
+
+Name: content/blocks/effects/加速矩阵核心.json
+SHA1-Digest: Hx1HkhMW5vXvP+QNAV9EvCdlBl4=
+
+Name: content/blocks/effects/区块加速矩阵核心.json
+SHA1-Digest: L6VswiXxzfXqAxmJXdo66IkGm8A=
+
+Name: content/blocks/effects/原质盾墙.json
+SHA1-Digest: 6OvR/oFtk4epORICXfIz+ZocfeU=
+
+Name: content/blocks/effects/存储单元.json
+SHA1-Digest: 3m+naxHz4umSR1uAUtLQFS2j7Xw=
+
+Name: content/blocks/effects/存储矩阵单元.json
+SHA1-Digest: KOoQSOTwJwYTiuL0X/jliUXe92c=
+
+Name: content/blocks/effects/液体存储单元.json
+SHA1-Digest: HSZMuDvuEFuyTzTHopiIjsSUhVA=
+
+Name: content/blocks/effects/液体存储矩阵单元.json
+SHA1-Digest: EhyJIhWBRHLirfqMKjIDx81zRyY=
+
+Name: content/blocks/effects/量子护盾发生器.json
+SHA1-Digest: 93B84+Obu+nNYgkskhgF9iUYA8o=
+
+Name: content/blocks/environment/地板/cliff.jso
+SHA1-Digest: U8P1f/eQ4f3NAkfA4DNO+J0VaZ0=
+
+Name: content/blocks/environment/地板/冻土.json
+SHA1-Digest: U4Cq9gausWgDr5/xQkwXBm5y6mk=
+
+Name: content/blocks/environment/地板/地下水.json
+SHA1-Digest: xGl6//HudMDpU8ebhQpL/4qSal0=
+
+Name: content/blocks/environment/地板/熔岩层.json
+SHA1-Digest: WluE0aE16xVfbXOfjXCd+OmdzvU=
+
+Name: content/blocks/environment/地板/熔岩湖.json
+SHA1-Digest: yd7CJJ0KaHcIyr7lYrpZ9zXbukU=
+
+Name: content/blocks/environment/矿石/Ore-金刚石.json
+SHA1-Digest: I5DuANpbBqS5+3k1vIZNrI5ebzg=
+
+Name: content/blocks/environment/矿石/Ore-钯金.json
+SHA1-Digest: Uca9lGlno6gINlX+uEFacdlvjTY=
+
+Name: content/blocks/environment/矿石/Ore-钴.json
+SHA1-Digest: MnHFJ/c3lazg+Ltf9Bd2YLOexf4=
+
+Name: content/blocks/environment/矿石/Ore-铀.json
+SHA1-Digest: OqTa3BXC8B7im7sVL6VmDMQhQ9A=
+
+Name: content/blocks/environment/矿石/Ore-铁矿石.json
+SHA1-Digest: Lc16u6SWAqrY8z4SyK6Ra1S3w4c=
+
+Name: content/blocks/environment/矿石/Ore-铜.json
+SHA1-Digest: ArZeJN2zB7shgJljalE3JdwykiU=
+
+Name: content/blocks/environment/矿石/Ore-陨铁.json
+SHA1-Digest: yJqqCkmaX5SYts6jmjdc1/7tAVc=
+
+Name: content/blocks/power/X反应堆.json
+SHA1-Digest: ikV8TO2+nURXp59I+SrIYw0gtp4=
+
+Name: content/blocks/power/power-source.json
+SHA1-Digest: cR1iYkD10+S9rtNrxwgsU6lBMcI=
+
+Name: content/blocks/power/thorium-reactor.json
+SHA1-Digest: 5cAwknRH//bYelb5aLNaw6Wqe5U=
+
+Name: content/blocks/power/光伏板.json
+SHA1-Digest: GMH+kWryh/AoLYhhUQMbU5fHC+Q=
+
+Name: content/blocks/power/压缩能源核心.json
+SHA1-Digest: b7FJYgzNiwVJXGjy14IjO1/r3OI=
+
+Name: content/blocks/power/四联核反应堆.json
+SHA1-Digest: E5wib/LE72GEKGcW9lKDMv3t25g=
+
+Name: content/blocks/power/大型核子电池.json
+SHA1-Digest: sMMs2LxwN9vCeLPtZjXn7DDISmo=
+
+Name: content/blocks/power/大型电容.json
+SHA1-Digest: dMGZzH5PhLYQItpsHnWOS2zU00w=
+
+Name: content/blocks/power/大战争节点.json
+SHA1-Digest: NmAqFeRCB7wvC6NTNm18ZyF6VWE=
+
+Name: content/blocks/power/寄生物反应堆.json
+SHA1-Digest: qVmhontDuSC5FYydnsiLyFDmsgI=
+
+Name: content/blocks/power/小型核反应堆.json
+SHA1-Digest: iU/bc8i69PZQVRUL7I5zGhy4jzY=
+
+Name: content/blocks/power/战争节点.json
+SHA1-Digest: LAW9xk1cXVaP+TuOhbijy+OdmyU=
+
+Name: content/blocks/power/核子电池.json
+SHA1-Digest: 6YKdv9i6+C1rvE3ex4oChumaH38=
+
+Name: content/blocks/power/核能反应堆.json
+SHA1-Digest: 9c1QOrtjQijcY/zxM7HOkYtwMNU=
+
+Name: content/blocks/power/液体燃烧性实验工厂.json
+SHA1-Digest: n4vK72z0v1RQJz1YckgMcTmGoxQ=
+
+Name: content/blocks/power/温差反应堆.json
+SHA1-Digest: hjiRRYL2d/md2/cXCjjQ3pS25tU=
+
+Name: content/blocks/power/电力提取机.json
+SHA1-Digest: FvcrRtki0Uyz7YbcAPXvJFXi/pc=
+
+Name: content/blocks/power/电容.json
+SHA1-Digest: y8/Be64htwuA6JEApaVQh+5uI4I=
+
+Name: content/blocks/power/矩阵核心.json
+SHA1-Digest: HArre4Uf6RMTVlr4aarXHMK3KhM=
+
+Name: content/blocks/power/终极电池.json
+SHA1-Digest: iAeEV7UGkr8PXSatX9OIglBXnYc=
+
+Name: content/blocks/power/集成型火力发电设备.json
+SHA1-Digest: SZdermmdPuD/VIs9BJoKny1N7AM=
+
+Name: content/blocks/production/三合金融合厂.json
+SHA1-Digest: I/ynv+6o6YhWwaa9LnSo+dMcHIA=
+
+Name: content/blocks/production/低温流体生产厂.json
+SHA1-Digest: vDL5ECVkju1tBnKAAZq4PCf1K0M=
+
+Name: content/blocks/production/加强型矿渣炉.json
+SHA1-Digest: OS3N7q9L4CYyWXbhxc3akMj7w3E=
+
+Name: content/blocks/production/原子对撞机.json
+SHA1-Digest: HYl9ALhQSZlj6QfjxHDD2AZOqBQ=
+
+Name: content/blocks/production/原铁精加工厂.json
+SHA1-Digest: Q4HcdeqJm+XKV74J1JJzAvNnG3I=
+
+Name: content/blocks/production/合金培养机.json
+SHA1-Digest: iyy6irYqtWHwiT99NAqfxTVrnrs=
+
+Name: content/blocks/production/合金能量注入器.json
+SHA1-Digest: YvK/xyG9scJqvKy5v2YUbUfmQTc=
+
+Name: content/blocks/production/复合合金厂.json
+SHA1-Digest: FRGOb/waJjwP5QC0n8zDB/mVLp4=
+
+Name: content/blocks/production/复合相位厂.json
+SHA1-Digest: ZNNChZzm8q8Xeor88Vg4YJLL1C4=
+
+Name: content/blocks/production/复合硅厂.json
+SHA1-Digest: LYfRhoTyBOFv8sWhkHn+XEmdqd0=
+
+Name: content/blocks/production/大气分离液化装置.json
+SHA1-Digest: sMBLrNiE1BCtS2sxlGb6QD5ogrw=
+
+Name: content/blocks/production/孢子冷冻仪.json
+SHA1-Digest: myC/F3rwYTVmcwTIF+35+3brE2E=
+
+Name: content/blocks/production/废料研磨厂.json
+SHA1-Digest: kK7YGiYH7yu2GVp/qrnoaAOeBH8=
+
+Name: content/blocks/production/核诱变机.json
+SHA1-Digest: 7X2IK3//RY+fOpJvriLSZiIXf7U=
+
+Name: content/blocks/production/气凝胶厂.json
+SHA1-Digest: xlXOaBwIN9BhL4Z5GUqE1o08BQw=
+
+Name: content/blocks/production/沙子复原厂.json
+SHA1-Digest: MeYGsFaQCYENteoR+/geo5qrd9s=
+
+Name: content/blocks/production/熔岩处理装置.json
+SHA1-Digest: g4ZFxIY9J150JyJQWLtz6IXATBo=
+
+Name: content/blocks/production/物质升华厂.json
+SHA1-Digest: Mp0xdQrG4wMMwClouKOUBDkaXP4=
+
+Name: content/blocks/production/粒子收集器.json
+SHA1-Digest: cDjlWZz+Io+wiDJIF+tCwzRM+xk=
+
+Name: content/blocks/production/金刚石制造厂.json
+SHA1-Digest: fwd7yCkeTQDpVgXl/RPtQ1ZGu+I=
+
+Name: content/blocks/production/钍钢冶炼厂.json
+SHA1-Digest: b4rPga50aYIRyUip8e9bxAhH0y4=
+
+Name: content/blocks/production/钛晶融制器.json
+SHA1-Digest: UbyVJl12FnRdWW6qk33geaPiKfQ=
+
+Name: content/blocks/production/钢化玻璃厂.json
+SHA1-Digest: 1PO9vArv3n1aUyT34XTT/xb1PJI=
+
+Name: content/blocks/production/钻石研磨厂.json
+SHA1-Digest: NuD1lD4Zao3jqbHNIx/0PLFRVvM=
+
+Name: content/blocks/production/铁冶炼厂.json
+SHA1-Digest: VuCZWxGQnZTx15Ta0wr3Wjtl8iM=
+
+Name: content/blocks/production/铁生产厂.json
+SHA1-Digest: /btAZfPQKFasZ2JO11PGey2PYJc=
+
+Name: content/blocks/production/锅炉.json
+SHA1-Digest: n4wnmiqSwl7t/vr/IxtXzjfC3KI=
+
+Name: content/blocks/production/锤板机.json
+SHA1-Digest: wEQkH8wY48d0WkNMEdlACTXb+5M=
+
+Name: content/blocks/turrets/A131.json
+SHA1-Digest: 1ak2VXfxdcRtgz7qrmErc7cXFlY=
+
+Name: content/blocks/turrets/M220.json
+SHA1-Digest: l2/Imo+90AA02kYld8LVq5PRJ4A=
+
+Name: content/blocks/turrets/foreshadow.json
+SHA1-Digest: 8hRHcdOj+Qby5cZ2sbMKIrV6Pz8=
+
+Name: content/blocks/turrets/fuse.json
+SHA1-Digest: bO2p2FFhEGbeeksih6M6A7Z0tTg=
+
+Name: content/blocks/turrets/meltdown.json
+SHA1-Digest: wgY5OgqjpwhLk3RHgtNboHN7QE8=
+
+Name: content/blocks/turrets/spectre.json
+SHA1-Digest: nUellyNqjre54Bq1nz6noBY2J10=
+
+Name: content/blocks/turrets/动能炮.json
+SHA1-Digest: aeN4ZmqDDiX6NnTX/bXAuwl5LNE=
+
+Name: content/blocks/turrets/双管+.json
+SHA1-Digest: EE8LA1/q8OfUA1yZbyBj47UHmSg=
+
+Name: content/blocks/turrets/基础机枪.json
+SHA1-Digest: n+/F3FdPQ4ZwbmhMNYhxSvJ3Clc=
+
+Name: content/blocks/turrets/多管激光塔.json
+SHA1-Digest: g20LmBibiBfOGpDbqm/Mcc5soFI=
+
+Name: content/blocks/turrets/大型轨道炮.json
+SHA1-Digest: 438v+4+f53EbYFmVmWbVW1ZQJtA=
+
+Name: content/blocks/turrets/导弹塔.json
+SHA1-Digest: pTNxpkqAg3pD8AUtJC4oJICkLhI=
+
+Name: content/blocks/turrets/极速.json
+SHA1-Digest: SfbsM3wEs5I2eJmexHh++Ztq1iE=
+
+Name: content/blocks/turrets/核弹.json
+SHA1-Digest: h5t/X4dIKVc85CXaZKBCYC6t30k=
+
+Name: content/blocks/turrets/歼星.json
+SHA1-Digest: nGl7syCLaHCL7mVmosMRqwl3Wog=
+
+Name: content/blocks/turrets/毁灭者.json
+SHA1-Digest: Eb6iDAzO0pZtcXGfCLxYlC/mU/0=
+
+Name: content/blocks/turrets/毁灭艺术.json
+SHA1-Digest: GVenjQEI0dRqggfQaWwUXrxTYY8=
+
+Name: content/blocks/turrets/液体冲击炮.json
+SHA1-Digest: vs3q5lyRlvkQlkS+cqmH/AnpXIc=
+
+Name: content/blocks/turrets/湮.json
+SHA1-Digest: 64aJkqoOsmTEfOj/g0JEFS0ayqM=
+
+Name: content/blocks/turrets/激光棱镜.json
+SHA1-Digest: m90FrTXu+ArtfSsqF9F7eIzma6g=
+
+Name: content/blocks/turrets/炙烤.json
+SHA1-Digest: QRSF6AHO75lT0b8z7dxRl/yFHsA=
+
+Name: content/blocks/turrets/电磁加速炮.json
+SHA1-Digest: FVPbw3B1HgLSsnEqIqTVuynPWbg=
+
+Name: content/blocks/turrets/电磁激光塔.json
+SHA1-Digest: sbY0vysxQnCK6BdHfJ7134GtFO4=
+
+Name: content/blocks/turrets/穿云.json
+SHA1-Digest: OwFmN12GuNlpWbm+HRTFzFHj4dQ=
+
+Name: content/blocks/turrets/终末.json
+SHA1-Digest: uPnMCDFCZT4GEhFv+567kyFdD5w=
+
+Name: content/blocks/turrets/近防炮.json
+SHA1-Digest: cQwMxgtoVVW/B/csX36YxqPv7tU=
+
+Name: content/blocks/turrets/连发激光塔.json
+SHA1-Digest: fBoeDdvJGA2yBQy7KQEoK6DRIns=
+
+Name: content/blocks/turrets/钢管.json
+SHA1-Digest: TsZxvjNrbGGDfXW4VWDhPH6zyBY=
+
+Name: content/blocks/turrets/闪电塔.json
+SHA1-Digest: lvjfx7yyKUodT+/XeKE1rsNu32k=
+
+Name: content/blocks/turrets/霰弹.json
+SHA1-Digest: xSTOSHpGWiYcWRoJyrqxGl9HTSo=
+
+Name: content/blocks/turrets/高级机枪.json
+SHA1-Digest: dlNvuByuGs4LMYE9GUqf20Aqm4E=
+
+Name: content/blocks/walls/双合金墙.json
+SHA1-Digest: bk6ttWUfExV7fDU5MAdlKNuMhms=
+
+Name: content/blocks/walls/双合金板墙.json
+SHA1-Digest: ppFtEAOJJaRm8dpJKfTced3pY38=
+
+Name: content/blocks/walls/大双合金墙.json
+SHA1-Digest: qngUU7X79O6D1tBU+b1nL0S2ZCE=
+
+Name: content/blocks/walls/大双合金板墙.json
+SHA1-Digest: H7WIdC53N0D67sQiZouXTp8Na64=
+
+Name: content/blocks/walls/大孢子墙.json
+SHA1-Digest: wU7NJOdkl1Nxy2OjAU43lO2MYzE=
+
+Name: content/blocks/walls/大石墨墙.json
+SHA1-Digest: 2WNp4h7tzr85Mh+UrQyZ/mZ5PX4=
+
+Name: content/blocks/walls/大能源墙.json
+SHA1-Digest: mt1xhqNXf54HzrCTXbMkPrKfrVU=
+
+Name: content/blocks/walls/大自塑墙.json
+SHA1-Digest: 5XvOk8vlm644goGXWaVUyR1hAE8=
+
+Name: content/blocks/walls/大金刚石墙.json
+SHA1-Digest: vUiVo+PTTcHCPaQnG91uAhOgM+4=
+
+Name: content/blocks/walls/大钯金墙.json
+SHA1-Digest: Fb1FN0pcFZQG0iv9/BlmNruLHY8=
+
+Name: content/blocks/walls/大铁墙.json
+SHA1-Digest: zWNw3fjvmYq0e0yj62E0SqVYD8Q=
+
+Name: content/blocks/walls/大铅墙.json
+SHA1-Digest: Wan5aZLbheE5t+awud4SlRm6N9k=
+
+Name: content/blocks/walls/大铜墙.json
+SHA1-Digest: R6Dq9KMzAsxzIjpJk/jGTHuTyh4=
+
+Name: content/blocks/walls/孢子墙.json
+SHA1-Digest: XfvUo+3tCvUJCcs4ric+mrw4BzU=
+
+Name: content/blocks/walls/巨自塑墙.json
+SHA1-Digest: woSfzV45gUpejbV4nF3x534Pbl0=
+
+Name: content/blocks/walls/石墨墙.json
+SHA1-Digest: 4JRbo8wkcBStvpprLzLVncTh63o=
+
+Name: content/blocks/walls/能源墙.json
+SHA1-Digest: acrgcJpGTAvlpE5i5HJqiGmjWuo=
+
+Name: content/blocks/walls/自塑墙.json
+SHA1-Digest: AGa8Pl/HLi+XfydGkTbs77LK7O8=
+
+Name: content/blocks/walls/超巨自塑墙.json
+SHA1-Digest: Oubz9oWAmTkieLxcTUQE/2sklnE=
+
+Name: content/blocks/walls/金刚石墙.json
+SHA1-Digest: KTT6Bj01Pg7xTfaYoSehzFez06U=
+
+Name: content/blocks/walls/钯金墙.json
+SHA1-Digest: wJZGnow1q9t+aWr1HD/yD9u4iBM=
+
+Name: content/blocks/walls/铁墙.json
+SHA1-Digest: JoX0MptmGTxEzRw2W8mk5eK0QS8=
+
+Name: content/blocks/walls/铅墙.json
+SHA1-Digest: p9wronGN1BmNwj4JUODRjcfFvvM=
+
+Name: content/blocks/walls/铜墙.json
+SHA1-Digest: UClzUl+SDTifc4/8trFfVdt1iOc=
+
+Name: content/blocks/基础战斗中心.json
+SHA1-Digest: BwAwHGp3a46op+UYt8yimEHKBZE=
+
+Name: content/blocks/壁垒核心.json
+SHA1-Digest: yRqTD8HdMSc4bqlqwmdTWObhtjY=
+
+Name: content/blocks/战斗平台.json
+SHA1-Digest: pJ0+a10S8YYVdvdecOs5aSpQNbo=
+
+Name: content/items/phase-fabric.json
+SHA1-Digest: HEVQbLXDAFX7F2V8OHplgUWtrjs=
+
+Name: content/items/spore-pod.jso
+SHA1-Digest: FRgQozt/28EuHkfhwdH+yG+RbmE=
+
+Name: content/items/zs.json
+SHA1-Digest: kYQjLelXtoJ04+GKfujVwoKYcKc=
+
+Name: content/items/三合金.json
+SHA1-Digest: 1Q0p49BY6B8eKUrrRinT/nfte9o=
+
+Name: content/items/压缩孢子合金.json
+SHA1-Digest: 3VuMvtkTZNPyoxI30r4DeKZEqQI=
+
+Name: content/items/原质.json
+SHA1-Digest: oHiWpzKr/NHAFGHKNKAKOoB5b5Q=
+
+Name: content/items/合金板.json
+SHA1-Digest: NO0VYJIDDMI2ODjk8+445oPpoeo=
+
+Name: content/items/孢子合金.json
+SHA1-Digest: JWp9aBbrMHEPyRf3v4pDuLAPTSs=
+
+Name: content/items/晶金.json
+SHA1-Digest: xKxlzs3HyxV6ffTc2+ev45woqU8=
+
+Name: content/items/晶金板.json
+SHA1-Digest: S0Lrf0QBw8c8pOvY7q19KwwEBBI=
+
+Name: content/items/气凝胶.json
+SHA1-Digest: o9OAQc+tbsLMJmxZ/K3h53t8jt4=
+
+Name: content/items/物质原子.json
+SHA1-Digest: b06JG1BMYSByDO+w17XTyBGrgOg=
+
+Name: content/items/能源合金.json
+SHA1-Digest: FUAqSp9jB9MxIoCoa8Ps8b0CWrM=
+
+Name: content/items/自塑合金.json
+SHA1-Digest: ia86JdXKeKSPpyOJSmPHfMWQChA=
+
+Name: content/items/金刚石.json
+SHA1-Digest: /rkNEgPoGR5x8Li4O06AOvcQrhU=
+
+Name: content/items/钍钢.json
+SHA1-Digest: 3BoIrhy9gUisY21oBzMfeyoG8fs=
+
+Name: content/items/钛晶.json
+SHA1-Digest: XGwvQLu+eWrVrUjqSAPrw4m3UtU=
+
+Name: content/items/钢.json
+SHA1-Digest: Ab0zb4LcZzAgWRpvUs4WNmXfL+Q=
+
+Name: content/items/钢化玻璃.json
+SHA1-Digest: p2s3H9KpsZbmuS76hhN4XDHELic=
+
+Name: content/items/钯金.json
+SHA1-Digest: yIfc9OuS1UDJ0XvKV0q36Zror1U=
+
+Name: content/items/钴.json
+SHA1-Digest: L3pVY29gystvesroR63RA8MAy+M=
+
+Name: content/items/铀.json
+SHA1-Digest: QyzEqDN8d6shw17rGBKDzSTY8to=
+
+Name: content/items/铁.json
+SHA1-Digest: lLuSY+9oNeaM+fXX19sJ/x93HnY=
+
+Name: content/items/铁矿石.json
+SHA1-Digest: 4Z/0MyZ/2lmgTlCbbgSjEWQyQu8=
+
+Name: content/items/铅板.json
+SHA1-Digest: bO8b6x/5B9e0H96OiRg/im3AUoA=
+
+Name: content/items/铜.json
+SHA1-Digest: jFPxLII5zKFXdSNaOdIRooa+Q8c=
+
+Name: content/items/陨铁.json
+SHA1-Digest: 1pmaTG+gnvX2OzVDI7pwgOxZ+lc=
+
+Name: content/liquids/cryofluid.json
+SHA1-Digest: ay8Z8dCqW0iu+7i3Tb2aHGCtW94=
+
+Name: content/liquids/gallium.json
+SHA1-Digest: JnXQyt/Y6jAUy+BXGxf/E4Tvn1U=
+
+Name: content/liquids/slag.json
+SHA1-Digest: bDSzcgKXAiQj3XNt7HvC2PMzVYs=
+
+Name: content/liquids/water.json
+SHA1-Digest: RZG42FrwviHJ4vQ+p60NFQrdTYE=
+
+Name: content/liquids/冷凝水.json
+SHA1-Digest: MCFtW5bKraohg0Tou5lV3VmhZ+I=
+
+Name: content/liquids/孢子流体.json
+SHA1-Digest: qODL166WXVF6vjU5zqZJeSz9yxM=
+
+Name: content/liquids/孢子液.json
+SHA1-Digest: pVtr9cJwME0N06As0BhS1DtoYCs=
+
+Name: content/liquids/极寒.json
+SHA1-Digest: 8/S0trtHuaMF3SB3BjYD6Z4uTGc=
+
+Name: content/liquids/气化熔岩.json
+SHA1-Digest: R7sqkbMMN72YLi118BfAMeqWxtM=
+
+Name: content/liquids/液氧.json
+SHA1-Digest: UJZuodT/G4uVyY6hlQnjBGpd3ss=
+
+Name: content/liquids/液氮.json
+SHA1-Digest: O/KPQ66FLME7T0L8LcDa+nqRkLo=
+
+Name: content/liquids/熔岩.json
+SHA1-Digest: QRt7y+RuKCjK4qc+aqvDZ0zcsmM=
+
+Name: content/status/boss.json
+SHA1-Digest: K/1/VDWMb3y85MjMsKYmnWmQbiQ=
+
+Name: content/status/corroded.json
+SHA1-Digest: 5hfiUk98P8nNe8rN3rbQRShWfBk=
+
+Name: content/status/disarmed.json
+SHA1-Digest: Iwyjfixw7t6FKS8iDGTY4WzeB8U=
+
+Name: content/status/electrified.json
+SHA1-Digest: aUJdzgcWXjQRvzbu8Ht+DS5byic=
+
+Name: content/status/invincible.java
+SHA1-Digest: 067bFrehY1Xkr8KXqj5yWuxMP7Q=
+
+Name: content/status/overclock.json
+SHA1-Digest: ROCxMK1cQfa7FarBqE5H5qj4jJw=
+
+Name: content/status/overdrive.json
+SHA1-Digest: OmbXL1IMmJPXT1SCjDgqcVg3I1U=
+
+Name: content/status/shocked.json
+SHA1-Digest: SXe6WQrO6GcMmVLvG46t6dY2pWU=
+
+Name: content/status/spore-slowed.json
+SHA1-Digest: ELRC28SvbaQqeeiKlRbTquhSi8Q=
+
+Name: content/status/冰破.json
+SHA1-Digest: UDvFtXqrfZ2oR0XqzPEZMJfSCus=
+
+Name: content/status/剧毒.json
+SHA1-Digest: cOwWTZ8gaFWB4dDvfwKczBkD4Uo=
+
+Name: content/status/熔毁.json
+SHA1-Digest: hNDAlIrB5DGAdmXIaamRxSRn5co=
+
+Name: content/status/石化.json
+SHA1-Digest: D+j+TM+haLxhGRrwpq3wyGQvcVY=
+
+Name: content/status/老化.json
+SHA1-Digest: RmUDkwpEdbi1uHEB/tXj5p6jmx8=
+
+Name: content/status/膏肓.json
+SHA1-Digest: SLDzRRafrWCy9k4kfQwKVpC1vPE=
+
+Name: content/status/自愈1.json
+SHA1-Digest: pZrADDqSIOXayKjnYUZB/FID2+Y=
+
+Name: content/status/自愈2.json
+SHA1-Digest: K7z4Qqh5XB9ugUF0P8HYiBJcOiE=
+
+Name: content/status/自愈3.json
+SHA1-Digest: t1beoQIJC2X8wgF3LuICwrFZIXI=
+
+Name: content/status/虚无.json
+SHA1-Digest: 4S/D9FDyOWj8rnwH8zxl0/R/2PM=
+
+Name: content/units/HZ1型空天机.json
+SHA1-Digest: 2MeaA6OLgcY2+V8Uv/rTR0g/mZs=
+
+Name: content/units/HZ2型空天机.json
+SHA1-Digest: MzAX+iQwGWPgjoPGX5udsuVf/S4=
+
+Name: content/units/HZ3型空天机.json
+SHA1-Digest: hnBfV+nM3ro7Pyh1d/9kyt01nX8=
+
+Name: content/units/原版/alpha.json
+SHA1-Digest: GSgMpVH7zNN3or9U17KRTpaxkYk=
+
+Name: content/units/原版/beta.json
+SHA1-Digest: yaqJgYzN6PLeEmtKcq2whN8Vgr8=
+
+Name: content/units/原版/gamma.json
+SHA1-Digest: DiRJbRWU21qOMK0XDbyjSMuKUhg=
+
+Name: content/units/原版/原版海军A系列/bryde.json
+SHA1-Digest: 3/AOl1pWL6kRRl88/Z+8xVObHjs=
+
+Name: content/units/原版/原版海军A系列/minke.json
+SHA1-Digest: lIdIvNy4+Nw5jnso5nsTthfopbg=
+
+Name: content/units/原版/原版海军A系列/omura.json
+SHA1-Digest: ytQnNHDixICakyi3P8sNxFLXTfY=
+
+Name: content/units/原版/原版海军A系列/risso.json
+SHA1-Digest: SIm6HLkMGWZD8CwuHS3mQ/+DdvY=
+
+Name: content/units/原版/原版海军A系列/sei.json
+SHA1-Digest: 5znGpMSX5NhdjHeq5w3LHbbFPO0=
+
+Name: content/units/原版/原版海军B系列/aegires.json
+SHA1-Digest: ZsKH+Dr16dnEI/GOReNPE1p6WVo=
+
+Name: content/units/原版/原版海军B系列/cyerce.json
+SHA1-Digest: 75ZkppEecA17n05BszpoWndP0VY=
+
+Name: content/units/原版/原版海军B系列/navanax.json
+SHA1-Digest: SzGHZ72bYWLbWctgWte0vcDZy+Y=
+
+Name: content/units/原版/原版海军B系列/oxynoe.json
+SHA1-Digest: lVcz5TWiNopH56x4XzDnWZDn19U=
+
+Name: content/units/原版/原版海军B系列/retusa.json
+SHA1-Digest: SPoaKEl9sz/OXWywwVrKbMnaHvg=
+
+Name: content/units/原版/原版空军A系列/antumbra.json
+SHA1-Digest: QS/aPx8zVYHEU3JZlzbQLqB8l9M=
+
+Name: content/units/原版/原版空军A系列/eclipse.json
+SHA1-Digest: Wiy1oJ4HIMirao9816XyByjzmKI=
+
+Name: content/units/原版/原版空军A系列/flare.json
+SHA1-Digest: jv72XqVkyzSdfMu5KWEomyERqRg=
+
+Name: content/units/原版/原版空军A系列/horizon.json
+SHA1-Digest: etFJSeT1vVFz6Sy1MuaQcaIVDCI=
+
+Name: content/units/原版/原版空军A系列/zenith.json
+SHA1-Digest: xHbOp8SXwYGPIYSMGeUcCJIJ60Q=
+
+Name: content/units/原版/原版空军B系列/mega.json
+SHA1-Digest: +I4fLDsOhkZ41SY9lQ1sr+qY3GY=
+
+Name: content/units/原版/原版空军B系列/mono.json
+SHA1-Digest: +sT5q1RFubwuGvZm4QBlEerLvi8=
+
+Name: content/units/原版/原版空军B系列/oct.json
+SHA1-Digest: AvuwLS3G9iBlsF7L8ovQU1vNbEI=
+
+Name: content/units/原版/原版空军B系列/poly.json
+SHA1-Digest: OVqUgHxzm1edLdG5OUecf2YUJ4g=
+
+Name: content/units/原版/原版空军B系列/quad.json
+SHA1-Digest: HCYfVh6YkRvU44Q3J3lo+XXkfws=
+
+Name: content/units/原版/原版陆军A系列/dagger.json
+SHA1-Digest: TqxfTWdIELEd2xtZe9ubrq7JI6s=
+
+Name: content/units/原版/原版陆军A系列/fortress.json
+SHA1-Digest: F7oRQj4HNuS43AgW5DSp09S+Q8E=
+
+Name: content/units/原版/原版陆军A系列/mace.json
+SHA1-Digest: GSrbKitoyFRUE2IrjLN/lL+STR0=
+
+Name: content/units/原版/原版陆军A系列/reign.json
+SHA1-Digest: +l2nPY950vOr6PFzPeoL3yT1jBY=
+
+Name: content/units/原版/原版陆军A系列/scepter.json
+SHA1-Digest: RTJTcu7Q0CPz1XUF3SkL0iuNUMQ=
+
+Name: content/units/原版/原版陆军B系列/corvus.json
+SHA1-Digest: C2eyEvEaIXU5/yVNIHv4C+ZQo54=
+
+Name: content/units/原版/原版陆军B系列/nova.json
+SHA1-Digest: kw+SEfLi0DqJcvOTb4moHleioi0=
+
+Name: content/units/原版/原版陆军B系列/pulsar.json
+SHA1-Digest: eDrq0V6+44GofVJTREW+mStW+V4=
+
+Name: content/units/原版/原版陆军B系列/quasar.json
+SHA1-Digest: KTkioVjuJoVujAg8vWM3kvluJiA=
+
+Name: content/units/原版/原版陆军B系列/vela.json
+SHA1-Digest: GkQcrgxMFJQmGUOyRmjIgN56Eys=
+
+Name: content/units/原版/原版陆军C系列/arkyid.json
+SHA1-Digest: KYJTty0oDnMV8X5uuNhg4Z1SbrQ=
+
+Name: content/units/原版/原版陆军C系列/atrax.json
+SHA1-Digest: vymJbXDpJti0q5WImIBYJgS/ijo=
+
+Name: content/units/原版/原版陆军C系列/crawler.json
+SHA1-Digest: Ma7PmMhT9wNgeITdGmal9/qu7nI=
+
+Name: content/units/原版/原版陆军C系列/spiroct.json
+SHA1-Digest: /fplPhkQYj1kL8TtSQffynnnqvs=
+
+Name: content/units/原版/原版陆军C系列/toxopid.json
+SHA1-Digest: SaAaF1HSal9+6TVfFy3s0Y2iQCk=
+
+Name: content/units/敌方/HC陆军.json
+SHA1-Digest: CvgDbMlbAh5hHc5G8iTca+clsYQ=
+
+Name: content/units/空军/空军A系列/A型中阶战斗空军.json
+SHA1-Digest: QOPrl1m78BKUmaZg8133YddrOUE=
+
+Name: content/units/空军/空军A系列/A型列位空军.json
+SHA1-Digest: 2H3IaGrd48vaCb+RZp4PWS91un0=
+
+Name: content/units/空军/空军A系列/A型初阶战斗空军.json
+SHA1-Digest: Q5a0VWlkkuiba16yue9eJ5mDxDs=
+
+Name: content/units/空军/空军A系列/A型高阶战斗空军.json
+SHA1-Digest: ZdhVVTN7qHwuyseK/jtpQv7eOC4=
+
+Name: content/units/陆军/陆军A系陆/A型中阶战斗陆军.json
+SHA1-Digest: qd2Qq/S5pw9a0S+UIfMx4e1ViUk=
+
+Name: content/units/陆军/陆军A系陆/A型列位陆军.json
+SHA1-Digest: qYmclm1BMn/wi54kiTYgQB2DPAQ=
+
+Name: content/units/陆军/陆军A系陆/A型初阶战斗陆军.json
+SHA1-Digest: dQCq0vY8jlk+aIn3xr7ufPMYGqk=
+
+Name: content/units/陆军/陆军A系陆/A型限制陆军.json
+SHA1-Digest: hFs22VGeM3HO/pckt3djSgHAnpY=
+
+Name: content/units/陆军/陆军A系陆/A型高阶战斗陆军.json
+SHA1-Digest: 3If3QgfwlDZoflOZbF32GMeTAe8=
+
+Name: content/units/陆军/陆军B系陆/B型中阶战斗陆军.json
+SHA1-Digest: rmAbquGoX2y0x4+CkAYtNTT8IGM=
+
+Name: content/units/陆军/陆军B系陆/B型列位陆军.json
+SHA1-Digest: L3ap7P2OHWY31jwA+RL1TuyjPys=
+
+Name: content/units/陆军/陆军B系陆/B型初阶战斗陆军.json
+SHA1-Digest: JuBF1ces+Ry6FOXEbQu5N2VP/iI=
+
+Name: content/units/陆军/陆军B系陆/B型高阶战斗陆军.json
+SHA1-Digest: Set5A0aC6Rl1tfu3sZW84H/nRSc=
+
+Name: content/units/陆军/陆军C系陆/C型中阶战斗陆军.json
+SHA1-Digest: io4Roy/9/JLN46TGViqsB1YbZJ0=
+
+Name: content/units/陆军/陆军C系陆/C型列位陆军.json
+SHA1-Digest: FWrwb+Ofn7qWZ6hksdMlJXausA8=
+
+Name: content/units/陆军/陆军C系陆/C型初阶战斗陆军.json
+SHA1-Digest: /HVutqIwbK9Qb6Kuw25WvohibRU=
+
+Name: content/units/陆军/陆军C系陆/C型高阶战斗陆军.json
+SHA1-Digest: SBK6xMQG89XSJlwIodZvGo4wKos=
+
+Name: content/weathers/太阳磁暴.json
+SHA1-Digest: n4/rPxwRWkome7rT5RVrPc2tvvE=
+
+Name: content/weathers/毒雨.json
+SHA1-Digest: gveGQH/EK7vSQPriT+XhkiFOAA8=
+
+Name: content/weathers/毒雨2.json
+SHA1-Digest: 34Rj9OIAuGNCkwaC7+V69cIyCew=
+
+Name: content/weathers/毒雨3.json
+SHA1-Digest: +J8eX0XciwEGsj8Fyq88prNfRPg=
+
+Name: content/weathers/电磁风暴.json
+SHA1-Digest: yVHt0xLkg8vl38ZlYjYE34F8gMc=
+
+Name: content/weathers/美杜莎雨.json
+SHA1-Digest: gKotBHXEe0ZJ5hnXU/reSxOaSZk=
+
+Name: content/weathers/自愈云雾A.json
+SHA1-Digest: kHhJa8bcD6WCZ4PmAIu4cjhmQuU=
+
+Name: content/weathers/自愈云雾B.json
+SHA1-Digest: MnfDQbB5esfxlfWMqHyRMIjSsms=
+
+Name: content/weathers/自愈云雾C.json
+SHA1-Digest: Z4OjnDqpsnrd5RcpjhpxM3sdymE=
+
+Name: icon.png
+SHA1-Digest: tYHJ3nIPzzs+AfWXGRxde9NDgO4=
+
+Name: maps/侵蚀基地.msav
+SHA1-Digest: rUVP/JB0QHefubvnOS29R9bFp+U=
+
+Name: maps/光伏基地.msav
+SHA1-Digest: 9myUakudGoyA6Tb+Sv1e65HEqBo=
+
+Name: maps/冰封旧都.msav
+SHA1-Digest: PGzY5hs9/CRe/haJOnatLLVwxNA=
+
+Name: maps/勘测点1.msav
+SHA1-Digest: cLeDmGTvUZAZyE8ePq1LmSHevCQ=
+
+Name: maps/勘测点2.msav
+SHA1-Digest: 6Y/fPO6vrJbMtMfHTdqEKAYCbK0=
+
+Name: maps/彼岸.msav
+SHA1-Digest: UGyVQWfPzB/ZbBj6vUiX2YxTRuA=
+
+Name: maps/战争遗迹.msav
+SHA1-Digest: XrOXX8U61iT2F3cjxC3arQW/zjI=
+
+Name: maps/星际熔毁区.msav
+SHA1-Digest: vi/79DB06FAyVSB96laspYM9c60=
+
+Name: maps/熔岩山谷.msav
+SHA1-Digest: RBwU4IVLDKBB+JIVZLK+aQVWK2o=
+
+Name: maps/禁区079.msav
+SHA1-Digest: 7zfnxGsgcCjFKeDCp2vgbebaqTk=
+
+Name: maps/阿切斯陨石区.msav
+SHA1-Digest: w7EhEp+DXYwFS1hbFyAaVvK3Zv8=
+
+Name: maps/陨落.msav
+SHA1-Digest: jomVh1DOFw8mmAfAWykrT1hot9I=
+
+Name: mod.json
+SHA1-Digest: 7lVgDckmOAK0iAJY+fyQGgcSqvs=
+
+Name: scripts/AchesPlanetGenerator.js
+SHA1-Digest: 8y9ezI5BMF+MrJtH9CDxuQD6e/I=
+
+Name: scripts/CTIitems.js
+SHA1-Digest: LULTqh0SW9oQlzA9RxV1oHqHFP8=
+
+Name: scripts/CTIlibrary.js
+SHA1-Digest: TkhIj2eKqstJ9HUOZ/d4PDuqpyw=
+
+Name: scripts/CTIliquids.js
+SHA1-Digest: sKi+J/c5f280p+xvvz9WT8F79Ng=
+
+Name: scripts/Sector.java
+SHA1-Digest: XgdPPA/g2MVn74VDimOQpIRcUxw=
+
+Name: scripts/blocks.js
+SHA1-Digest: eWkkOOeFTl2esNStXe671boZiUA=
+
+Name: scripts/difficulty.java
+SHA1-Digest: I5DeXYukskrMCMZb1bieaccnFRU=
+
+Name: scripts/itemsColor.js
+SHA1-Digest: uVcK9Au484PcHhjyrGlIUJF33ig=
+
+Name: scripts/main.js
+SHA1-Digest: VVpiXuHm6C/37Nisg0EYSnKpx3I=
+
+Name: scripts/sectorSize.js
+SHA1-Digest: Zy1X+9k08Xt0N7rxH0OwGe16ZiQ=
+
+Name: scripts/tree.js
+SHA1-Digest: s5SIsDgaDgym7vAC3EqfF34NtDc=
+
+Name: scripts/低温流体生产厂.js
+SHA1-Digest: qzhQNDf2VlpSMwzLiV7bdIk/WEI=
+
+Name: scripts/公告.js
+SHA1-Digest: 6ujmy923jqC8WSogVJKgMDnXdYU=
+
+Name: scripts/原质盾墙.js
+SHA1-Digest: Zj04AV1COBDu+VsAB70ZWswPzx0=
+
+Name: scripts/大气分离液化装置.js
+SHA1-Digest: 68e0DJydJrYY42kz4Kjp4ZGRgno=
+
+Name: scripts/寄生物反应堆.js
+SHA1-Digest: qWlXBciXk+WufgUYJVzuiZz2o8g=
+
+Name: scripts/将至lib.js
+SHA1-Digest: rQzW/7ntFiOSl0ctvhrfNrNWqos=
+
+Name: scripts/提醒.js
+SHA1-Digest: 7dFJ1RB7OKsn8fb49xiLS6wdnLY=
+
+Name: scripts/星系.js
+SHA1-Digest: hwUsPqkJB0koyYDkroBbSuLGi4o=
+
+Name: scripts/测试墙.js
+SHA1-Digest: 2a21/DQIjbkT0ns0W0J1tnemIVU=
+
+Name: scripts/熔岩处理装置.js
+SHA1-Digest: 1qScefvoYp9NzIVJ91ytOTIu+iw=
+
+Name: scripts/物质升华厂.js
+SHA1-Digest: ZzviReh7zIeHkBNAVVMEuZvHIpI=
+
+Name: scripts/秒杀炮.js
+SHA1-Digest: 4gdhmkiBm/65X5wlQNfIECKUkUU=
+
+Name: scripts/粒子收集器.js
+SHA1-Digest: Hhm+QpN+473zHJUvRj31pM0Jbjs=
+
+Name: scripts/远星系.js
+SHA1-Digest: glTHNMG0fTHl7j6RLjDHcVzUZbI=
+
+Name: scripts/量子护盾发生器.js
+SHA1-Digest: kq9aCIawbZPkPLxcepbozNi0w1o=
+
+Name: scripts/钢化玻璃厂.js
+SHA1-Digest: 3Ar7A8DsLR35ubEP/YNYu7Udi/g=
+
+Name: scripts/锤板机.js
+SHA1-Digest: KohzMJRqzXFi29tsQtxQXq4nb28=
+
+Name: sounds/1.ogg
+SHA1-Digest: HCsP79+iiH8id1cgjPJ8tEYT0uc=
+
+Name: sounds/3.ogg
+SHA1-Digest: exY9x8v99q8LWij5YnHopVZtDX0=
+
+Name: sounds/巨炮.ogg
+SHA1-Digest: Xns7cKdZO0keSjTko2IN9P+okXg=
+
+Name: sounds/未知反应堆.ogg
+SHA1-Digest: G2JPJUWX6VhPtXXOS4I89MP6mqo=
+
+Name: sprites-override/blocks/environment/env-error.png
+SHA1-Digest: 6Y917LqqM+tQnBXvn78tC/jWuEM=
+
+Name: sprites-override/effects/error.png
+SHA1-Digest: sB3e0DF/+QbfhqJzvLg1yVPuEFo=
+
+Name: sprites-override/effects/invincible.png
+SHA1-Digest: wY441Kxca/jBWTbKZBu1UfiC4N0=
+
+Name: sprites-override/effects/status-disarmed.png
+SHA1-Digest: fD4Wk3XA5cJkVBIc3OJPXw8+QQ4=
+
+Name: sprites-override/effects/status-none.png
+SHA1-Digest: Rj28sHeFlA4RctNqMBerlQ56AfM=
+
+Name: sprites-override/ui/logo.png
+SHA1-Digest: QTr8A0dMK9rOqQ8VZvfvQxyCOsI=
+
+Name: sprites/blocks/TestBlocks/A.png
+SHA1-Digest: z5laoY2k+SrD8FJ3ns9axt9wKKs=
+
+Name: sprites/blocks/TestBlocks/A1.png
+SHA1-Digest: tKBLuELEp7qHXCB7OAtTnD96v44=
+
+Name: sprites/blocks/TestBlocks/A2.png
+SHA1-Digest: F1CCgZQ/wWkLL7zHII2mxFHHwN0=
+
+Name: sprites/blocks/TestBlocks/B.png
+SHA1-Digest: 3FiFiQ7nkRauLAH0Q7x9i83/ZB0=
+
+Name: sprites/blocks/TestBlocks/C.png
+SHA1-Digest: Bl0gnHWDopZ5BfH5rHdJnzrbwEA=
+
+Name: sprites/blocks/TestBlocks/D.png
+SHA1-Digest: ZCR7OJZAME4FJn8X2CN6GqN0FIU=
+
+Name: sprites/blocks/TestBlocks/测试墙.png
+SHA1-Digest: OA/PV++DCm6LW+6xGunoo57Ai8k=
+
+Name: sprites/blocks/TestBlocks/秒杀炮.png
+SHA1-Digest: dPOdWrV4QLY73AuJoX0n4l3VrhE=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-0.png
+SHA1-Digest: xSHhjUDZE881ANko/UJHW/1jvlg=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-1.png
+SHA1-Digest: 9l48mehCVB3UoqRQMCUMaC5R7F0=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-2.png
+SHA1-Digest: wAs3Arb3SaD3bKLk3OY4tzp4ths=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-3.png
+SHA1-Digest: vP0DsFXRz7O7r3M+O9LtBfQs1M4=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-4.png
+SHA1-Digest: xm8DZZOkE7W3/47Uh6kPlWqY8dk=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-cap.png
+SHA1-Digest: 6sG4Hqx+Fiu5U0PROJBdNeBIR1g=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-top-0.png
+SHA1-Digest: zWW326n1cv3MbD6bVNUKn/H+xLE=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-top-1.png
+SHA1-Digest: Au1er/gwrApqJol5Sid04S3aKeM=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-top-2.png
+SHA1-Digest: pqqhjVvw+yZguFWqlS4aytP4hsY=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-top-3.png
+SHA1-Digest: m80CgQi7uLAFh/EQY0+SPJVhQcU=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管-top-4.png
+SHA1-Digest: uzVz++Bc1HsTNyyr3auHQ0mSRNE=
+
+Name: sprites/blocks/distribution/传送带/气凝胶液体管/气凝 
+   液体管.png
+SHA1-Digest: Zo/EoR61E8hCY6M8E6sWTrNsI1U=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 0-0.png
+SHA1-Digest: VTlOcmoMbi3xF77W3Y7/yJXgOs8=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 0-1.png
+SHA1-Digest: iEpcSzzDI+USoJA+C637R7r9jNY=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 0-2.png
+SHA1-Digest: a/2eozDM0x0rAdyzCxBuobznuZM=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 0-3.png
+SHA1-Digest: 3zInwXEFFwxELyLQRfM6Sdb2vog=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 1-0.png
+SHA1-Digest: /NWytm5QBHKRL/fPELIDAnFbCGQ=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 1-1.png
+SHA1-Digest: jahRUPSbMHe6ZTFxEIDo2aQ7FhE=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 1-2.png
+SHA1-Digest: evz20Jy2aj7kY//uyO4g3ofpSPM=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 1-3.png
+SHA1-Digest: EqK6rTj9fk+5/dWACDIGTOPNpWU=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 2-0.png
+SHA1-Digest: 291BFsSMQnhedazGUvjEklk8Ido=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 2-1.png
+SHA1-Digest: oHWlEnYV6yvC+SmHoIwqDjgWEUQ=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 2-2.png
+SHA1-Digest: n9lHtyJxTXJV1yLaggma4vDl7I4=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 2-3.png
+SHA1-Digest: Vd0ZprxMZS7V96exBWFRgV5Ld9E=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 3-0.png
+SHA1-Digest: /MZ+Twr3g4rK3aIHzxD4EM/Mnlc=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 3-1.png
+SHA1-Digest: 6y84fCHx8KHbnDb9Boq6xK4FfYA=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 3-2.png
+SHA1-Digest: aJH5Or8nFUFBV/AV4ykMY0wxzW0=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 3-3.png
+SHA1-Digest: iqQXv+JjXlrN0sF/k2VMEiZ6LGU=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 4-0.png
+SHA1-Digest: s2k8YxGqedJcOHqKnryR2lnvgUc=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 4-1.png
+SHA1-Digest: 2jUXNlyDcw3gLHMdCHT8RMvHn7E=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 4-2.png
+SHA1-Digest: 9tLLk1kYi/6hY68SCvHwAejRebg=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带-
+ 4-3.png
+SHA1-Digest: WCCG4mMaWKqCTOHfJCti9JIX1hc=
+
+Name: sprites/blocks/distribution/传送带/钢传送带/钢传送带.
+ png
+SHA1-Digest: QoDLSVCuyf6aYIuIQDois0agQpM=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ bottom-0.png
+SHA1-Digest: vJPgiKtdxhPRkk6hGZUoK3U/T64=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ bottom-1.png
+SHA1-Digest: ZTaV9C6B0laaBwR8Asjod2KRxLs=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ bottom-2.png
+SHA1-Digest: 7HjjKvVEKbDVzQQ5NnzDWIrhIgI=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ bottom-3.png
+SHA1-Digest: 0YFGU8+dlKBmaq/M1Yo3Lnqsn7s=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ bottom-4.png
+SHA1-Digest: 7kNnEEVo2mZcvxOtObcuiuhVaVc=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ bottom.png
+SHA1-Digest: zWRYmBEmTB+bIRkVnVa2RYPaACY=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ top-0.png
+SHA1-Digest: qYjDwFL/QHohwIfmBdDdCGqcsXE=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ top-1.png
+SHA1-Digest: 33fRnQd8n1NMbF4eKxwJOt3FTM8=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ top-2.png
+SHA1-Digest: ovTpnV3AIH9tS9A+HW0NAiJdQjs=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ top-3.png
+SHA1-Digest: kdLulIUKfbk2himAVTTJ0JlpW2s=
+
+Name: sprites/blocks/distribution/传送带/钢液体管/钢液体管-
+ top-4.png
+SHA1-Digest: 6pJZftRRwpNY+8/M65nblEhbKf0=
+
+Name: sprites/blocks/distribution/基础泵-liquid.png
+SHA1-Digest: mXC5rQs6pWQr/JXMJxKTOpScBFI=
+
+Name: sprites/blocks/distribution/基础泵.png
+SHA1-Digest: Bd2kzWcVqpVgn9I6IVEIZY1VFOA=
+
+Name: sprites/blocks/distribution/强化泵-liquid.png
+SHA1-Digest: +8jVRV/cZSgkzFu6Oy1JJBuR5eQ=
+
+Name: sprites/blocks/distribution/强化泵.png
+SHA1-Digest: jbAArJir4dxxDyQi2USRxuBt3LU=
+
+Name: sprites/blocks/distribution/强化质驱-base.png
+SHA1-Digest: 3COsGV9v1J/blaIZkE/1smeF6Xg=
+
+Name: sprites/blocks/distribution/强化质驱.png
+SHA1-Digest: vrqLxKobPOQCgaM/uQi5eqbDO6I=
+
+Name: sprites/blocks/distribution/漩涡泵-liquid.png
+SHA1-Digest: s1oXZQjjLxt0Ze3b4NVnPjYj66M=
+
+Name: sprites/blocks/distribution/漩涡泵.png
+SHA1-Digest: hSdwMraKR75BIDSF8w/rRcoHMuo=
+
+Name: sprites/blocks/distribution/超频泵-liquid.png
+SHA1-Digest: SRpbxUw6wj7gbMC7XlwhxsJaqC8=
+
+Name: sprites/blocks/distribution/超频泵.png
+SHA1-Digest: 84IIRNlDxa5STVUxVRRHpIA0PsA=
+
+Name: sprites/blocks/distribution/钍钢卸载器-center.png
+SHA1-Digest: oSnw+DqgUy8wjYp48GWxJ+U2+Kc=
+
+Name: sprites/blocks/distribution/钍钢卸载器.png
+SHA1-Digest: Lu9p0Z6+NCquVtf40YXZhjkOZro=
+
+Name: sprites/blocks/drills/全地形抽水机-liquid.png
+SHA1-Digest: ajxympHEaWLq2sPGfxlYl1p4xyE=
+
+Name: sprites/blocks/drills/全地形抽水机.png
+SHA1-Digest: Z+IrgI7PVGOx7x0GCyv/Fo8vOgg=
+
+Name: sprites/blocks/drills/基础抽水机-liquid.png
+SHA1-Digest: 1XIWJ9j6jAEn7osq+5unN1rRrBU=
+
+Name: sprites/blocks/drills/基础抽水机-rotator.png
+SHA1-Digest: Gd8B/vaZx9qk5qLYbIUhd1dLe8U=
+
+Name: sprites/blocks/drills/基础抽水机-top.png
+SHA1-Digest: IKhiloE+otLim6nc+IyHuBbq/CA=
+
+Name: sprites/blocks/drills/基础抽水机.png
+SHA1-Digest: hdkfgNHNKIQlzwUzih46YxpuYp0=
+
+Name: sprites/blocks/drills/基础钻头-rotator.png
+SHA1-Digest: KtRc89bvKnuBnUmPgJ9OSVTHfkE=
+
+Name: sprites/blocks/drills/基础钻头-top.png
+SHA1-Digest: xEZuY8yKqTVSxZF1HRivOOpODNE=
+
+Name: sprites/blocks/drills/基础钻头.png
+SHA1-Digest: C8NlkUEfib+lzJnA+PBSOY6KqwE=
+
+Name: sprites/blocks/drills/强化型激光钻头-rotator.png
+SHA1-Digest: xyjc3aKWe+qdgtMc0mgpA6FuoV8=
+
+Name: sprites/blocks/drills/强化型激光钻头-top.png
+SHA1-Digest: /CbK9geAxuIy5n7zoXTMs766SPU=
+
+Name: sprites/blocks/drills/强化型激光钻头.png
+SHA1-Digest: xilZK5J8rq2IkCCzG3ITTXaZh/k=
+
+Name: sprites/blocks/drills/强化抽水机-liquid.png
+SHA1-Digest: h39AUN+RlNmkKL+e3I8lEVTfyuI=
+
+Name: sprites/blocks/drills/强化抽水机-rotator.png
+SHA1-Digest: 0Wnr3chF63cicM0rSYxPgzB6b1M=
+
+Name: sprites/blocks/drills/强化抽水机-top.png
+SHA1-Digest: mr67Xtne7cbS3IPVKa0HY4cvPmI=
+
+Name: sprites/blocks/drills/强化抽水机.png
+SHA1-Digest: PgWWfoKo3zqSI3gUr7xr1cZy16A=
+
+Name: sprites/blocks/drills/新铜钻头-rotator.png
+SHA1-Digest: qvF6PeBFsmqomq5ri5qYf1jaBDU=
+
+Name: sprites/blocks/drills/新铜钻头-top.png
+SHA1-Digest: FjNLgSgNrQUcPJ7BAWloLYdX9L8=
+
+Name: sprites/blocks/drills/新铜钻头.png
+SHA1-Digest: UxzSj5+JQ4YGwh7vk6e4tkXSyjM=
+
+Name: sprites/blocks/drills/极限钻头-item.png
+SHA1-Digest: PemmeD3o6w4XEmub6p29gkTSQ7I=
+
+Name: sprites/blocks/drills/极限钻头-rim.png
+SHA1-Digest: eD1o+UpnN67rzgLPD/88cF4P/+g=
+
+Name: sprites/blocks/drills/极限钻头-rotator.png
+SHA1-Digest: Ck2za5wdFx1vMiPaWDddkLGq7uo=
+
+Name: sprites/blocks/drills/极限钻头-top.png
+SHA1-Digest: QyrPzOADxuTZ3t3DmREJa4VwEU4=
+
+Name: sprites/blocks/drills/极限钻头.png
+SHA1-Digest: C7FJblEO60zwrpayBlJijHSrxm4=
+
+Name: sprites/blocks/drills/深层抽水机-liquid.png
+SHA1-Digest: B6zKzHx6xXLIF/k86r8toFsKGYI=
+
+Name: sprites/blocks/drills/深层抽水机-rotator.png
+SHA1-Digest: EdsQ1hBQFJteYnIzV5n3bPEConA=
+
+Name: sprites/blocks/drills/深层抽水机-top.png
+SHA1-Digest: ZLjP89a/5e4jgnVM4iyedJbxHgc=
+
+Name: sprites/blocks/drills/深层抽水机.png
+SHA1-Digest: CSHhQK1iVq1OshoygxGc842UCYE=
+
+Name: sprites/blocks/drills/热能钻头-rotator.png
+SHA1-Digest: oIThPj6Noxp6WNaO9LlSrPKM1I0=
+
+Name: sprites/blocks/drills/热能钻头-top.png
+SHA1-Digest: V5+sUSZ2SoHkh3B91951/ie8Vvo=
+
+Name: sprites/blocks/drills/热能钻头.png
+SHA1-Digest: pILNsBmEw/cjj5izjNoAYCCQIp8=
+
+Name: sprites/blocks/drills/裂变钻头-rim.png
+SHA1-Digest: pUISk3PbmvKB+AfWf1UydXHrYeM=
+
+Name: sprites/blocks/drills/裂变钻头-rotator.png
+SHA1-Digest: 3sceO49iq5b8Vu1LIrnl+NhyVLE=
+
+Name: sprites/blocks/drills/裂变钻头-top.png
+SHA1-Digest: 4jc4alITw5R3IETWVC3KJ35ltlk=
+
+Name: sprites/blocks/drills/裂变钻头.png
+SHA1-Digest: OIT3kPL/8lECZQF/0gXPkMXusrM=
+
+Name: sprites/blocks/drills/超频抽水机-liquid.png
+SHA1-Digest: XnsgHgbnyhv4+ko6Tw+A1fe+8GU=
+
+Name: sprites/blocks/drills/超频抽水机-rotator.png
+SHA1-Digest: ZL++dKVGYwp8SM9BWhud0V3WEQs=
+
+Name: sprites/blocks/drills/超频抽水机-top.png
+SHA1-Digest: vyCVFW/l8QlrohuZBKtz3KYI58s=
+
+Name: sprites/blocks/drills/超频抽水机.png
+SHA1-Digest: aPDNFip+ZXT7Oifec5+S321bSvU=
+
+Name: sprites/blocks/drills/超频钻头-item.png
+SHA1-Digest: ro5jk6JiKXoMJMvdTbYvHz8StoA=
+
+Name: sprites/blocks/drills/超频钻头-rim.png
+SHA1-Digest: JVFyzUdoQU1ChrH6PKuRixZVElk=
+
+Name: sprites/blocks/drills/超频钻头-rotator.png
+SHA1-Digest: NehdtQv9A99Tq2hwJotzF3Rrymo=
+
+Name: sprites/blocks/drills/超频钻头-top.png
+SHA1-Digest: qBpGhUEViTK5MnKYdbhWQTRwXdk=
+
+Name: sprites/blocks/drills/超频钻头.png
+SHA1-Digest: Vt1oVCoRf/1sb/xg9LQuYCJbW64=
+
+Name: sprites/blocks/drills/钛晶钻头-item.png
+SHA1-Digest: K+RlKwVY2hR73DyEeRkww4v3qWA=
+
+Name: sprites/blocks/drills/钛晶钻头-rim.png
+SHA1-Digest: sx8JAg0HJb9UBikhDUNgAPDlduQ=
+
+Name: sprites/blocks/drills/钛晶钻头-rotator.png
+SHA1-Digest: EEko9ZCZenqVWXeJFSEkoOiv2dA=
+
+Name: sprites/blocks/drills/钛晶钻头-top.png
+SHA1-Digest: hVbT7utab9wamRC+2mezyPSNl3E=
+
+Name: sprites/blocks/drills/钛晶钻头.png
+SHA1-Digest: 3y+KUTZ0rHs+gWPq6YSZlp8BSzs=
+
+Name: sprites/blocks/effects/修复单元-top.png
+SHA1-Digest: Otght68D8jTMM6aF1OMdFGzouv0=
+
+Name: sprites/blocks/effects/修复单元.png
+SHA1-Digest: jASbG4WEw8EXlqPUC5CCBqNNAcI=
+
+Name: sprites/blocks/effects/修复矩阵单元-top.png
+SHA1-Digest: 9iQ7tpC34XjXPIIclH+W4U9Yztk=
+
+Name: sprites/blocks/effects/修复矩阵单元.png
+SHA1-Digest: fGLexTMl0jrEgtIY31yvlFv8dos=
+
+Name: sprites/blocks/effects/修复矩阵核心-top.png
+SHA1-Digest: O6RwhUBke3kYx9IBPOqd2GihoWw=
+
+Name: sprites/blocks/effects/修复矩阵核心.png
+SHA1-Digest: MCxDLLwzmWpniTqSmAV1WaXNuA4=
+
+Name: sprites/blocks/effects/加速单元-top.png
+SHA1-Digest: 4Jmnk8oardKfxvgpf2IngoaSKiI=
+
+Name: sprites/blocks/effects/加速单元.png
+SHA1-Digest: qnGR+WI8lnuz0ZgDJhg7rrKRfO0=
+
+Name: sprites/blocks/effects/加速矩阵单元-top.png
+SHA1-Digest: nigg7OvogDKvclbdP5+M6HYevew=
+
+Name: sprites/blocks/effects/加速矩阵单元.png
+SHA1-Digest: yFS4bj9U4vYl870dn53qL4YcBMo=
+
+Name: sprites/blocks/effects/加速矩阵核心-top.png
+SHA1-Digest: o8wmSV3nGB+cRW4Ql9e6Jn/H+Jc=
+
+Name: sprites/blocks/effects/加速矩阵核心.png
+SHA1-Digest: vcBNjeohw16hu3Volg6TBIL4+7M=
+
+Name: sprites/blocks/effects/区块加速矩阵核心-top.png
+SHA1-Digest: f3sa1xiCRu8KHYAoRP07vBYiGss=
+
+Name: sprites/blocks/effects/区块加速矩阵核心.png
+SHA1-Digest: uuKjdFWZmNW17/LYjYkVNPqQDg0=
+
+Name: sprites/blocks/effects/原质盾墙-liquid.png
+SHA1-Digest: kUzi62CczsPcr7sX8Cobml4/tpY=
+
+Name: sprites/blocks/effects/原质盾墙-top.png
+SHA1-Digest: /KFYNiHMSeF/WyC8LOKLN8+TNtQ=
+
+Name: sprites/blocks/effects/原质盾墙.png
+SHA1-Digest: jsfg4sUIbE5CVVgAVgCt9kLGhLk=
+
+Name: sprites/blocks/effects/存储单元-top.png
+SHA1-Digest: eorsHEZHt5T2eN2G1zaFHiHeReU=
+
+Name: sprites/blocks/effects/存储单元.png
+SHA1-Digest: PDteBpF+pAlgnS55xAfAcp4YIn4=
+
+Name: sprites/blocks/effects/存储矩阵单元-top.png
+SHA1-Digest: vYeCkrhwucpyBdLxjcL27lFGGGE=
+
+Name: sprites/blocks/effects/存储矩阵单元.png
+SHA1-Digest: mBKo6HX+DZyuivBVLUZwo1hw4Gs=
+
+Name: sprites/blocks/effects/液体存储单元-bottom.png
+SHA1-Digest: h3cft+5oWI0/PAZurvsRUeS13Oc=
+
+Name: sprites/blocks/effects/液体存储单元-top.png
+SHA1-Digest: ocjTrRYDpzmR/U9jQW68O2XaikQ=
+
+Name: sprites/blocks/effects/液体存储单元.png
+SHA1-Digest: kOWFlPyW+G4NIGojvk0FiMpJSUA=
+
+Name: sprites/blocks/effects/液体存储矩阵单元-bottom.png
+SHA1-Digest: h64jb7kKer59T3gfJD0U2pfS6Co=
+
+Name: sprites/blocks/effects/液体存储矩阵单元-top.png
+SHA1-Digest: b9ubVXIzvcHxDUSOgeuOkZA79gU=
+
+Name: sprites/blocks/effects/液体存储矩阵单元.png
+SHA1-Digest: EtK1QmMHDbbQ6NdhQpQku3lAEhA=
+
+Name: sprites/blocks/effects/量子护盾发生器-liquid.png
+SHA1-Digest: KTsnhhiW3I75LG6qEpyVKHPzgyo=
+
+Name: sprites/blocks/effects/量子护盾发生器-top.png
+SHA1-Digest: nGN1xywdPknUQdA1fOz1clTOFTE=
+
+Name: sprites/blocks/effects/量子护盾发生器.png
+SHA1-Digest: ynv816cgHGTG8XJLVIU1u++YZto=
+
+Name: sprites/blocks/environment/地板/冻土1.png
+SHA1-Digest: 4kdhCQogmofOONTaSG1fWMK22ic=
+
+Name: sprites/blocks/environment/地板/冻土2.png
+SHA1-Digest: d4JyooG7Jjg5IgEBgpiVDBOwA+Q=
+
+Name: sprites/blocks/environment/地板/冻土3.png
+SHA1-Digest: s1n5kStSkc9B9KvkUdY/7YIz8jo=
+
+Name: sprites/blocks/environment/地板/地下水1.png
+SHA1-Digest: 4OY5FCTHwR5iazyr3CWFH7KAj/c=
+
+Name: sprites/blocks/environment/地板/地下水2.png
+SHA1-Digest: FtMy6J6ZikRSfBAi8fdycIfxvm4=
+
+Name: sprites/blocks/environment/地板/地下水3.png
+SHA1-Digest: 86CFtJdL16N30Xu9HhBJ2Mh4bNc=
+
+Name: sprites/blocks/environment/地板/熔岩层1.png
+SHA1-Digest: DhEOFkzZ8Q5zfKUrz6U11u3XnRk=
+
+Name: sprites/blocks/environment/地板/熔岩层2.png
+SHA1-Digest: W2MlNA2Deq79u/hv1C98fOi3of8=
+
+Name: sprites/blocks/environment/地板/熔岩层3.png
+SHA1-Digest: UJRmBiM5Zd9gO8Vk352/ZoJ19L4=
+
+Name: sprites/blocks/environment/地板/熔岩湖.png
+SHA1-Digest: 4xCdfsQGT1OrSsqyaJd24PokJyw=
+
+Name: sprites/blocks/environment/矿石/原铀/铀1.png
+SHA1-Digest: 2zlrGQcA//EoqfgcZbzvz1i0+XM=
+
+Name: sprites/blocks/environment/矿石/原铀/铀2.png
+SHA1-Digest: 7M8tD0ccRkVuNzCkKbPE2ck7cCY=
+
+Name: sprites/blocks/environment/矿石/原铀/铀3.png
+SHA1-Digest: Y3J59QL43Un7WCyoVlI4qyFi1wU=
+
+Name: sprites/blocks/environment/矿石/新铜/铜1.png
+SHA1-Digest: kEqZiG3KqEVhkW4oKdj4QjmbO1I=
+
+Name: sprites/blocks/environment/矿石/新铜/铜2.png
+SHA1-Digest: koNMZ2heM8ak+rmgmGPr1EcDa2g=
+
+Name: sprites/blocks/environment/矿石/新铜/铜3.png
+SHA1-Digest: W7Qed1EnBgWy0gVQksQXvwVm7DY=
+
+Name: sprites/blocks/environment/矿石/金刚石原矿/金刚石1.png
+SHA1-Digest: 4FczBsMVM8RC6u67A8UIc4qkWMc=
+
+Name: sprites/blocks/environment/矿石/金刚石原矿/金刚石2.png
+SHA1-Digest: yIWdKYzI4kL0Nc55vB8Lk0aYeeY=
+
+Name: sprites/blocks/environment/矿石/金刚石原矿/金刚石3.png
+SHA1-Digest: 5u6WqzuXtpvB/OOvuna4iTBAifc=
+
+Name: sprites/blocks/environment/矿石/钯金/钯金1.png
+SHA1-Digest: EG9YMWu5sfXvSMBwHU2AQXtD/ls=
+
+Name: sprites/blocks/environment/矿石/钯金/钯金2.png
+SHA1-Digest: y63KQM/kaJSuptjSaP4ptzI3dL0=
+
+Name: sprites/blocks/environment/矿石/钯金/钯金3.png
+SHA1-Digest: 81KhGPM6myVG/NMUMpJeIxuKCJE=
+
+Name: sprites/blocks/environment/矿石/钴矿/钴1.png
+SHA1-Digest: yZLG11aXIX9dmj7q12ILdb5K60A=
+
+Name: sprites/blocks/environment/矿石/钴矿/钴2.png
+SHA1-Digest: KUZd+FWyuBNpI1szmyfHkkzEV9M=
+
+Name: sprites/blocks/environment/矿石/钴矿/钴3.png
+SHA1-Digest: 0ywVkJ3AU6+HmdykMz6EQUwji8U=
+
+Name: sprites/blocks/environment/矿石/铁原矿/铁矿石1.png
+SHA1-Digest: O3gEUlla4pVzLBeaSpcc1Pz+gvA=
+
+Name: sprites/blocks/environment/矿石/铁原矿/铁矿石2.png
+SHA1-Digest: dTN6zCWpyu9IZAjSN+fbTsRDL5o=
+
+Name: sprites/blocks/environment/矿石/铁原矿/铁矿石3.png
+SHA1-Digest: AwD3ZozNK35WAXAhHASG3Nc3CU0=
+
+Name: sprites/blocks/environment/矿石/陨铁矿/陨铁1.png
+SHA1-Digest: dTIz63ch7epx2UC+GHBkZmg0+nY=
+
+Name: sprites/blocks/environment/矿石/陨铁矿/陨铁2.png
+SHA1-Digest: vUpgc9AjAPLEHbhVOruks/DzCoc=
+
+Name: sprites/blocks/environment/矿石/陨铁矿/陨铁3.png
+SHA1-Digest: z/wVhh6b2wIWLaCWbjbxshIUrK4=
+
+Name: sprites/blocks/items/zs.png
+SHA1-Digest: wv9F10e+m+TDu+svyNqikBjSJBk=
+
+Name: sprites/blocks/items/三合金.png
+SHA1-Digest: i4NqnUDlsraqxL+Nwb4bIMynjZw=
+
+Name: sprites/blocks/items/压缩孢子合金.png
+SHA1-Digest: qamvslUl26WneYd4oaFsQBneyUw=
+
+Name: sprites/blocks/items/原质.png
+SHA1-Digest: 7QREs8iINq5Qae8G2hD2Th4Fofo=
+
+Name: sprites/blocks/items/合金板.png
+SHA1-Digest: OV7CLy7Zjj6y5TqE+CL/R4Y/nFc=
+
+Name: sprites/blocks/items/孢子合金.png
+SHA1-Digest: xl0xmpDIlsIedde9sfue2O/+1sQ=
+
+Name: sprites/blocks/items/晶金.png
+SHA1-Digest: j27nDJIp51+7GJu/kcnciOrSekA=
+
+Name: sprites/blocks/items/晶金板.png
+SHA1-Digest: bzPQxXzX0QTmaOoyYFpHGuAn/HM=
+
+Name: sprites/blocks/items/气凝胶.png
+SHA1-Digest: z4rJB11uZdOeMElRdY/kz76o+As=
+
+Name: sprites/blocks/items/物质原子.png
+SHA1-Digest: ayHtyQFpDBpwDsE9Ai5q0veyHDw=
+
+Name: sprites/blocks/items/能源合金.png
+SHA1-Digest: fA9sg/L0QUb7d4g/KlBc/H3yUFY=
+
+Name: sprites/blocks/items/自塑合金/自塑合金1.png
+SHA1-Digest: jA7o2xYfvbYaIp61QZYfLYTfQ8I=
+
+Name: sprites/blocks/items/自塑合金/自塑合金10.png
+SHA1-Digest: a5CCnhTo3Y5SRyw3INsq5Duny64=
+
+Name: sprites/blocks/items/自塑合金/自塑合金11.png
+SHA1-Digest: ECZTQiDLuQ/Nj3vkgtSS0fwstNw=
+
+Name: sprites/blocks/items/自塑合金/自塑合金12.png
+SHA1-Digest: o7m5fhqpXSZkI2OKpw8woPwY3UE=
+
+Name: sprites/blocks/items/自塑合金/自塑合金2.png
+SHA1-Digest: mIkiI7pP56YYQ0LZ6Uy4QPyGhnM=
+
+Name: sprites/blocks/items/自塑合金/自塑合金3.png
+SHA1-Digest: S6Cuya4OexCRyy4d5N+lPMRysfE=
+
+Name: sprites/blocks/items/自塑合金/自塑合金4.png
+SHA1-Digest: hTFX8/mBSuQGsGf2N+33nZZFrH4=
+
+Name: sprites/blocks/items/自塑合金/自塑合金5.png
+SHA1-Digest: PLUXBmU7AhB7SGWLSqLj1rTREjI=
+
+Name: sprites/blocks/items/自塑合金/自塑合金6.png
+SHA1-Digest: mDw6cYytP4rZqP7du99R6bw/U8A=
+
+Name: sprites/blocks/items/自塑合金/自塑合金7.png
+SHA1-Digest: 3k2SJFS2AVtaymLkPG7sG5XgvVQ=
+
+Name: sprites/blocks/items/自塑合金/自塑合金8.png
+SHA1-Digest: b0guRZywjR7nbZhgB3k8EO4ofCk=
+
+Name: sprites/blocks/items/自塑合金/自塑合金9.png
+SHA1-Digest: WT9fKIG488oLWSMgDmCs+UxRCag=
+
+Name: sprites/blocks/items/金刚石.png
+SHA1-Digest: DVZkJyZnEdipMu5JbFBKuxg40L0=
+
+Name: sprites/blocks/items/钍钢.png
+SHA1-Digest: 9XVAWwvqS8jKDfpWm/aXRz/kS6s=
+
+Name: sprites/blocks/items/钛晶.png
+SHA1-Digest: xAZQ+sh/4V6nAHGxswFd3LlsT90=
+
+Name: sprites/blocks/items/钢.png
+SHA1-Digest: EcNd+eTNdE9cQmxeOnVX1xy9jhU=
+
+Name: sprites/blocks/items/钢化玻璃.png
+SHA1-Digest: CtVi+LoW6DjoM23O/jU+/41N2F8=
+
+Name: sprites/blocks/items/钯金.png
+SHA1-Digest: SvBy8r+uIhMhd0YBy6/ZVbLYeTk=
+
+Name: sprites/blocks/items/钴.png
+SHA1-Digest: WuvXdaTVH/+fu8GdNwWWX7sXb+8=
+
+Name: sprites/blocks/items/铀.png
+SHA1-Digest: 6psNNQEVaPN66jK14MJVPcBCf10=
+
+Name: sprites/blocks/items/铁.png
+SHA1-Digest: aZ2eQFdnePL3IP5f/ryXn2XuZKA=
+
+Name: sprites/blocks/items/铁矿石.png
+SHA1-Digest: FQBAChKambDLiZLP+A+Ym/Tc3YE=
+
+Name: sprites/blocks/items/铅板.png
+SHA1-Digest: 31wOOwq9vOkj//tpFwi7fkKhJx0=
+
+Name: sprites/blocks/items/铜.png
+SHA1-Digest: FT+7+8tgfLIIT3i05flSYL8ErOM=
+
+Name: sprites/blocks/items/陨铁.png
+SHA1-Digest: 5+md596XMfm/hv06DNKwAMSOleo=
+
+Name: sprites/blocks/liquids/冷凝水.png
+SHA1-Digest: MBSSX+XbfKuIDsJ4mBvWofbVSBc=
+
+Name: sprites/blocks/liquids/孢子流体.png
+SHA1-Digest: xEsFV7/LrHppkRrCD+8vfKVVLhc=
+
+Name: sprites/blocks/liquids/孢子液.png
+SHA1-Digest: 3E6Ag01tDdRkK6QA/PJxPzoXnt4=
+
+Name: sprites/blocks/liquids/极寒.png
+SHA1-Digest: EkrKu1DSr4m3zL2xxIWeGMBxlqc=
+
+Name: sprites/blocks/liquids/气化熔岩.png
+SHA1-Digest: /TvO2p/JMGAvt9tbGNiTFDqksBc=
+
+Name: sprites/blocks/liquids/液氧.png
+SHA1-Digest: nBQWJJ9EfKpwnv5Rvm5RLd5IGs8=
+
+Name: sprites/blocks/liquids/液氮.png
+SHA1-Digest: Qs7wAjomnmQkOOv3BCrEXEGOorU=
+
+Name: sprites/blocks/liquids/熔岩.png
+SHA1-Digest: ZHtwgdiIG7Aw0Aji/QQH505AWBs=
+
+Name: sprites/blocks/power/X反应堆-bottom.png
+SHA1-Digest: stUW73gIM2Ib2peiNqbZR36lxNY=
+
+Name: sprites/blocks/power/X反应堆-lights.png
+SHA1-Digest: M1cJP4bvj/yh/5Q7aYSx+HEI6MU=
+
+Name: sprites/blocks/power/X反应堆.png
+SHA1-Digest: RSVVHCQH6qD4uzgOZTGXorcl7Hc=
+
+Name: sprites/blocks/power/光伏板.png
+SHA1-Digest: XRBv+Dz6dryFqynhnHR3V7pkDhE=
+
+Name: sprites/blocks/power/压缩能源核心-top.png
+SHA1-Digest: /J5iVmusWoNvhZZ4PHjHon9mOXs=
+
+Name: sprites/blocks/power/压缩能源核心.png
+SHA1-Digest: MSOHLvLlQv5kXlEP8MUPF+v9AQ0=
+
+Name: sprites/blocks/power/四联核反应堆-lights.png
+SHA1-Digest: 560hcTsaOTZt/kqkXtoc9ZReXOk=
+
+Name: sprites/blocks/power/四联核反应堆-top.png
+SHA1-Digest: 1A75kQpD88XYuWOGmPpl1Ws5J4Q=
+
+Name: sprites/blocks/power/四联核反应堆.png
+SHA1-Digest: muYFAus4dxq5yXlsIrKUxwzk49g=
+
+Name: sprites/blocks/power/大型核子电池-top.png
+SHA1-Digest: SBgwLBLkV/vdfmNGecOu2fOt1N8=
+
+Name: sprites/blocks/power/大型核子电池.png
+SHA1-Digest: GSl3+Y8g9cq20O1/yA2LQR+KrNA=
+
+Name: sprites/blocks/power/大型电容-top.png
+SHA1-Digest: 51+7SS8OPkfvB2c2bAzJUpwZPqs=
+
+Name: sprites/blocks/power/大型电容.png
+SHA1-Digest: 19TdZrQqkbKVudq6/TIxZntSvxk=
+
+Name: sprites/blocks/power/大战争节点.png
+SHA1-Digest: ROpMNgVMV39cFc8tsNR19erfv4s=
+
+Name: sprites/blocks/power/寄生物反应堆-liquid.png
+SHA1-Digest: edlfz+3V5rQ+ADY00xtAw2bY9GE=
+
+Name: sprites/blocks/power/寄生物反应堆-top.png
+SHA1-Digest: V6W1MaaI/ZzisrhgVfSUaR6hbaM=
+
+Name: sprites/blocks/power/寄生物反应堆.png
+SHA1-Digest: eZzEAkODbqKs1jGDXHK+s9MGld0=
+
+Name: sprites/blocks/power/小型核反应堆-light.png
+SHA1-Digest: 5nkAmthu9O5Z5m6I7hakM4kBfcE=
+
+Name: sprites/blocks/power/小型核反应堆-top.png
+SHA1-Digest: c6f2hGgz/mrioYEvt5mKmFjFc/0=
+
+Name: sprites/blocks/power/小型核反应堆.png
+SHA1-Digest: wDo6BZz0UuOIoZBCHdBWHso7jfs=
+
+Name: sprites/blocks/power/战争节点.png
+SHA1-Digest: CxPBHug61SavDofkwmyfkSRPoko=
+
+Name: sprites/blocks/power/核子电池-top.png
+SHA1-Digest: amwujJZCDh6Br2CtySK/0c3MjiY=
+
+Name: sprites/blocks/power/核子电池.png
+SHA1-Digest: P6DFsVjBF7B28ZwtkPiYBV3Yld8=
+
+Name: sprites/blocks/power/核能反应堆-top.png
+SHA1-Digest: JZM+btHi1YgwgWQkUDSeGWVXTtA=
+
+Name: sprites/blocks/power/核能反应堆.png
+SHA1-Digest: UVFkYWafVLHG05uQ3suXUYo7U6U=
+
+Name: sprites/blocks/power/液体燃烧性实验工厂-liquid.png
+SHA1-Digest: YugsfLcR7SFNMcxUXwjIOuRyR8M=
+
+Name: sprites/blocks/power/液体燃烧性实验工厂-top.png
+SHA1-Digest: YnP3/5zv7P11unPKDcAgeQoUPdk=
+
+Name: sprites/blocks/power/液体燃烧性实验工厂.png
+SHA1-Digest: 4IPvmkJVRjA6QI/gK5rwwiBsn2Q=
+
+Name: sprites/blocks/power/温差反应堆-bottom.png
+SHA1-Digest: /LzRK0ELD+VkwSvvzu7+pG6pXtY=
+
+Name: sprites/blocks/power/温差反应堆-light.png
+SHA1-Digest: uPNHE2T3te5fuEkUnSZrfH3tRi4=
+
+Name: sprites/blocks/power/温差反应堆-plasma-0.png
+SHA1-Digest: 4u0DsB/RermX3q3yxm1Puw0V1BM=
+
+Name: sprites/blocks/power/温差反应堆-plasma-1.png
+SHA1-Digest: vMemM4HDJLGtRc/E8NGkQA1s39o=
+
+Name: sprites/blocks/power/温差反应堆-plasma-2.png
+SHA1-Digest: LVvxXSGkmONMmjgOEGZVhxa+YJw=
+
+Name: sprites/blocks/power/温差反应堆.png
+SHA1-Digest: ABipZKISWGwh3lPdhz3ND3sXvk4=
+
+Name: sprites/blocks/power/电力提取机-top.png
+SHA1-Digest: kn/j0dxT0C+/Wtxyz/87yBK8DQ8=
+
+Name: sprites/blocks/power/电力提取机.png
+SHA1-Digest: kQCMAi4IanL19YFz61+7B3FSpKg=
+
+Name: sprites/blocks/power/电容-top.png
+SHA1-Digest: k4WejoyXNm0+sHNlthPizuNL3AY=
+
+Name: sprites/blocks/power/电容.png
+SHA1-Digest: As0qRagLRNtQlhoaqe671BMmzTk=
+
+Name: sprites/blocks/power/矩阵核心-lights.png
+SHA1-Digest: A42ismKphlZv2gLsraNTfN2lb+w=
+
+Name: sprites/blocks/power/矩阵核心.png
+SHA1-Digest: LKcQ9esKUfcM13xjasfX/xv44SI=
+
+Name: sprites/blocks/power/终极电池-top.png
+SHA1-Digest: 0BntQZIg9WM4nZmTo5yM1ZzoXNA=
+
+Name: sprites/blocks/power/终极电池.png
+SHA1-Digest: H/vd+C2DrXoRHHlGwjhVp4uhDdY=
+
+Name: sprites/blocks/power/集成型火力发电设备-top.png
+SHA1-Digest: T+bPycaQInEucktq7/sKYZC2/p8=
+
+Name: sprites/blocks/power/集成型火力发电设备.png
+SHA1-Digest: 6cQc4W3EmvB0oIau8SLNvkIz5JM=
+
+Name: sprites/blocks/production/三合金融合厂-top.png
+SHA1-Digest: woZST/OsgiaziQCoZTvxZX/OLTs=
+
+Name: sprites/blocks/production/三合金融合厂.png
+SHA1-Digest: CLr0XVz9V6+btSL29/Gelb6ke2E=
+
+Name: sprites/blocks/production/低温流体生产厂-bottom.png
+SHA1-Digest: uuTUWZGmdqpLpIruoXN44a35QO4=
+
+Name: sprites/blocks/production/低温流体生产厂-glow.png
+SHA1-Digest: jPf+1bAQ6x45x9DCLcNXk+zgLgE=
+
+Name: sprites/blocks/production/低温流体生产厂-top.png
+SHA1-Digest: arKxHJCBhDsj0C6u+drROQBNxvE=
+
+Name: sprites/blocks/production/低温流体生产厂-液氮-outputs.p
+ ng
+SHA1-Digest: 1Hc66NWYLjnXsE1oPlSLIZAYZNc=
+
+Name: sprites/blocks/production/低温流体生产厂-熔岩-output1.p
+ ng
+SHA1-Digest: zZlRYoKN9spObU1U5LPUf9IA1G8=
+
+Name: sprites/blocks/production/低温流体生产厂.png
+SHA1-Digest: MO/mCziPpdEoiuwHANuvCa4UpOE=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-bottom.png
+SHA1-Digest: Ff5e3hQDt4XsPgPPXou99rV0P8c=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-glow.png
+SHA1-Digest: bdnji9bKgWoDAaIeEmknlA/VThQ=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-top.png
+SHA1-Digest: +pE0avs3kWLftXGQ634znPyZbdQ=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-液氮-output1.png
+SHA1-Digest: 92ftoNiVtkVYJ4pO+p5lGPBR6Mo=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-液氮-output2.png
+SHA1-Digest: 99eAqd/nEkp3dVtaH6wfodc4XMo=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-熔岩-output1.png
+SHA1-Digest: eTyImtIae4Z/qi6Uwex41NSOp6Q=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂-熔岩-output2.png
+SHA1-Digest: luYJbDgRObZmC+ilxOBp7KEgcUw=
+
+Name: sprites/blocks/production/低温流体生产厂/低温流体生 
+   厂.png
+SHA1-Digest: Q9s17eJXHXwhi61IdaJl4n+qJ2s=
+
+Name: sprites/blocks/production/加强型矿渣炉-liquid.png
+SHA1-Digest: RlQ1prYu2bNTZZAhm8GkV02msbI=
+
+Name: sprites/blocks/production/加强型矿渣炉.png
+SHA1-Digest: FucNkQ6Q31HFwKTtCs+iK+SYV9U=
+
+Name: sprites/blocks/production/原子对撞机-top.png
+SHA1-Digest: 2qETCYb4Cgo7t52j8eMSqSXG0ew=
+
+Name: sprites/blocks/production/原子对撞机.png
+SHA1-Digest: aUMk37duAqSzTHJaPthD8YBb+9I=
+
+Name: sprites/blocks/production/原铁精加工厂-top.png
+SHA1-Digest: 3VxOIcsaweATUq6FGWt+Qd1cUtU=
+
+Name: sprites/blocks/production/原铁精加工厂.png
+SHA1-Digest: RA79ZeCfAV4Y0ZvZyjVuceYQO90=
+
+Name: sprites/blocks/production/合金培养机.png
+SHA1-Digest: pO1dBD3q9yyZ3R6L/T0nLs0yAvQ=
+
+Name: sprites/blocks/production/合金能量注入器-top.png
+SHA1-Digest: GqEk9q33pFb1xGBoVEHb5ukXdKg=
+
+Name: sprites/blocks/production/合金能量注入器.png
+SHA1-Digest: ygGyDxY3oR0q2en+SqTDIWNbm0o=
+
+Name: sprites/blocks/production/复合合金厂-top.png
+SHA1-Digest: tsxXtgScYYsKj8hXryi9GktIs48=
+
+Name: sprites/blocks/production/复合合金厂.png
+SHA1-Digest: PNwYDfUSvs0Ro6LyPLpEvkZCmwA=
+
+Name: sprites/blocks/production/复合相位厂-bottom.png
+SHA1-Digest: QNB5C83dzJsraE7uv3j5KiSpoJA=
+
+Name: sprites/blocks/production/复合相位厂-vents.png
+SHA1-Digest: X/6vFCqAAdKTZcxsyA32C3zQgpk=
+
+Name: sprites/blocks/production/复合相位厂-weave-glow.png
+SHA1-Digest: 56KzBvXUeV1RuWYHF9jDuF8S4m8=
+
+Name: sprites/blocks/production/复合相位厂-weave.png
+SHA1-Digest: ukVcgTSt9bIj7rRLUbKiMJNGbV0=
+
+Name: sprites/blocks/production/复合相位厂.png
+SHA1-Digest: 2oxX/krnZCAsx1C9SK0tQsGOWso=
+
+Name: sprites/blocks/production/复合硅厂-top.png
+SHA1-Digest: RyoE+KBaG2rYb0XWV/EWK4hz+fY=
+
+Name: sprites/blocks/production/复合硅厂.png
+SHA1-Digest: prwkLIB+rfCMxBdgqHO3+cHvb0I=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置-bottom.png
+SHA1-Digest: NqOtmqNGd/di8VBuUF422aSFdeo=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置-glow.png
+SHA1-Digest: 8ix0WzzP+pCYg8HeNFDHwW349x4=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置-液氧-output1.png
+SHA1-Digest: ZrbGBz66g5Sj5XoQnDTic+UlhN8=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置-液氧-output2.png
+SHA1-Digest: Yz1ngnzUSZrsjRnGecDLu/bklB8=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置-液氮-output1.png
+SHA1-Digest: ktlIUrmQElZvV6JgLsi9V5I20DM=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置-液氮-output2.png
+SHA1-Digest: vKW54cZqeq2knQmvLqwotczUFuY=
+
+Name: sprites/blocks/production/大气分离液化装置/大气分离 
+   化装置.png
+SHA1-Digest: a4YYH+ZmDwu+4fWcchU7s3ftgGc=
+
+Name: sprites/blocks/production/孢子冷冻仪-liquid.png
+SHA1-Digest: xg3tRdzaIO3FO2zCcW3sHElfUVU=
+
+Name: sprites/blocks/production/孢子冷冻仪.png
+SHA1-Digest: /ueu1XnRXc3RL30vf3JxU4N1ycI=
+
+Name: sprites/blocks/production/废料研磨厂-rotator.png
+SHA1-Digest: txuc20E3ubCeFB+Mv2P2IYpkSlM=
+
+Name: sprites/blocks/production/废料研磨厂.png
+SHA1-Digest: AWYJ7ty+0ITvvkrurutJHngenlU=
+
+Name: sprites/blocks/production/核诱变机.png
+SHA1-Digest: ktkdk38JY5VC5CwhukJ7i9pVKFw=
+
+Name: sprites/blocks/production/气凝胶厂-liquid.png
+SHA1-Digest: YHJN7gzr621obVfPS36QTHDtKpY=
+
+Name: sprites/blocks/production/气凝胶厂-top.png
+SHA1-Digest: dH48v5giPqmrBHL389mvPrqQdN8=
+
+Name: sprites/blocks/production/气凝胶厂.png
+SHA1-Digest: fNbomsDKrq3NXmll0uOs/XKu1hU=
+
+Name: sprites/blocks/production/沙子复原厂.png
+SHA1-Digest: kjOSWWXmpWIvi2yC5yAmXQyRH5k=
+
+Name: sprites/blocks/production/熔岩处理装置-top.png
+SHA1-Digest: UPsnKRtwuxGMz4VqLb5uF+bakeI=
+
+Name: sprites/blocks/production/熔岩处理装置.png
+SHA1-Digest: P+btolZ8WqhKK5S7gAlElGk6glw=
+
+Name: sprites/blocks/production/物质升华厂-top.png
+SHA1-Digest: PWzS+JDn2RWfq8IkFAuwWittBMQ=
+
+Name: sprites/blocks/production/物质升华厂.png
+SHA1-Digest: RQEpOPLAY3gxahQByJKGz930rAU=
+
+Name: sprites/blocks/production/粒子收集器.png
+SHA1-Digest: J31RhGuvH2o5NLqSz0F0BL2+rh8=
+
+Name: sprites/blocks/production/金刚石制造厂-top.png
+SHA1-Digest: znIM5EfVx0LjvgyiI7NixcvCLIg=
+
+Name: sprites/blocks/production/金刚石制造厂.png
+SHA1-Digest: mwb7CwiCCWNRLQE8e8U+yJlO5MQ=
+
+Name: sprites/blocks/production/钍钢冶炼厂-top.png
+SHA1-Digest: A9hwG8RDmB8X8qLpfWadASHmiE0=
+
+Name: sprites/blocks/production/钍钢冶炼厂.png
+SHA1-Digest: s9Hrn1sSots0102sLVl4S0Zi5g0=
+
+Name: sprites/blocks/production/钛晶融制器-top.png
+SHA1-Digest: tAhWZvoc8ShIMb7zS7SUWiMiKfI=
+
+Name: sprites/blocks/production/钛晶融制器.png
+SHA1-Digest: l+G/JXSbD7FScY1vCpI680qEel4=
+
+Name: sprites/blocks/production/钢化玻璃厂-top.png
+SHA1-Digest: bkUb+gBfjNlaf6GK20pH/9kAv5U=
+
+Name: sprites/blocks/production/钢化玻璃厂.png
+SHA1-Digest: GJrzDJymnYOShp5zHbp9dcM8CiI=
+
+Name: sprites/blocks/production/钻石研磨厂-top.png
+SHA1-Digest: 4Ce42/Hnu6FCpGPW31jrz2phID8=
+
+Name: sprites/blocks/production/钻石研磨厂.png
+SHA1-Digest: acHU9NWGx6H2dMvm5Y6gNd4zYNQ=
+
+Name: sprites/blocks/production/铁冶炼厂-top.png
+SHA1-Digest: dgSvlFHEJP5W23IjdMgYHvx8FlY=
+
+Name: sprites/blocks/production/铁冶炼厂.png
+SHA1-Digest: pw/vLRzuydM/oJUmR9daqtlB0VE=
+
+Name: sprites/blocks/production/铁生产厂-top.png
+SHA1-Digest: 7+eSIy4uERdEuwiJwJ7NBt8e6GY=
+
+Name: sprites/blocks/production/铁生产厂.png
+SHA1-Digest: WllkgY2RQ/vvgKRqXdRoiAJ8De0=
+
+Name: sprites/blocks/production/锅炉-top.png
+SHA1-Digest: CnzB+OxGZg39nx6wi7OHuybKjBQ=
+
+Name: sprites/blocks/production/锅炉.png
+SHA1-Digest: +D65+dUNmuISo7shAR6n+96uqmU=
+
+Name: sprites/blocks/production/锤板机-top.png
+SHA1-Digest: gzA0AHESdJo2hv65OwAyvs9WSyA=
+
+Name: sprites/blocks/production/锤板机.png
+SHA1-Digest: IVqTZyptDG/TMEA05dKlKfI2L1k=
+
+Name: sprites/blocks/status/status-disarmed.png
+SHA1-Digest: LXuJMBEmD4cS1NXHkr2n8qnrIzw=
+
+Name: sprites/blocks/status/status-invincible.png
+SHA1-Digest: sccuPTLneSgNPB6HqOLLaTk9Zcc=
+
+Name: sprites/blocks/status/status-none.png
+SHA1-Digest: rdoXUkmXHaueUh6fGJFfJqguGm0=
+
+Name: sprites/blocks/status/冰破.png
+SHA1-Digest: X8SUi9sjxnHsSbVBZgU2CEfaOXc=
+
+Name: sprites/blocks/status/剧毒.png
+SHA1-Digest: y3UCtWqy9iDOkFkbbSqP0195HDM=
+
+Name: sprites/blocks/status/大Boss.png
+SHA1-Digest: fNCqOlMcBbqD+8tOypsmnOnZXck=
+
+Name: sprites/blocks/status/熔毁.png
+SHA1-Digest: thjGj/R+RuK9BW4x+KvIcjSWbuw=
+
+Name: sprites/blocks/status/石化.png
+SHA1-Digest: 0UvUYNsd50FKPOJ7nQDOs2pyDK4=
+
+Name: sprites/blocks/status/老化.png
+SHA1-Digest: KZmqELPzYV0JxnURDF8DVwNcRcw=
+
+Name: sprites/blocks/status/膏肓.png
+SHA1-Digest: J4AIsSbCKA1d+d40xcuaIye2GDE=
+
+Name: sprites/blocks/status/自愈1.png
+SHA1-Digest: iBR86M4Ghd+lfv7ulx+kJKMBn8Y=
+
+Name: sprites/blocks/status/自愈2.png
+SHA1-Digest: sBmW5GkzAX076SMzGdmTKtWRIgo=
+
+Name: sprites/blocks/status/自愈3.png
+SHA1-Digest: YvKjqcqreUQayzlWWwdYHOI7Fhg=
+
+Name: sprites/blocks/status/虚无.png
+SHA1-Digest: UdT25I42tGPIrxD7YHvkGOuIm0g=
+
+Name: sprites/blocks/turrets/M220-heat.png
+SHA1-Digest: 11LSmVgcEJ9t/NmfNt8FH3KYRBk=
+
+Name: sprites/blocks/turrets/M220-liquid.png
+SHA1-Digest: CjHaibvxff8hS583Z0f41HVTcnU=
+
+Name: sprites/blocks/turrets/M220.png
+SHA1-Digest: tlsLlBgWx4h0t97lJc3OwnrhsAA=
+
+Name: sprites/blocks/turrets/bases/block-12.png
+SHA1-Digest: cdXxr4iDpycqVnMyN9Ek2E3uBsQ=
+
+Name: sprites/blocks/turrets/bases/block-16.png
+SHA1-Digest: KM/TEiZjeYcMq//cPuBpqzewgWQ=
+
+Name: sprites/blocks/turrets/bases/block-6.png
+SHA1-Digest: E4XyasiGT+L11t/zTjnlnx1b9qY=
+
+Name: sprites/blocks/turrets/bases/block-8.png
+SHA1-Digest: ysPNjcSjTiyJ7mvX7Zm7DbO76aA=
+
+Name: sprites/blocks/turrets/动能炮-heat.png
+SHA1-Digest: zwxnQdul1XKWQgc0bpzprsKA2t8=
+
+Name: sprites/blocks/turrets/动能炮.png
+SHA1-Digest: siR+mGPZ73lUTZqcSAU0gy7f8jk=
+
+Name: sprites/blocks/turrets/双管+-heat.png
+SHA1-Digest: Z+r3+KYNeQmNXscsXidF7ZMlD5Q=
+
+Name: sprites/blocks/turrets/双管+.png
+SHA1-Digest: bHRMLV9MN/IIeWv7PXpxMTYLs+w=
+
+Name: sprites/blocks/turrets/基础机枪-heat.png
+SHA1-Digest: JzhWwRbQ6SooHN0pghU6HctraZY=
+
+Name: sprites/blocks/turrets/基础机枪.png
+SHA1-Digest: dUzWiDf3ztW3F7wapUsdAAi4pks=
+
+Name: sprites/blocks/turrets/多管激光塔-heat.png
+SHA1-Digest: R7quCvGagN0HIsfp7rdd9FMYBjs=
+
+Name: sprites/blocks/turrets/多管激光塔.png
+SHA1-Digest: XFq2UUXCJddj9WpNIeSZrbDDfCQ=
+
+Name: sprites/blocks/turrets/导弹塔.png
+SHA1-Digest: 14PQLJkGE3Id7hCu1my5bd39eHA=
+
+Name: sprites/blocks/turrets/毁灭者.png
+SHA1-Digest: COO9vPSo5IV/ZYmQJE3FCOR8OFM=
+
+Name: sprites/blocks/turrets/液体冲击炮-liquid.png
+SHA1-Digest: WfbPKKS8UmU2Swx4ol2ZcM10rxE=
+
+Name: sprites/blocks/turrets/液体冲击炮.png
+SHA1-Digest: mdvqeNuWVh5VvLYkbuaEtcrAX3E=
+
+Name: sprites/blocks/turrets/湮-heat.png
+SHA1-Digest: PGeHPVPeZ/fjlqTvh98CcHDF310=
+
+Name: sprites/blocks/turrets/湮.png
+SHA1-Digest: I07h4bpVckTD1Msm6eFc2e1N4+Q=
+
+Name: sprites/blocks/turrets/激光棱镜-heat.png
+SHA1-Digest: KsaWM74P81NL0r7XRb7EVwQkxyw=
+
+Name: sprites/blocks/turrets/激光棱镜.png
+SHA1-Digest: lR8rSDq2Q/ck6r2fQzy1Yye6sAg=
+
+Name: sprites/blocks/turrets/炙烤-liquid.png
+SHA1-Digest: d1+1JBts5CiTg6DLLNlJzYA0HKo=
+
+Name: sprites/blocks/turrets/炙烤.png
+SHA1-Digest: x6GnrbC5OGcuw/ItDCLQpnuQD8k=
+
+Name: sprites/blocks/turrets/电磁加速炮-heat.png
+SHA1-Digest: YCvOvOZByTgWQcVeEouTE2hInkE=
+
+Name: sprites/blocks/turrets/电磁加速炮.png
+SHA1-Digest: Vr1jA8Uq7Z8jPxIT0bi2F6CwkgA=
+
+Name: sprites/blocks/turrets/电磁激光塔-heat.png
+SHA1-Digest: MVSqYEOXiOreA+uDIzCP4Dju4Ug=
+
+Name: sprites/blocks/turrets/电磁激光塔.png
+SHA1-Digest: w9yoA9kZf4WFQXx9+nYqX+P2md4=
+
+Name: sprites/blocks/turrets/终末-heat.png
+SHA1-Digest: QQnv0Ow1jFxQ0lP84QZpfWdEVpc=
+
+Name: sprites/blocks/turrets/终末-liquid.png
+SHA1-Digest: y5bnpWDBFaQ/0NWYFb7oD0xwGpE=
+
+Name: sprites/blocks/turrets/终末.png
+SHA1-Digest: /n8M4tFUKCYZ0Rj3PlaTTTw1IL4=
+
+Name: sprites/blocks/turrets/近防炮-heat.png
+SHA1-Digest: R7m5AvO95NYzdeFerBzFGOk5EC0=
+
+Name: sprites/blocks/turrets/近防炮.png
+SHA1-Digest: k+V8juhp0bWSkeP+qq+gajfwMII=
+
+Name: sprites/blocks/turrets/连发激光塔-heat.png
+SHA1-Digest: YNQHFnknx1gMJUdwu96cpcf1RQw=
+
+Name: sprites/blocks/turrets/连发激光塔.png
+SHA1-Digest: 1Myqg2Li5yYIkjxoyZvA3rAfLdg=
+
+Name: sprites/blocks/turrets/钢管.png
+SHA1-Digest: 3yqXsqMx/S2pIB3mE9u37pQ7Its=
+
+Name: sprites/blocks/turrets/闪电塔.png
+SHA1-Digest: L//K7MVlnNiLvxwWHDE95TxpcR8=
+
+Name: sprites/blocks/turrets/霰弹-heat.png
+SHA1-Digest: rZNsgV7uZbjWq65ATI3S0eqpcOI=
+
+Name: sprites/blocks/turrets/霰弹.png
+SHA1-Digest: KoBuO20Y65PvbZiNi/Ou1v7xcZA=
+
+Name: sprites/blocks/turrets/高级机枪-heat.png
+SHA1-Digest: BZaRkijpbBw6Y+v/uZBbKrxHJJI=
+
+Name: sprites/blocks/turrets/高级机枪.png
+SHA1-Digest: zAU9uFsk0GHGEV0Ltvy8Mlv/izQ=
+
+Name: sprites/blocks/unit/中级单位升级工厂-top.png
+SHA1-Digest: g+YCocC8+qaQx4SQy9tshaQrMG4=
+
+Name: sprites/blocks/unit/中级单位升级工厂.png
+SHA1-Digest: NjF87kVoVVp9aSkKBfO4JHV7xmI=
+
+Name: sprites/blocks/unit/列位单位升级工厂-top.png
+SHA1-Digest: xm1kd2ZDgUffJZpSPLUcMWm8Sik=
+
+Name: sprites/blocks/unit/列位单位升级工厂.png
+SHA1-Digest: yCaSrGdtW71Ygae/QdtIwUvSExU=
+
+Name: sprites/blocks/unit/初级单位升级工厂.png
+SHA1-Digest: 4i2etRRP9yD77KCtUBF9dmx+cns=
+
+Name: sprites/blocks/unit/战斗机器人工厂.png
+SHA1-Digest: xQXQ3NRErN1ZA54dVxFXOgGYnS4=
+
+Name: sprites/blocks/unit/战斗空军工厂.png
+SHA1-Digest: lISnZx5p3dP9V/eek2EjyO0hFZM=
+
+Name: sprites/blocks/unit/高级单位升级工厂-top.png
+SHA1-Digest: Yoh23vKmCpqorUFjopH/2aQ4YyQ=
+
+Name: sprites/blocks/unit/高级单位升级工厂.png
+SHA1-Digest: VAF0DM786QBAz5n4fPgGJTsCq6Q=
+
+Name: sprites/blocks/walls/双合金墙.png
+SHA1-Digest: DU0io0avvvWxAzsQv3UJBfZF1EQ=
+
+Name: sprites/blocks/walls/双合金板墙.png
+SHA1-Digest: ynP2/SQBUm3E+HG5Jl2mZge+Yj4=
+
+Name: sprites/blocks/walls/大双合金墙.png
+SHA1-Digest: ZN5US8apNeXLoU0A5Pbfh+q6IyU=
+
+Name: sprites/blocks/walls/大双合金板墙.png
+SHA1-Digest: d2lKJniO9g+UAssppAOTjNaqi0E=
+
+Name: sprites/blocks/walls/大孢子墙.png
+SHA1-Digest: 9qMiaYdooVDPvVVoXz07fM5zlIM=
+
+Name: sprites/blocks/walls/大石墨墙.png
+SHA1-Digest: xWzlkeHDZSmavimDskzJcAyKDZY=
+
+Name: sprites/blocks/walls/大能源墙.png
+SHA1-Digest: zCV79Vs3UwDmLekCsMXJi8MpEOw=
+
+Name: sprites/blocks/walls/大金刚石墙.png
+SHA1-Digest: qbYkOX+UrDauU7yMgTTZb9CWumw=
+
+Name: sprites/blocks/walls/大钯金墙.png
+SHA1-Digest: XXBGJKZVw9ajiuCGTT9vd7a5vsc=
+
+Name: sprites/blocks/walls/大铁墙.png
+SHA1-Digest: u6oMvTpEyVdARP6ntS3C8hlPCJM=
+
+Name: sprites/blocks/walls/大铅墙.png
+SHA1-Digest: BxoBKkOkx28NvSowWOTIwSEfVrA=
+
+Name: sprites/blocks/walls/大铜墙.png
+SHA1-Digest: KkSH4uLwV5jXPkhhxqRxu9T1Osw=
+
+Name: sprites/blocks/walls/孢子墙.png
+SHA1-Digest: 5sfe8V+hJquEm9toNEtlNFtATqQ=
+
+Name: sprites/blocks/walls/石墨墙.png
+SHA1-Digest: gedfP899LXeQTSj3YhnnU0AUOTw=
+
+Name: sprites/blocks/walls/能源墙.png
+SHA1-Digest: u0JDIW3HZtzLq8tPqLLus5SCZnM=
+
+Name: sprites/blocks/walls/自塑系列/大自塑墙-top.png
+SHA1-Digest: qZy7ITYfl3W9rVWsm/5cZ873xn0=
+
+Name: sprites/blocks/walls/自塑系列/大自塑墙.png
+SHA1-Digest: jyXMazGE7zrO6Qoo8fAgCCRHjCQ=
+
+Name: sprites/blocks/walls/自塑系列/巨自塑墙-top.png
+SHA1-Digest: OyvvVuWlh+phL9E48ZwhErboACU=
+
+Name: sprites/blocks/walls/自塑系列/巨自塑墙.png
+SHA1-Digest: OVSEL4pTCbD98vBs+mvUYEORkgo=
+
+Name: sprites/blocks/walls/自塑系列/自塑墙-top.png
+SHA1-Digest: 0VNaQSenOfRpjvmtplECg7uFtPU=
+
+Name: sprites/blocks/walls/自塑系列/自塑墙.png
+SHA1-Digest: AAREs+6GQqtBOs7EJTRd6QLbk1s=
+
+Name: sprites/blocks/walls/自塑系列/超巨自塑墙-top.png
+SHA1-Digest: +jA4XzF1AWNUuNfs5C6+zX26IuI=
+
+Name: sprites/blocks/walls/自塑系列/超巨自塑墙.png
+SHA1-Digest: bSrCWXS3z9y6T+b/fUl4vJDHors=
+
+Name: sprites/blocks/walls/金刚石墙.png
+SHA1-Digest: x1dRBJUfl4QRF7CAuocbuRQFuCk=
+
+Name: sprites/blocks/walls/钯金墙.png
+SHA1-Digest: sAqz75DWhhdAo5pBf71armKoZqY=
+
+Name: sprites/blocks/walls/铁墙.png
+SHA1-Digest: xmOOK6wPx0PmNqWMG2E0atzn+cA=
+
+Name: sprites/blocks/walls/铅墙.png
+SHA1-Digest: AGqV45lcQd1mv4+YGY0ncHJj2pI=
+
+Name: sprites/blocks/walls/铜墙.png
+SHA1-Digest: Iglke/z3BZBz67j0KHCsDKou2BE=
+
+Name: sprites/blocks/基础战斗中心-team.png
+SHA1-Digest: 11UOe1dWbGmUozJdgNqBLVuSEd8=
+
+Name: sprites/blocks/基础战斗中心-thruster1.png
+SHA1-Digest: 3QqKewvrEupS/anewE6J/j5ThXQ=
+
+Name: sprites/blocks/基础战斗中心-thruster2.png
+SHA1-Digest: 9TQamU9vhcuTqhXO/P28B1YZ/8Q=
+
+Name: sprites/blocks/基础战斗中心.png
+SHA1-Digest: kYtR541EVSN+6jdQZHsVYQoEbwc=
+
+Name: sprites/blocks/壁垒核心-team.png
+SHA1-Digest: jO96CrR2B4IpGkiwnpO+LlX57lQ=
+
+Name: sprites/blocks/壁垒核心.png
+SHA1-Digest: rYEL+beRpyZ6rs7PFjYkiUAs5Kw=
+
+Name: sprites/blocks/战斗平台-team.png
+SHA1-Digest: WtzB+NzaVXU/4FMu1ehwbELI8Q4=
+
+Name: sprites/blocks/战斗平台-thruster1.png
+SHA1-Digest: c+tM7laHKtadQ24JhdRZ1Pz3KBw=
+
+Name: sprites/blocks/战斗平台-thruster2.png
+SHA1-Digest: UC+Lfa+hXBaiXvVOQZRS+wGrBMM=
+
+Name: sprites/blocks/战斗平台.png
+SHA1-Digest: RJPZtZkISjJcbRU2sdwg4/JZcCA=
+
+Name: sprites/icons/planet.png
+SHA1-Digest: aBkyQrmbm/NaivEY21YepQE53Ig=
+
+Name: sprites/icons/核弹-back.png
+SHA1-Digest: CrfnO1gpzRfwCMlslfDeqn+toGI=
+
+Name: sprites/icons/核弹.png
+SHA1-Digest: 9ydxnCLmf8ihyeXx6nfMxAsNtco=
+
+Name: sprites/icons/诺昂克.png
+SHA1-Digest: oBtxBNsRWBMGSzNlY3HrMTcgXcU=
+
+Name: sprites/units/HZ系列/HZ1型空天机-cell.png
+SHA1-Digest: CECzbndsoRpPOW0nPLlPBC+cizo=
+
+Name: sprites/units/HZ系列/HZ1型空天机.png
+SHA1-Digest: fMOb6lZluNlQ3zlF5FIwesSus8Q=
+
+Name: sprites/units/HZ系列/HZ2型空天机-cell.png
+SHA1-Digest: faPLOBr5OazAfxt9Olr4j18prD8=
+
+Name: sprites/units/HZ系列/HZ2型空天机.png
+SHA1-Digest: vw+MVl2lOltdQCHAg1fx9mFgaPE=
+
+Name: sprites/units/HZ系列/HZ3型空天机-cell.png
+SHA1-Digest: He2GazMDUj5/1TQL9DfR3qwyyaY=
+
+Name: sprites/units/HZ系列/HZ3型空天机.png
+SHA1-Digest: aJGKn3yeBN+MnnGlCPC5A5Zm4Jw=
+
+Name: sprites/units/HZ系列/HZ机枪.png
+SHA1-Digest: 3pVdtFCq8V+9wxZCGQVDRcyXhb0=
+
+Name: sprites/units/HZ系列/小型蓄能枪.png
+SHA1-Digest: zh/Zly7766x2ptfSFrFuHaqdeNU=
+
+Name: sprites/units/HZ系列/脉冲枪.png
+SHA1-Digest: ZLfLMQTl+wh2b+ICUYjpIi+ATCg=
+
+Name: sprites/units/ammo/核弹子弹-back.png
+SHA1-Digest: GYLInPxicMZU3KwfPUi51rk+ZS8=
+
+Name: sprites/units/ammo/核弹子弹.png
+SHA1-Digest: eRcN7xo6IyqTHf8NLZ37rs6LFDs=
+
+Name: sprites/units/原版武器/A枪.png
+SHA1-Digest: Nj0B4njeULhOk+T1upKEDoHzxc4=
+
+Name: sprites/units/原版武器/B枪.png
+SHA1-Digest: pncgAOf6tKBhkYrWL3ML8XKAwVA=
+
+Name: sprites/units/原版武器/O枪.png
+SHA1-Digest: ru6ouEEofQ4uPpqGdokpHBc36Dg=
+
+Name: sprites/units/原版武器/伽马1.png
+SHA1-Digest: UMfOYW1iWliySkEdPFOxznvIJiM=
+
+Name: sprites/units/原版武器/堡垒1.png
+SHA1-Digest: iWffEZoYHSjOQr9AG3SkS/0QFHM=
+
+Name: sprites/units/原版武器/天蝎1.png
+SHA1-Digest: 4q3k8pwX+Cq+wWVuUoL3ozk7amk=
+
+Name: sprites/units/原版武器/尖刀1.png
+SHA1-Digest: jEvUds8QhPIRcmPLSCl5FRzBXzs=
+
+Name: sprites/units/原版武器/巫妖1.png
+SHA1-Digest: H6TpG6bGxe0gLlaFgUCsZ7s5gHQ=
+
+Name: sprites/units/原版武器/巫妖2.png
+SHA1-Digest: 5i2F8nw72EhBYkTqnraraEeko3s=
+
+Name: sprites/units/原版武器/恒星1.png
+SHA1-Digest: vNkbwjYkn/JXa/QixyZmopBeq3o=
+
+Name: sprites/units/原版武器/战锤1-heat.png
+SHA1-Digest: ROhFxbYPGvMKZEs+HJqB61R+Uws=
+
+Name: sprites/units/原版武器/战锤1.png
+SHA1-Digest: 7ShBW7bV7Hp6cSaEdTRXnb5hWMs=
+
+Name: sprites/units/原版武器/新星1.png
+SHA1-Digest: aOl/RdfKWDr5WRLDmz+BGRoiAyI=
+
+Name: sprites/units/原版武器/权杖.png
+SHA1-Digest: jTAZf5sWhcEMY+eqQOOv+jotHKo=
+
+Name: sprites/units/原版武器/权杖2.png
+SHA1-Digest: B23DH8PwCUh6HazmE3xaYEhiHuU=
+
+Name: sprites/units/原版武器/根除1.png
+SHA1-Digest: TDlBQR4wwkwpxiN6LRHF9o7Jghw=
+
+Name: sprites/units/原版武器/根除2.png
+SHA1-Digest: E31eEP7q5vAalmL24/SICBuSulA=
+
+Name: sprites/units/原版武器/死星1-heat.png
+SHA1-Digest: iSSM/f7hQThCu5FIfzujJXZZxYI=
+
+Name: sprites/units/原版武器/死神1.png
+SHA1-Digest: sgjXZdN8rApytaq+A9T4aZ+o9Do=
+
+Name: sprites/units/原版武器/死神2.png
+SHA1-Digest: c5lfwMsi+E6hZMsod/vIUlQT614=
+
+Name: sprites/units/原版武器/毒蛊1.png
+SHA1-Digest: x3A7dAYROc1YDaNnzuBudc1c+To=
+
+Name: sprites/units/原版武器/毒蛛1.png
+SHA1-Digest: GhcetuYE4BH7+dP8mrseECZXKJo=
+
+Name: sprites/units/原版武器/江豚1.png
+SHA1-Digest: mV6p6Zbe61ZsslY8nGfFeDCL4QU=
+
+Name: sprites/units/原版武器/海神1-heat.png
+SHA1-Digest: XPzmUqWtYV/rRv49DoSkmxnWB2w=
+
+Name: sprites/units/原版武器/海神1.png
+SHA1-Digest: cdTnMS9YjW38t7fyPjzwAM+k41w=
+
+Name: sprites/units/原版武器/灾星1-heat.png
+SHA1-Digest: PzBU0W7Gm8Rl2IpmNSv1yEyBh1s=
+
+Name: sprites/units/原版武器/灾星2.png
+SHA1-Digest: Wg7sSpUvK+sruxIjyT8Mo9Un51E=
+
+Name: sprites/units/原版武器/玄武1.png
+SHA1-Digest: GgfA10HuTSURgN5xOPPb9/Jp7S0=
+
+Name: sprites/units/原版武器/电鳗1.png
+SHA1-Digest: 8xCoFkusmoMV7AjY0der4H5sqbo=
+
+Name: sprites/units/原版武器/耀星1.png
+SHA1-Digest: 58iaPlO4gMSrrBxJ8I7hVH08vsg=
+
+Name: sprites/units/原版武器/苍穹1.png
+SHA1-Digest: 3nYtpBz338/HDUia/mHKP4YCXzU=
+
+Name: sprites/units/原版武器/蛟龙1.png
+SHA1-Digest: stT6eD/ir9JO/NCzmF8wdbEYMDA=
+
+Name: sprites/units/原版武器/血蛭1.png
+SHA1-Digest: p+a20kkWw54KcBv5bpRfyCS4STI=
+
+Name: sprites/units/原版武器/血蛭2.png
+SHA1-Digest: 4Dh682QwpFyPczoKv805v52jvoI=
+
+Name: sprites/units/原版武器/要塞2.png
+SHA1-Digest: CVaH7qAGp//cUemVU0aarS/2S9Y=
+
+Name: sprites/units/原版武器/飞鲨1.png
+SHA1-Digest: 7HdjSosBYRb6a6cJBs63cCHOa+A=
+
+Name: sprites/units/原版武器/龙王1-heat.png
+SHA1-Digest: fqnOS+GLhMm+UbT78Fwj3Bma3Ew=
+
+Name: sprites/units/原版武器/龙王1.png
+SHA1-Digest: a3/sTGR347k9QXc33gHc7U55DSo=
+
+Name: sprites/units/陆军/A系列/A型中阶战斗陆军-base.png
+SHA1-Digest: oAb5245vQ7W9qWoR1he39Xf9TXw=
+
+Name: sprites/units/陆军/A系列/A型中阶战斗陆军-cell.png
+SHA1-Digest: IbsrkNyK44F9wy0aEriLeILgKWs=
+
+Name: sprites/units/陆军/A系列/A型中阶战斗陆军-leg.png
+SHA1-Digest: tAl1cztB8OTE4B985MKRej9sGJk=
+
+Name: sprites/units/陆军/A系列/A型中阶战斗陆军.png
+SHA1-Digest: uYBdWiS2N3t3JKQB5ZPZZv0F/zs=
+
+Name: sprites/units/陆军/A系列/A型初阶战斗陆军-base.png
+SHA1-Digest: gYPxsVuWeifce55JWAvWaMphnUo=
+
+Name: sprites/units/陆军/A系列/A型初阶战斗陆军-cell.png
+SHA1-Digest: yj9L1vqhc2ezVI9Pr1D0yZSWK7A=
+
+Name: sprites/units/陆军/A系列/A型初阶战斗陆军-leg.png
+SHA1-Digest: YQ4X+gy19iPz17Mf7EFo5S2ZSjA=
+
+Name: sprites/units/陆军/A系列/A型初阶战斗陆军.png
+SHA1-Digest: D4UQhEzGSvVFSSRhuP+I/wOOzxU=
+
+Name: sprites/units/陆军/B系列/B型初阶战斗陆军-foot.png
+SHA1-Digest: lTl/zHKrGHA/0QQmovScR1fab8k=
+
+Name: sprites/units/陆军/B系列/B型初阶战斗陆军-joint-base.p
+ ng
+SHA1-Digest: UZCq/yoAHFzWnQhU58jy0pn/oAM=
+
+Name: sprites/units/陆军/B系列/B型初阶战斗陆军-leg-base.png
+SHA1-Digest: 0+RR03PY70hOYKb+JxRDHuRhBlk=
+
+Name: sprites/units/陆军/B系列/B型初阶战斗陆军-leg.png
+SHA1-Digest: Qm7/k9Kpmkj7U3wZkQ+5e/y5zT0=
+
+Name: sprites/units/陆军/B系列/B型初阶战斗陆军.png
+SHA1-Digest: moop3z6ZM1lLoP1gcDbxaiFVtP0=
+
+Name: sprites/units/陆军/C系列/C型初阶战斗陆军-cell.png
+SHA1-Digest: 8rRFtb1hZkyG07wC3WomDroZqd8=
+
+Name: sprites/units/陆军/C系列/C型初阶战斗陆军-glow.png
+SHA1-Digest: u0rdbUHe0Jbg5J3WihvFQRfKUlY=
+
+Name: sprites/units/陆军/C系列/C型初阶战斗陆军-treads.png
+SHA1-Digest: /ta4XLEGEUpu001G3ScLwcKUrkM=
+
+Name: sprites/units/陆军/C系列/C型初阶战斗陆军.png
+SHA1-Digest: 7xalMUnj09IO1/tTd3FXwG54+HM=
+
+Name: sprites/units/陆军/武器/中型导弹.png
+SHA1-Digest: iB/AJJj2hptB4+QymDrDe78ECXg=
+
+Name: sprites/units/陆军/武器/中型火炮.png
+SHA1-Digest: NyXnwKWh/LzNxkCBCfmLaPdWczQ=
+
+Name: sprites/units/陆军/武器/喷火器.png
+SHA1-Digest: mEaGJHtrVwbrwm6ypayvkHAIdl8=
+
+Name: sprites/units/陆军/武器/基础炮.png
+SHA1-Digest: nAhKd5CLPdgfj0O4IgaoFFr1OsM=
+
+Name: sprites/units/陆军/武器/大型喷火器.png
+SHA1-Digest: dxC00VJECLz/M18+jKAO4QB2SLQ=
+
+Name: sprites/units/陆军/武器/大型机枪.png
+SHA1-Digest: 7sSZWg0DZTS4xeJGUFgb8qKrknQ=
+
+Name: sprites/units/陆军/武器/大型火炮.png
+SHA1-Digest: 0YJxEfksnWWJS5EE3I0PHDUsr5s=
+
+Name: sprites/units/陆军/武器/小型导弹.png
+SHA1-Digest: 1dMBdvXTZAE6qQ0dgyJT9R5h43s=
+
+Name: sprites/units/陆军/武器/巨型火炮.png
+SHA1-Digest: 7PNztNnPyx/CjxtRCh6e2iVr8zk=
+
+Name: sprites/units/陆军/武器/机枪.png
+SHA1-Digest: Dwi+dP47Fhq/B5+mm8rrGE2PDKs=
+
+Name: sprites/units/陆军/武器/轻型机枪.png
+SHA1-Digest: g6o8MTtHbwSpCNU7jMFM7sfNqCc=
+
+Name: sprites/units/陆军/武器/陆军机器人武器.png
+SHA1-Digest: NRN0CoqgxjKta+CUYXrTmWUrwV0=
+
+Name: sprites/units/陆军/武器/陆军机器人武器2.png
+SHA1-Digest: EObFU8QxQpVnkl6k7ngoIak8qMc=
+
