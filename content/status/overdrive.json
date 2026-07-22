@@ -1,0 +1,8 @@
+{
+	"damageMultiplier":2.4
+	//攻击力倍率（数值越大，攻击力越高）
+	"healthMultiplier":0.6
+	//血量倍率（数值越大，血量最大上限越高）
+	"speedMultiplier":1.5
+	//速度倍率（数值越大，移动越快）
+}

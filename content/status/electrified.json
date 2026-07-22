@@ -1,0 +1,6 @@
+{
+	"speedMultiplier":0.32
+	//速度倍率（数值越大，移动越快）
+	"reloadMultiplier":0.41
+	//射速倍率（数值越大，射速越快
+}

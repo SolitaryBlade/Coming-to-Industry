@@ -1,0 +1,13 @@
+{
+    "damage":2147483647.00
+    "details":"放心，不痛，很快的"
+	"permanent":false
+	//如果为ture
+	//这个状态永远存在 在单位身上，除非单位死亡
+	//如果为false 则没有永远存在的效果
+	"color":"25da06ff"
+	//状态颜色
+	"effectChance":100
+	//效果数量（数值越大,效果越多越密集）
+	"opposites":["invincible"]
+}

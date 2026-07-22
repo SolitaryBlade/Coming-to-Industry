@@ -1,0 +1,19 @@
+{
+    "details":"虚空血泵？"
+    "damage":-1.64
+	"damageMultiplier":1.6
+	//攻击力倍率（数值越大，攻击力越高）
+	"speedMultiplier":1.8
+	//速度倍率（数值越大，移动越快）
+	"reloadMultiplier":2
+	//射速倍率（数值越大，射速越快
+	"permanent":false
+	//如果为ture
+	//这个状态永远存在 在单位身上，除非单位死亡
+	//如果为false 则没有永远存在的效果
+	"color":"25da06ff"
+	//状态颜色
+	"effectChance":100
+	//效果数量（数值越大,效果越多越密集）
+	"opposites":["corroded","剧毒","膏肓"]
+}

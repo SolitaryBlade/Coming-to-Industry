@@ -1,0 +1,22 @@
+//气球投稿
+{
+	"details":"一口吃成胖子，除了皮厚一无是处"
+	"color": "777777",
+	"damageMultiplier": 0.2
+	"healthMultiplier": 1.5,
+	"speedMultiplier": 0.2
+	"reloadMultiplier": 0.2
+	"effectChance": 0.5,
+	"effect": {
+		"type": "ParticleEffect",
+		"particles": 3,
+		"baseLength": 26,
+		"length": -25,
+		"lifetime": 20,
+		"spin": 9,
+		"sizeFrom": 2.5,
+		"sizeTo": 0,
+		"colorFrom": "777777",
+		"colorTo": "777777"
+	}
+}

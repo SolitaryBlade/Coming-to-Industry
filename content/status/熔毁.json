@@ -1,0 +1,24 @@
+{
+	"details":"这就是沸羊羊的感觉！"
+	"color": "ff9045f1",
+	"damage":3.174
+	"damageMultiplier": 1.8
+	"healthMultiplier": 0.81,
+	"speedMultiplier": 3.4
+	"reloadMultiplier": 2
+	"effectChance": 0.5,
+	"effect": {
+		"type": "ParticleEffect",
+		"particles": 3,
+		"baseLength": 26,
+		"length": -25,
+		"lifetime": 20,
+		"spin": 9,
+		"sizeFrom": 2.5,
+		"sizeTo": 0,
+		"colorFrom": "ff9045f1",
+		"colorTo": "ff9045f1"
+	}
+	"opposites":["冰破","wet","freezing"]
+	"affinities":["tarred"]
+}

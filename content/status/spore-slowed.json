@@ -1,0 +1,11 @@
+{
+"name":"spore-slowed"
+"description":"被孢子寄生后已经缺失了一部分功能"
+
+"speedMultiplier":0.5
+"healthMultiplier":0.8
+"reloadMultiplier":0.5
+"permanent":true
+
+
+}

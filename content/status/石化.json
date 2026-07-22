@@ -1,0 +1,21 @@
+{
+    "description":"命中即永久，无法解除，这才是最绝望的死法"
+	"details":"你说你和一个头上有几条蛇的女人对视了？"
+    "damage":0.01
+	"damageMultiplier":0
+	//攻击力倍率（数值越大，攻击力越高）
+	"healthMultiplier":2.5
+	//血量倍率（数值越大，血量最大上限越高）
+	"speedMultiplier":0
+	//速度倍率（数值越大，移动越快）
+	"reloadMultiplier":0
+	//射速倍率（数值越大，射速越快
+	"permanent":true
+	//如果为ture
+	//这个状态永远存在 在单位身上，除非单位死亡
+	//如果为false 则没有永远存在的效果
+	"color":"c2c2d1ff"
+	//状态颜色
+	"effectChance":100
+	//效果数量（数值越大,效果越多越密集）
+}

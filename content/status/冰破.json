@@ -1,0 +1,23 @@
+{
+	"details":"这里是南极吗？"
+	"color": "98d4f6f1",
+	"damage":2.248
+	"damageMultiplier": 0.6
+	"healthMultiplier": 0.4,
+	"speedMultiplier": 0
+	"reloadMultiplier": 0.1
+	"effectChance": 0.5,
+	"effect": {
+		"type": "ParticleEffect",
+		"particles": 3,
+		"baseLength": 26,
+		"length": -25,
+		"lifetime": 20,
+		"spin": 9,
+		"sizeFrom": 2.5,
+		"sizeTo": 0,
+		"colorFrom": "98d4f6f1",
+		"colorTo": "98d4f6f1"
+	}
+	"opposites":["熔毁","burning","melting"]
+}
