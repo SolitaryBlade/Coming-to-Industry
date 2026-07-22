@@ -1,0 +1,9 @@
+{
+//	"type":"Liquid",
+	"description":"高级冷却液，温度更低",
+    "color":"b7cfffff"
+    "research":"锅炉"
+	"temperature":-0.1,
+	"heatCapacity":3.14
+	"viscosity":0.3,
+}

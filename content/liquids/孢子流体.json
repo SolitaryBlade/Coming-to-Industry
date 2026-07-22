@@ -1,0 +1,17 @@
+{
+"type":"CellLiquid"
+"description":"正常活性的孢子生物流体，能够感染由外来物种所采集或生产的流体产物及存储容器。建议排向熔岩销毁，或者使用零下10度及以下的低温冻结。"
+"details":"孢子。已经证明其并非人工合成的生命，而是星球上自主进化的结果，会释放对非星球本土生物有毒的气体，对外来物种极具破坏性。不过其适宜温度于普通生物相似。"
+"color":"7457ce"
+"heatCapacity":-2.4
+"temperature":0.48
+"viscosity":0.85
+"flammability":3.6
+"capPuddles":true
+"spreadTarget":"water"
+"moveThroughBlocks":true
+"incinerable":false
+"blockReactive":false
+"colorFrom":"b088f0dc"
+"colorTo":"5541b1cb"
+}

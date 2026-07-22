@@ -1,0 +1,11 @@
+{
+"description":"利用混合技术所制造的特色气体，其极高的温度与极其易燃的属性只需稍加利用就可以进行各种高级生产或者作为攻击手段"
+"details":"虽然名字有熔岩，其实在东西和熔岩根本没什么关系，不过熔岩有的特性这东西是一个不落，所以还是要小心点"
+"color":"ffbd00ff"
+"heatCapacity":-6.71
+"temperature":8.43
+"viscosity":0
+"flammability":7.64
+"gas":true
+"research":"熔岩"
+}

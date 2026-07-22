@@ -1,0 +1,11 @@
+{
+//	"type":"Liquid",
+	"description":"熔化的岩石，也就是火山里面的东西\n其恐怖的高温能够融化几乎任何运输液体的装置",
+    "color":"ffbd00ff"
+    "research":"液氮"
+	"heatCapacity":-10
+	"viscosity":0.3
+	"flammability":10//燃烧
+    "explosiveness":10//爆炸性
+	"temperature":10
+}

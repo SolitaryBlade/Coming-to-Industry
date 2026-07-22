@@ -1,0 +1,10 @@
+{
+//	"type":"Liquid",
+	"description":"很简单，就是冷冻液里面的孢子浓度比较高而已",
+	"details":"猜猜看它会不会烧起来"
+    "color":"9443ffff"
+    "research":"孢子冷冻仪"
+	"temperature":-0.9,
+	"heatCapacity":4.24
+	"viscosity":0.55,
+}

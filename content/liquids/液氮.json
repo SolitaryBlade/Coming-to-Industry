@@ -1,0 +1,9 @@
+{
+//	"type":"Liquid",
+	"description":"世界上已知最低温的流体",
+    "color":"f1f7ff99"
+    "research":"大气分离液化装置"
+	"heatCapacity":7.53
+	"viscosity":0.1
+	"temperature":-1.1
+}

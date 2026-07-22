@@ -1,0 +1,7 @@
+{
+	"heatCapacity":-1
+	"viscosity":0.6
+	"flammability":0.22//燃烧
+    "explosiveness":0.15//爆炸性
+	"temperature":1.2
+}

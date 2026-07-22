@@ -1,0 +1,9 @@
+{
+//	"type":"Liquid",
+	"description":"极寒液体，小心冻伤",
+    "color":"f1f7ff99"
+    "research":"大气分离液化装置"
+	"heatCapacity":4.97
+	"viscosity":0.35
+	"temperature":-0.67
+}
