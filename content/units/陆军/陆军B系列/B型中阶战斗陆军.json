@@ -1,0 +1,104 @@
+{
+"type":"legs"
+"defaultCommand":repair
+"name":"速星",
+"description":"B-M-2\n[YG]中级维修型爬虫单位\n简化的体积，高效的修复速率，是强化版没错了",
+"speed":0.8
+"armor":51
+"flying":false
+"canBoost":true
+"boostMultiplier":1.6
+"hitSize":15
+"health": 1350
+"mineSpeed":1.7
+"mineTier":2
+"buildSpeed":2
+"itemCapacity":40
+"ammoCapacity":50
+    "canDrown": false
+    "research":{
+   "parent":"B型初阶战斗陆军",
+   "requirements":[	
+    graphite/90
+	titanium/85
+   ]
+   }
+       "lowAltitude": true, //可以趟深水
+      "legCount": 6
+  "legMoveSpace": 1.6
+  "legPairOffset": 3,
+  "legLength": 14
+  "legExtension": -10
+  "legBaseOffset": 4
+  "legSpeed": 3
+  "legLengthScl": 1
+  "legSplashDamage": 25,//踩踏伤害
+  "legSplashRange": 20//踩踏范围
+  "hovering": true,
+  "allowLegStep": true,
+"weapons":[
+{
+  "name":"陆军机器人武器2"
+  "x":4
+  "y":0
+  "top": false
+  "rotate":true
+  "reload": 10,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 3
+               "collidesTiles":true,//是
+               "healPercent":78
+               "lifetime": 50
+               "damage":21
+               "width": 7
+}
+}
+{
+  "name":"机枪"
+  "x":2
+  "y":-2
+  "top": false
+  "rotate":true
+  "reload": 6,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 3
+               "collidesTiles":true,//是
+               "healPercent":76
+               "lifetime": 50
+               "damage":18
+               "width": 7
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"基础炮"
+  "top": false
+  "rotate":false
+  "reload": 50
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "type":"LaserBulletType"
+               "collidesTiles":true,//是否碰撞方块(不论敌友)
+               "lifetime": 50
+               "healPercent":100
+               "damage":90
+               "width": 7
+}
+}
+]
+}

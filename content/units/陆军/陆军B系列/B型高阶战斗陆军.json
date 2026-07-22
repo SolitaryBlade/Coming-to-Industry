@@ -1,0 +1,128 @@
+{
+"type":"legs"
+"defaultCommand":repair
+"name":"碧波",
+"description":"B-M-3\n[KT]强化型高阶维修型爬虫单位\nYG废弃了维修爬虫单位的升级计划，但是公开了单位生产及升级权限，来自KT升级后的强化型爬虫单位！",
+"speed":0.62
+"armor":18
+"flying":false
+"canBoost":true
+"boostMultiplier":1.42
+"hitSize":24
+"health": 3500
+"mineSpeed":4
+"mineTier":4
+"buildSpeed":4.5
+"itemCapacity":80
+"ammoCapacity":120
+    "canDrown": false
+    "research":{
+   "parent":"B型中阶战斗陆军",
+   "requirements":[	
+    plastanium/240
+	silicon/290
+	titanium/270
+	phase-fabric/200
+   ]
+   }
+       "lowAltitude": true, //可以趟深水
+      "legCount": 6
+  "legMoveSpace": 1.6
+  "legPairOffset": 3,
+  "legLength": 14
+  "legExtension": -10
+  "legBaseOffset": 4
+  "legSpeed": 3
+  "legLengthScl": 1
+  "legSplashDamage": 65,//踩踏伤害
+  "legSplashRange": 38//踩踏范围
+  "hovering": true,
+  "allowLegStep": true,
+"weapons":[
+{
+  "name":"陆军机器人武器2"
+  "x":10
+  "y":0
+  "top": false
+  "rotate":true
+  "reload": 10,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 5
+               "collidesTiles":true,//是
+               "healPercent":82
+               "lifetime": 55
+               "damage":37
+               "width": 7
+}
+}
+{
+  "name":"机枪"
+  "x":3
+  "y":-2
+  "top": false
+  "rotate":true
+  "reload": 6,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 5
+               "collidesTiles":true,//是
+               "healPercent":80
+               "lifetime": 55
+               "damage":29
+               "width": 7
+}
+}
+{
+  "x":0
+  "y":3
+  "name":"灾星2"
+  "top": false
+  "rotate":false
+  "reload": 20
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "type":"LaserBulletType"
+               "collidesTiles":true,//是否碰撞方块(不论敌友)
+               "lifetime": 50
+               "length":260
+               "healPercent":120
+               "damage":120
+               "width": 7
+}
+}
+{
+  "name":"新星1"
+  "x":7
+  "y":-2
+  "top": false
+  "rotate":true
+  "reload": 2,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 5
+               "collidesTiles":true,//是
+               "healPercent":83
+               "lifetime": 55
+               "damage":42
+               "width": 7
+}
+}
+]
+}
