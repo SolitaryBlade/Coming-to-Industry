@@ -1,0 +1,27 @@
+{
+"type":"Pump"
+"name":"强化泵"
+"description":"来自[YG]，经过强化升级的水泵，拥有更高的产出"
+"size":3
+"pumpAmount":0.24
+"liquidCapacity":260
+"consumes": {
+ "power":4.11
+},
+"requirements": [
+ {"item": "thorium", "amount": 50}
+ {"item":"metaglass","amount":65}
+ {"item":"钢","amount":40}
+ {"item":"铅板","amount":75}
+],
+"category": "liquid",
+"research":{
+"parent":"漩涡泵",
+"requirements":[
+ {"item":"thorium", "amount": 150}
+ {"item":"metaglass","amount":195}
+ {"item":"钢","amount":128}
+ {"item":"铅板","amount":225}
+]
+}
+}

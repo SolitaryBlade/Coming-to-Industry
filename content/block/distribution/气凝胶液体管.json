@@ -1,0 +1,22 @@
+{
+      "type":"ArmoredConduit",
+      "name":"气凝胶液体管"
+      "description": "来自[YG]，使用气凝胶建造的特殊管道，因为气凝胶的特性，所以此管道极其耐高温(并非完全无视高燃烧性液体，若输出口未连接任何设备，仍然会爆炸)",
+      "health": 320,
+      "liquidCapacity": 60,
+      "liquidPressure":8.6
+      "explosivenessScale":1500000//爆炸抗性x%
+      "flammabilityScale":1500000//燃烧抗性x%
+      "requirements": [
+	    {"item": "钢化玻璃", "amount": 1}
+	    {"item":"气凝胶","amount":2}
+	],
+	"category": "liquid",
+	"research":{
+	"parent":"钢液体管",
+    "requirements":[
+		{"item": "钢化玻璃", "amount": 20}
+	    {"item":"气凝胶","amount":25}
+    ]
+    }
+    }

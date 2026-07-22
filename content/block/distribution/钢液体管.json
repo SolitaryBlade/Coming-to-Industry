@@ -1,0 +1,20 @@
+{
+      "type":"ArmoredConduit",//装甲管
+      "name":"钢液体管"
+      "description": "来自[YG]，使用钢作为管道的外部，玻璃作为内部，使得它不会像普通管道一样脆",
+      "health": 240,
+      "liquidCapacity": 60,
+      "liquidPressure":2.8
+      "requirements": [
+	    {"item": "钢", "amount": 2}
+	    {"item":"metaglass","amount":2}
+	],
+	"category": "liquid",
+	"research":{
+	"parent":"钢传送带",
+    "requirements":[
+		{"item": "钢", "amount": 6}
+	    {"item":"metaglass","amount":6}
+    ]
+    }
+    }

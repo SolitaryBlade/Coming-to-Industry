@@ -1,0 +1,21 @@
+{
+	"type": "Conveyor",//"种类": "？",(Conveyor=传输带)
+	"name":"钢传送带"
+	"description": "来自[YG],使用钢作为移动物品的基座，相对于普通的物品带，有非常大的提升",//"介绍": "？",
+	"health":200//"血量": "？",
+	"pushUnits":true
+	"requirements": [
+		{"item": "钢", "amount": 1},
+		{"item":"silicon","amount":1}
+		],//"建造所需物品": "？",
+	"category": "distribution",//"类别": "？",(distribution=分配)
+	"speed": 0.20//"运送速度": 0.1/12
+	"displayedSpeed":24//游戏中显示速度: 看你写多少，就显示多少
+	"research":{
+	"parent":"A",
+    "requirements":[
+		{"item": "钢", "amount": 3},
+		{"item":"silicon","amount":3}
+    ]
+    }
+}

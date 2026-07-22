@@ -1,0 +1,25 @@
+{
+"type":"Pump"
+"name":"漩涡泵"
+"description":"来自[YG]，升级款的水泵，使用电力进行生产"
+"size":2
+"pumpAmount":0.28
+"liquidCapacity":120
+"consumes": {
+ "power":1.46
+},
+"requirements": [
+ {"item": "silicon", "amount": 40}
+ {"item":"metaglass","amount":35}
+ {"item":"titanium","amount":40}
+],
+"category": "liquid",
+"research":{
+"parent":"基础泵",
+"requirements":[
+ {"item":"titanium", "amount": 120}
+ {"item":"metaglass","amount":105}
+ {"item":"silicon","amount":128}
+]
+}
+}

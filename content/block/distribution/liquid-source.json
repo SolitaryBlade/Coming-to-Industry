@@ -5,9 +5,9 @@
 "details":"允许在生存使用，至于如何使用看你自己了"
 "requirements":[
     {"item":"surge-alloy","amount":10000}
-],
+]
 "research":{
-	"parent":"planetaryTerminal",
+	"parent":"item-source",
     "requirements":[
 		{"item": "copper", "amount": 257500},
 		{"item":"lead","amount":251000}

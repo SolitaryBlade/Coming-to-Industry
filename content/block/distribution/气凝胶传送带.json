@@ -1,0 +1,21 @@
+{
+	"type": "Conveyor",//"种类": "？",(Conveyor=传输带)
+	"name":"气凝胶物品传送带"
+	"description": "来自[YG]，使用气凝胶作为运输主体的特殊物品带，拥有相当高的强度，且不接受除入口外的非物品带输入",//"介绍": "？",
+	"health":300//"血量": "？",
+	"pushUnits":true
+	"requirements": [
+		{"item": "气凝胶", "amount": 1},
+		{"item":"钢","amount":2}
+		],//"建造所需物品": "？",
+	"category": "distribution",//"类别": "？",(distribution=分配)
+	"speed": 0.50//"运送速度": 0.1/12
+	"displayedSpeed":60//游戏中显示速度: 看你写多少，就显示多少
+	"research":{
+	"parent":"钢传送带",
+    "requirements":[
+		{"item": "气凝胶", "amount": 3},
+		{"item":"钢","amount":6}
+    ]
+    }
+}

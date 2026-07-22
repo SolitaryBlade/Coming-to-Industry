@@ -1,0 +1,23 @@
+{
+"type":"Pump"
+"name":"基础泵"
+"description":"来自[YG]，基础款的水泵，同时也是在宇宙中使用最多的一款"
+"size":1
+"pumpAmount":0.34
+"liquidCapacity":60
+"consumes": {},
+"requirements": [
+ {"item": "graphite", "amount": 15}
+ {"item":"metaglass","amount":10}
+ {"item":"titanium","amount":16}
+],
+"category": "liquid",
+"research":{
+"parent":"钢传送带",
+"requirements":[
+ {"item":"titanium", "amount": 48}
+ {"item":"metaglass","amount":30}
+ {"item":"graphite","amount":45}
+]
+}
+}

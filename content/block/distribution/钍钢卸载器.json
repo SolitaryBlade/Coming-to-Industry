@@ -1,0 +1,25 @@
+//气球投稿
+{
+	  "health": 560,
+	  "size":1,
+	  "speed": 2,
+	  "update": "true",
+	  "hasItems": "true",
+	  "type":"Unloader",
+	  "description": "来自[AH],速度更佳，",
+	  "name":"钍钢卸载器",
+	  "requirements": [
+		"钢/25",
+		"thorium/28",
+		"silicon/35"
+	],
+	"category": "effect",
+	"research":{
+	"parent":"存储单元",
+    "requirements":[
+		"钢/75",
+		"thorium/84",
+		"silicon/105"
+    ]
+    }
+	}
