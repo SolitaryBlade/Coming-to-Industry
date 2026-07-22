@@ -1,12 +1,12 @@
 {
-	"name":"钯金",//名字,矿石json要加Ore-xxx
+	"name":"陨铁",//名字,矿石json要加Ore-xxx
 //	"type": "OreBlock",//类型 这个是覆盖矿石
 	"variants":3,//贴图数量
 	"playerUnmineable":true,//不能自己挖 否 沙子为true
-	"itemDrop": "钯金",//挖出来的物品
-	"mapColor":"DEDEDEFF",//地板颜色
+	"itemDrop": "陨铁",//挖出来的物品
+	"mapColor":"7C4D20FF",//地板颜色
     "useColor":true,//是否是小地图的颜色
     "oreDefault":true,//是否自动生成
-    "oreThreshold":0.9,//规模
-    "oreScale":25.47619,//阈值
+    "oreThreshold":0.84,//规模
+    "oreScale":22.47619,//阈值
 }
