@@ -6,4 +6,5 @@
 # Game logo
 <img width="768" height="214" alt="logo" src="https://github.com/user-attachments/assets/3ae5436b-c0ee-4b13-a60b-99ebf42c97e7" />
 
-
+# 招募
+现在需要更多的java/js编译师，绘图师。模组内有联系方式
