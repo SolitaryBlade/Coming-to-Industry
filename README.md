@@ -1,4 +1,6 @@
 # Coming-to-Industry
+<img width="1082" height="1079" alt="icon" src="https://github.com/user-attachments/assets/7c6cda3d-1fc7-4025-91c1-b91942f121b4" />
+
 This is a mod about the game Mindustry.
 这是游戏Mindustry的模组
 But now the items are not all translated into English.Don't worry, it's only temporary.
