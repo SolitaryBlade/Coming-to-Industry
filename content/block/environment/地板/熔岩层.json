@@ -1,0 +1,10 @@
+{
+"type":"Floor"
+"name":"熔岩层"
+"variants":3
+"blendGroup":"basalt"
+"lightColor":"ee371890"
+"lightRadius":60
+"emitLight":true
+"attributes":{"water":-1,"heat":0.8,}
+}
