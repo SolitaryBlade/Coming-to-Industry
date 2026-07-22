@@ -1,0 +1,7 @@
+{
+	"details":"引擎升级，容量优化，更快的挖掘速度",
+	"itemCapacity": 60,
+	"mineSpeed": 5,
+	"mineTier": 2,
+	"speed":1.5
+}
