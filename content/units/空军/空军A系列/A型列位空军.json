@@ -1,0 +1,45 @@
+{
+"type":"flying"
+"name":"计谋",
+"description":"A-F-4\n[YG]导弹发射单位\n发射一枚重型导弹，可以摧毁范围内的一切轻型单位，唯一的缺点就是牺牲了大量装甲以在挂载导弹后能够不影响飞行速度",
+"flying":true,
+"speed":2
+"armor":50
+"hitSize":16
+"health": 16300
+"itemCapacity":120
+"ammoCapacity":680
+"allDatabaseTabs":true
+    "research":{
+   "parent":"A型高阶战斗空军",
+   "requirements":[	
+    铁/40
+    silicon/35
+   ]
+   }
+"weapons":[
+{
+  "x":0
+  "y":3
+  "top": false
+  "rotate":true
+  "reload": 240
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 6
+               "type":"ArtilleryBulletType"
+               "lifetime": 100
+               "damage":26680
+               "width": 20
+               "shrinkY":0
+               "height": 65
+               "splashDamage":25400
+			   "splashDamageRadius":150,
+}
+}
+]
+}

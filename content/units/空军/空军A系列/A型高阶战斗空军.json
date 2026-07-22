@@ -1,0 +1,49 @@
+{
+"type":"flying"
+"name":"铲平",
+"description":"A-F-3\n[YG]高速轰炸机\n极速冲刺，下炸弹像下饺子似的，夷平工厂",
+"flying":true,
+"speed":8
+"armor":16
+"hitSize":8
+"health": 2600
+"itemCapacity":40
+"ammoCapacity":68
+"faceTarget":true
+"autoDropBombs":true
+"allDatabaseTabs":true
+"circleTarget":true
+    "research":{
+   "parent":"A型中阶战斗空军",
+   "requirements":[	
+   
+   ]
+   }
+"weapons":[{
+  "x":0
+  "y":3
+  "top": true
+  "rotate":false
+  
+  "reload": 2
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": true,
+  "bullet":{
+               "type":"BombBulletType"
+               "lifetime": 25
+               "status":"blasted"
+               "statusDuration":120
+               "damage":750
+               "splashDamage":700
+			   "splashDamageRadius":50,
+			   "buildingDamageMultiplier": 2.65,
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+]
+}

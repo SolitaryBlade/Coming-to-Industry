@@ -1,0 +1,64 @@
+{
+"type":"flying"
+"name":"奇袭",
+"description":"A-F-2\n[YG]升级型攻击型飞行单位\n强化护甲，更抗揍，持久",
+"flying":true,
+"speed":2.54
+"armor":6
+"hitSize":8
+"health": 800
+"itemCapacity":40
+"ammoCapacity":68
+"allDatabaseTabs":true
+    "research":{
+   "parent":"A型初阶战斗空军",
+   "requirements":[	
+    铁/90
+    thorium/750
+    silicon/85
+   ]
+   }
+"weapons":[{
+  "name":"基础空军武器"
+  "x":2
+  "y":-2
+  "top": false
+  "rotate":false
+  "reload": 5,
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 7
+               "lifetime": 35
+               "damage":26
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+{
+  "x":0
+  "y":3
+  "top": false
+  "rotate":false
+  "reload": 20
+  "shootSound":"shoot",
+  "ejectEffect":"casing1"
+  "inaccuracy":0
+  "alternate":true,
+  "ignoreRotation": false,
+  "bullet":{
+               "speed": 10
+               "type":"ArtilleryBulletType"
+               "lifetime": 25
+               "damage":71
+               "width": 7
+               "shrinkY":0
+               "height": 7
+}
+}
+]
+}
