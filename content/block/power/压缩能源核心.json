@@ -1,0 +1,29 @@
+{
+	"name": "压缩型能源存储核心",
+	"description": "来自[YG]，能源存储核心的压缩版，虽然是压缩版本，但其在同等占地面积的情况下能源存储量是不减反增",
+	"type": "battery",
+	"size": 2
+	"health": 4000
+	"category": "power"
+	"buildTime":600
+	"canOverdrive": true,
+	"emptyLightColor":"ffffff",
+	"fullLightColor":"dc2c2cff",
+	"consumesPower": true,
+	"consumes": {
+		"powerBuffered": 680000
+	},
+	"requirements": [
+		{"item": "能源合金","amount": 435}
+		{"item":"自塑合金","amount":420}
+		{"item":"钛晶","amount":450}
+	],
+	"research":{
+	"parent":"终极电池",
+    "requirements":[
+		{"item": "能源合金","amount": 1305}
+		{"item":"自塑合金","amount":1260}
+		{"item":"钛晶","amount":1350}
+    ]
+    }
+}

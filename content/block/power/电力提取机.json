@@ -1,0 +1,42 @@
+{    
+  "type":"ConsumeGenerator"
+    "name": "物品放电性实验工厂",
+    "description": "来自[KT]，直接利用物品的放电性来发电",
+    "health": 1570,
+    "powerProduction": 180,
+    "baseExplosiveness": 5,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemDuration": 150,
+    "generateEffect":"generatespark"
+    "ambientSound":"loopCircuit",
+    "ambientSoundVolume":1
+    "buildCostMultiplier":1,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawWarmupRegion"
+            ]
+    },
+    "consumes":{
+    "itemCharged": {},
+    }
+    "requirements": [
+  { "item": "钢", "amount":260 }
+  {"item":"surge-alloy","amount":245}
+  {"item":"铅板","amount":265}
+  {"item":"晶金","amount":215}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"集成型火力发电设备",
+    "requirements":[
+  { "item": "钢", "amount":780 }
+  {"item":"surge-alloy","amount":735}
+  {"item":"铅板","amount":795}
+  {"item":"晶金","amount":645}
+    ]
+    }
+}

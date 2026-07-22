@@ -1,0 +1,43 @@
+{    
+  "type":"NuclearReactor"
+    "name": "四联钍反应堆",
+    "description": "来自[AH]，只是将4个钍反应堆组装在一起，但发电更高，伤害更高",
+    "health": 1800,
+    "powerProduction": 220
+    "baseExplosiveness": 5,
+    "size": 6,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 120
+    "liquidCapacity":180
+    "buildTime":1264
+    "explosionRadius":150000000
+    "explosionDamage":150000
+    "buildCostMultiplier":1,
+    "consumes": {
+        "liquid": { "liquid": "cryofluid","amount": 0.25}
+      "items":{
+        "items": [
+        { "item":"thorium","amount": 2}
+        ]}
+    },
+    "requirements": [
+  { "item": "silicon", "amount":750}
+  {"item":"graphite","amount":540}
+  {"item":"lead","amount":1000}
+  {"item":"metaglass","amount":170}
+  { "item":"thorium","amount":540},
+    ],
+    "category": "power",
+    "research":{
+	"parent":"小型核反应堆",
+    "requirements":[
+		{ "item": "silicon", "amount":2250}
+  {"item":"graphite","amount":1620}
+  {"item":"lead","amount":3000}
+  {"item":"metaglass","amount":510}
+  { "item":"thorium","amount":1620},
+    ]
+    "preset":"侵蚀基地"
+    }
+}

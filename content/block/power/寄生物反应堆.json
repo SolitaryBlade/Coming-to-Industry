@@ -1,0 +1,51 @@
+{    
+ // "type":"ConsumeGenerator"
+    "name": "寄生物反应堆",
+    "description": "孢子爆发后的产物，是[AH]消灭区域中的生物核心后在一处能源站废墟中发现的，原本已经损坏，这是经过修复后并且量产的版本，甚至连生产消耗[AH]也进行了更改\n使用孢子合金或者压缩孢子合金发电，可以解决孢子泛滥的问题",
+	"details":"孢子，真是奇特的生物，虽然危险，但是经过[AH]的研究后发现有非常多的用途，而发电正是其中之一"
+    "health": 2500,
+//    "powerProduction": 315
+    "baseExplosiveness": 15
+    "size": 4
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 60
+    "liquidCapacity":90
+    "warmupSpeed":0.01
+//    "explosionRadius":1500
+//    "explosionDamage":750000
+    "buildCostMultiplier":1,
+  /*  "consumes": {
+        "liquids":{
+        "liquids": [
+        { "liquid": "cryofluid","amount": 0.3}
+        ]
+        }
+      "items":{
+        "items": [
+        { "item":"孢子合金","amount": 3}
+        {"item":"压缩孢子合金","amount":1}
+        ]
+        "optional":true,
+        
+        }
+    },*/
+    "requirements": [
+  { "item":"压缩孢子合金", "amount":525 }
+  {"item":"合金板","amount":460}
+  {"item":"钢化玻璃","amount":670}
+  {"item":"zs","amount":420}
+  {"item":"铁","amount":705}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"温差反应堆",
+    "requirements":[
+	{ "item":"压缩孢子合金", "amount":1575 }
+  {"item":"合金板","amount":1380}
+  {"item":"钢化玻璃","amount":2010}
+  {"item":"zs","amount":1260}
+  {"item":"铁","amount":2115}
+    ]
+    }
+}

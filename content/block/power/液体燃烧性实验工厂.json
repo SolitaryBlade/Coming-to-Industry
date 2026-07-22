@@ -1,0 +1,42 @@
+{    
+  "type":"ConsumeGenerator"
+    "name": "液体燃烧性实验工厂",
+    "description": "来自[AH]，利用液/气体的燃烧性来进行实验性发电",
+    "health": 570,
+    "powerProduction": 125,
+    "baseExplosiveness": 5,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "liquidCapacity":120
+    "generateEffect":"generatespark"
+    "ambientSound":"loopCultivator",
+    "ambientSoundVolume":1
+    "buildCostMultiplier":1,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+    "consumes":{
+    "liquidFlammable": {},
+    }
+    "requirements": [
+  { "item": "silicon", "amount":79}
+  {"item":"titanium","amount":57}
+  {"item":"thorium","amount":45}
+  {"item":"metaglass","amount":66}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"集成型火力发电设备",
+    "requirements":[
+	{ "item": "silicon", "amount":237 }
+  {"item":"titanium","amount":171}
+  {"item":"thorium","amount":135}
+  {"item":"metaglass","amount":198}
+    ]
+    }
+}

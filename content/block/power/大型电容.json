@@ -1,0 +1,31 @@
+{
+	"name": "大型电容",
+	"description": "来自[YG]，能够储存大量电力",
+	"type": "battery",
+	"size": 4
+	"health": 1800
+	"category": "power"
+	"canOverdrive": true
+		"emptyLightColor":"ffffff",
+	"fullLightColor":"f77622ff",
+	"consumesPower": true,
+	"consumes": {
+		"powerBuffered": 190000
+	},
+	"requirements": [
+		{"item": "titanium","amount": 75}
+		{"item":"silicon","amount":85}
+		{"item":"graphite","amount":95}
+		{ "item":"thorium","amount":75},
+		
+	],
+	"research":{
+	"parent":"电容",
+    "requirements":[
+		{"item": "titanium","amount": 225}
+		{"item":"silicon","amount":255}
+		{"item":"graphite","amount":285}
+		{ "item":"thorium","amount":225},
+    ]
+    }
+}

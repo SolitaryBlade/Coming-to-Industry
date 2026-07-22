@@ -1,0 +1,43 @@
+{    
+  "type":"ConsumeGenerator"
+    "name": "放射性物质实验工厂",
+    "description": "来自[AH]，利用物品的放射性强度来进行反应发电",
+    "health": 1500,
+    "powerProduction": 168,
+    "baseExplosiveness": 5,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true
+    "hasLiquids":true
+    "liquidCapacity":180
+    "itemDuration": 90,
+    "generateEffect":"generatespark"
+    "buildCostMultiplier":1,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawWarmupRegion"
+            ]
+    },
+    "consumes":{
+    "itemRadioactive": {},
+    "liquid": { "liquid": "cryofluid","amount": 0.75}
+    }
+    "requirements": [
+  {"item":"能源合金","amount":145}
+  {"item":"zs","amount":158}
+  {"item":"晶金板","amount":180}
+  {"item":"合金板","amount":185}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"集成型火力发电设备",
+    "requirements":[
+		{"item":"能源合金","amount":435}
+  {"item":"zs","amount":474}
+  {"item":"晶金板","amount":540}
+  {"item":"合金板","amount":555}
+    ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+//"type": "SolarGenerator",
+	"name": "光伏板",
+	"description": "来自[AH]，对大型太阳能板强化，体积缩小，发电量增强",
+	"size": 2,
+	"hasPower": true,
+	"powerProduction": 7.5,
+	"health":460
+	"requirements": [
+		{ "item": "thorium", "amount": 65 },
+		{"item":"silicon","amount":65}
+		{"item":"titanium","amount":75}
+		{ "item":"phase-fabric","amount":50}
+	],
+	"category": "power",
+	"research":{
+	"parent":"大战争节点",
+    "requirements":[
+		{ "item": "thorium", "amount": 195 },
+		{"item":"silicon","amount":195}
+		{"item":"titanium","amount":225}
+		{ "item":"phase-fabric","amount":150}
+    ]
+    }
+}

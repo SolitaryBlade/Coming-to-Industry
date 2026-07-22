@@ -1,0 +1,28 @@
+{
+	"name": "电容",
+	"description": "来自[YG]，能够储存大量电力",
+	"type": "battery",
+	"size": 2
+	"health": 400
+	"category": "power"
+	"canOverdrive": true,
+		"emptyLightColor":"ffffff",
+	"fullLightColor":"f77622ff",
+	"consumesPower": true,
+	"consumes": {
+		"powerBuffered": 38000
+	},
+	"requirements": [
+		{"item": "titanium","amount": 40}
+		{"item":"silicon","amount":42}
+		{"item":"graphite","amount":45}
+	],
+	"research":{
+	"parent":"大战争节点",
+    "requirements":[
+		{"item": "titanium","amount": 120}
+		{"item":"silicon","amount":126}
+		{"item":"graphite","amount":135}
+    ]
+    }
+}

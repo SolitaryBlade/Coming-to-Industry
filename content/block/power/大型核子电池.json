@@ -1,0 +1,33 @@
+{
+	"name": "大型核子电池",
+	"description": "来自[YG]，[KT]生产，能够储存巨量电力",
+	"type": "battery",
+	"size": 4
+	"health": 2800
+	"category": "power",
+	"canOverdrive": true,
+		"emptyLightColor":"ffffff",
+	"fullLightColor":"ff0044ff",
+	"consumesPower": true,
+	"consumes": {
+		"powerBuffered": 450000
+	},
+	"requirements": [
+		{"item": "铁","amount": 120}
+		{"item":"silicon","amount":150}
+		{"item":"phase-fabric","amount":86}
+		{ "item":"thorium","amount":105}
+		{ "item":"surge-alloy","amount":65}
+		
+	],
+	"research":{
+	"parent":"核子电池",
+    "requirements":[
+		{"item": "铁","amount": 360}
+		{"item":"silicon","amount":450}
+		{"item":"phase-fabric","amount":258}
+		{ "item":"thorium","amount":315}
+		{ "item":"surge-alloy","amount":195}
+    ]
+    }
+}

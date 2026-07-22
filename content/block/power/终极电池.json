@@ -1,0 +1,33 @@
+{
+	"name": "能源存储核心",
+	"description": "原自[AH]，被[YG]购入，使用了一种特殊储能合金，能够存储极巨量电力，应该仅是在发现新矿石之前的顶级能量存储核心了",
+	"type": "battery",
+	"size": 6
+	"health":5000
+	"category": "power",
+	"canOverdrive": true
+			"emptyLightColor":"ffffff",
+	"fullLightColor":"2ce8f5ff",
+	"consumesPower": true,
+	"consumes": {
+		"powerBuffered": 1850000
+	},
+	"requirements": [
+		{"item": "能源合金","amount": 105}
+		{"item":"晶金板","amount":140}
+		{"item":"phase-fabric","amount":186}
+		{ "item":"合金板","amount":125}
+		{ "item":"zs","amount":145}
+		
+	],
+	"research":{
+	"parent":"X反应堆",
+    "requirements":[
+		{"item": "能源合金","amount": 315}
+		{"item":"晶金板","amount":420}
+		{"item":"phase-fabric","amount":558}
+		{ "item":"合金板","amount":375}
+		{ "item":"zs","amount":435}
+    ]
+    }
+}

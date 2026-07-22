@@ -1,0 +1,34 @@
+{    
+  "type":"ConsumeGenerator"
+    "name": "矩阵核心",
+    "description": "[white][YG]生产，宇宙历419纪元，一台来源未知的机器，我们只知道它就是星球上无限能量的来源\n它的结构是一种我们未曾研究过的结构，所以我们仿照它生产出了现在市面上的所有矩阵\n但是很明显，这并不是核心的本体，因为[red]只有那一颗[white]星球才有核心\n而那颗星球也早已被我们＂毁灭＂，我们也只能通过星球探测仪，才能一窥其真容\n所以它的能量生产效率远远不如本体的效率，但也比这个纪元内宇宙中的发电设备要强",
+    "health": 3350,
+    "powerProduction": 5100,
+    "baseExplosiveness": 5,
+    "size": 2,
+    "buildTime":6000
+    "hasPower": true,
+    "hasItems": true,
+    "itemDuration": 90,
+    "buildCostMultiplier":1,
+    "consumes": {
+    },
+    "requirements": [
+  { "item": "能源合金", "amount":5000 }
+  {"item":"钛晶","amount":4500}
+  {"item":"晶金板","amount":6000}
+  {"item":"zs","amount":7000}
+  {"item":"合金板","amount":6500}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"战斗平台",
+    "requirements":[
+	{ "item": "能源合金", "amount":15000 }
+  {"item":"钛晶","amount":13500}
+  {"item":"晶金板","amount":18000}
+  {"item":"zs","amount":21000}
+  {"item":"合金板","amount":19500}
+    ]
+    }
+}

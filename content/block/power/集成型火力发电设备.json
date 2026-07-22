@@ -1,0 +1,40 @@
+{    
+  "type":"ConsumeGenerator"
+    "name": "集成型火力发电装置",
+    "description": "来自[AH]，可以充分燃烧输入材料，火力充足",
+    "health": 570,
+    "powerProduction": 12.5,
+    "baseExplosiveness": 5,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemDuration": 90,
+    "generateEffect":"generatespark"
+    "ambientSound":"loopFire",
+    "ambientSoundVolume":1
+    "buildCostMultiplier":1,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+    "consumes":{
+    "itemFlammable": {},
+    }
+    "requirements": [
+  { "item": "silicon", "amount":70 }
+  {"item":"titanium","amount":85}
+  {"item":"graphite","amount":65}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"战争节点",
+    "requirements":[
+	{ "item": "silicon", "amount":210 }
+  {"item":"titanium","amount":255}
+  {"item":"graphite","amount":195}
+    ]
+    }
+}

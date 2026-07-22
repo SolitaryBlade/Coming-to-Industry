@@ -1,0 +1,38 @@
+{    
+  "type":"NuclearReactor"
+    "name": "小型钍反应堆",
+    "description": "来自[YG]，一台迷你的反应堆",
+    "health": 350,
+    "powerProduction": 10.5,
+    "baseExplosiveness": 5,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "liquidCapacity":90
+    "explosionRadius":1500
+    "baseExplosiveness":1500
+    "explosionDamage":1500
+    "buildCostMultiplier":1,
+    "consumes": {
+        "liquid": {"liquid": "water","amount": 0.1 }
+     "items":{
+         "items": [
+         {"item":"thorium","amount":1 }
+         ]}
+    },
+    "requirements": [
+  { "item": "silicon", "amount":50}
+  {"item":"thorium","amount":40}
+  {"item":"titanium","amount":55}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"战争节点",
+    "requirements":[
+		{ "item": "silicon", "amount":150}
+  {"item":"thorium","amount":120}
+  {"item":"titanium","amount":165}
+    ]
+    }
+}

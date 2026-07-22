@@ -1,0 +1,29 @@
+//继承 UnlockableContent
+
+{
+    "powerProduction": 9999999999999999999999999999,
+    "buildVisibility":shown
+    "alwaysUnlocked":false
+    "maxNodes":2400
+    "buildTime":1800
+    "laserRange":24
+    "details":"允许在生存使用，至于如何使用看你自己了\n更大的连接范围，更多的连接数量"
+    "requirements":[
+    {"item":"surge-alloy","amount":100000}
+    ]
+    "research":{
+	"parent":"liquid-source",
+    "requirements":[
+		{"item": "copper", "amount": 257500},
+		{"item":"lead","amount":251000}
+		{"item":"graphite","amount":245400}
+		{"item":"metaglass","amount":240000}
+		{"item":"silicon","amount":234000}
+		{"item":"titanium","amount":229000}
+		{"item":"thorium","amount":225000}
+		{"item":"plastanium","amount":215000}
+		{"item":"phase-fabric","amount":210000}
+		{"item":"surge-alloy","amount":210000}
+    ]
+    }
+}

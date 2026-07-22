@@ -1,0 +1,21 @@
+{
+    "type":"PowerNode",
+    "name":"战争节点",
+    "description":"来自[YG]，战争时常使用的能量节点"
+    "health":65
+    "size":1
+    "maxNodes":35
+    "laserRange":15
+	"requirements": [
+	{ "item": "铁", "amount": 15 },
+	{ "item": "graphite", "amount": 15}
+	]
+"category":"power",
+"research":{
+	"parent":"A",
+    "requirements":[
+		{ "item": "铁", "amount": 45 },
+	{ "item": "graphite", "amount": 45}
+    ]
+    }
+	}

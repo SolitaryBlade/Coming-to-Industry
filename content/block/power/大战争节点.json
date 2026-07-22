@@ -1,0 +1,23 @@
+{
+    "type":"PowerNode",
+    "name":"大型战争节点",
+    "description":"来自[YG]，允许各工业制造，方便战争时使用"
+    "health":150
+    "size":2
+    "maxNodes":75
+    "laserRange":35
+	"requirements": [
+	{ "item": "铁", "amount": 30 },
+	{ "item": "titanium", "amount": 25 },
+	{ "item": "graphite", "amount": 32}
+	]
+"category":"power",
+"research":{
+	"parent":"战争节点",
+    "requirements":[
+		{ "item": "铁", "amount": 90 },
+	{ "item": "titanium", "amount": 75 },
+	{ "item": "graphite", "amount": 96}
+    ]
+    }
+	}

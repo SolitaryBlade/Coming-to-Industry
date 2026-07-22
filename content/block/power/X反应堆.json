@@ -1,0 +1,41 @@
+{
+"type":"ImpactReactor",
+"name": "x反应堆",
+    "description": "来自[Hz]，使用一种强大的合金进行发电",
+    "size": 4,
+    "health": 6500
+    "hasLiquids": false
+   	"hasItems": true,
+   	"itemCapacity": 50
+    "powerProduction": 1110
+	"ambientSound":"loopDifferential",
+    "ambientSoundVolume":1
+    "explosionRadius":15000
+    "warmupSpeed":0.1
+    "baseExplosiveness":15000
+    "explosionDamage":15000
+    "buildCostMultiplier":0.75
+"consumes": {
+    "power":60
+     "items":{
+        "items": [
+        {"item": "能源合金","amount": 1}
+        ]}
+    },
+    "requirements": [
+  { "item":"合金板", "amount":525 }
+  {"item":"能源合金","amount":470}
+  {"item":"钢化玻璃","amount":670}
+  {"item":"晶金板","amount":500}
+    ],
+    "category": "power",
+    "research":{
+	"parent":"温差反应堆",
+    "requirements":[
+		{ "item":"合金板", "amount":1575 }
+  {"item":"能源合金","amount":1410}
+  {"item":"钢化玻璃","amount":2010}
+  {"item":"晶金板","amount":1500}
+    ]
+    }
+}
