@@ -1,6 +1,0 @@
-{
-"type":"Floor"
-"name":"地下水层"
-"variants":3
-"attributes":{"water":2,"oil":0,"spores":0.02}
-}
