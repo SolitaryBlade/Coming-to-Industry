@@ -1,0 +1,28 @@
+{
+	"name":"粒子收集器",//名称
+	"description":"来自[YG]，使用不同的收集功能及消耗不同的材料缓慢收集空气中漂浮的物质粒子",//简介
+	"size":1,//大小
+//	"outputItem":{"item":"物质原子","amount":1},//成品
+/*	"consumes":{
+		"power":7//电力1=60
+			},*/
+	"requirements":[
+		{"item":"铁","amount":85},
+		{"item":"surge-alloy","amount":65}
+		{ "item":"钢化玻璃","amount":70},
+		{ "item":"phase-fabric","amount":45},
+		]
+	"health":500,//生命
+	"itemCapacity":50,//物品
+	//研究前置,若不自定义研究材料,游戏会自动倍乘30倍
+	"category":"crafting",//菜单类型
+	"research":{
+	"parent":"钢化玻璃厂",
+    "requirements":[
+	{"item":"铁","amount":255},
+		{"item":"surge-alloy","amount":195}
+		{ "item":"钢化玻璃","amount":220},
+		{ "item":"phase-fabric","amount":135},
+    ]
+    }
+}

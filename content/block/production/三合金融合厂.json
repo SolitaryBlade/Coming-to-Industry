@@ -1,0 +1,54 @@
+{
+	"type": "GenericCrafter",
+	"name":"钴钢晶金合金厂"
+	"description":"来自[YG]，利用先进的激光技术和超高温将三种物品进行处理并融合\n但是其造价极其昂贵，而且内部十分精密，所以十分脆弱"
+	"details":"以晶金为主体，将钢融入进钴，再二次进钴融入进晶金"
+	"health":515,//生命值
+	"buildTime":1800//建造时间
+	"itemCapacity": 20,
+	"hasItems":true
+	"outputItem": {"item": "三合金","amount": 2},
+	"size": 2
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 150
+	"ambientSound":"beamPlasmaSmall"
+	"ambientSoundVolume":0.5
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":1
+	"consumes": {
+	    "power": 25
+		"items": {
+			"items": [
+				{ "item":"钴","amount":4}
+				{ "item":"钢","amount":6},
+				{ "item":"晶金","amount":2},
+			]
+		}
+	},
+	"requirements": [
+		{"item":"钛晶","amount":900}
+		{"item":"能源合金","amount":1550}
+		{"item":"晶金","amount":1400},
+		{"item":"铁","amount":3000},
+		{"item":"钢","amount":2080},
+	]//建造消耗物品
+	"category": "crafting",
+ "research":{
+	"parent":"原子对撞机",
+    "requirements":[
+	{"item":"钛晶","amount":2700}
+		{"item":"能源合金","amount":4650}
+		{"item":"晶金","amount":4200},
+		{"item":"铁","amount":9000},
+		{"item":"钢","amount":6240},
+    ]
+    }//前置科技树
+}

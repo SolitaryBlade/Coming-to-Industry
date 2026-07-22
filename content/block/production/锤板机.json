@@ -1,0 +1,37 @@
+{
+	//"type": "GenericCrafter",
+	"name":"物质板锤压机"
+	"description": "来自[AH]，使用不同的锤压强度，将部分材料砸成板",
+	"health": 450,
+	"itemCapacity": 60,
+	"hasItems":true
+//	"outputItem": {"item": "铅板","amount": 1},
+	"size": 2
+	"hasPower": true,
+	"hasItems": true,
+	"ambientSound":"loopGrind"
+	"ambientSoundVolume":0.2
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"requirements": [
+		{ "item": "titanium", "amount": 65 }
+		{"item":"silicon","amount":70}
+		{ "item":"graphite","amount":75},
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"废料研磨厂",
+    "requirements":[
+	{ "item": "titanium", "amount": 195 }
+		{"item":"silicon","amount":210}
+		{ "item":"graphite","amount":225},
+    ]
+    }
+}

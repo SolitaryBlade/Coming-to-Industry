@@ -1,0 +1,39 @@
+{
+	"type": "GenericCrafter",
+	"name":"强化熔炉"
+	"description": "来自[YG]，升级版的矿渣制造器",
+	"health": 300,
+	"itemCapacity": 20
+	"liquidCapacity":300
+	"hasLiquids":true
+	"outputsLiquid":true
+	"outputLiquid": {"liquid": "slag","amount": 1.12},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 15
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 6
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 15 }
+		{"item":"titanium","amount":30}
+		{ "item":"graphite","amount":35}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"废料研磨厂",
+    "requirements":[
+	{ "item": "silicon", "amount": 45 }
+		{"item":"titanium","amount":90}
+		{ "item":"graphite","amount":105}
+    ]
+    }
+}

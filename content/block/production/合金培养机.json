@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"name":"合金培养机"
+	"description": "原自[AH]，是合金能量注入器的原始模板。后来孢子爆发，[AH]研究员撤离时没有保留配方导致数据丢失，再后来被孢子修改了其生产方式",
+	"health": 450,
+	"itemCapacity": 60,
+	"hasItems":true
+	"outputItem": {"item": "孢子合金","amount": 1},
+	"size": 2
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 6
+		"items": {
+			"items": [
+				{ "item": "spore-pod", "amount": 1 }
+				{ "item":"surge-alloy","amount":1},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 70 }
+		{"item":"钢化玻璃","amount":45}
+		{ "item":"surge-alloy","amount":40},
+		{ "item": "plastanium", "amount": 60}
+		{ "item": "phase-fabric", "amount": 50}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"钻石研磨厂",
+    "requirements":[
+	{ "item": "thorium", "amount": 210 }
+		{"item":"钢化玻璃","amount":135}
+		{ "item":"surge-alloy","amount":120},
+		{ "item": "plastanium", "amount": 180}
+		{ "item": "phase-fabric", "amount": 150}
+    ]
+    }
+}

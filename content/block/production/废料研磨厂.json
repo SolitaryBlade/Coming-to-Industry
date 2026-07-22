@@ -1,0 +1,38 @@
+{
+	"type": "GenericCrafter",
+	"name":"废料研磨厂"
+	"description": "来自[YG]，把铜研磨为废料",
+	"health": 450,
+	"itemCapacity": 35
+	"hasItems":true
+	"outputItem": {"item": "scrap","amount": 4},
+	"size": 2,
+	"updateEffect":"pulverizeSmall"
+	"craftEffect":"pulverize"
+	"hasPower": true,
+	"craftTime": 20
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 4
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 30 }
+		{"item":"lead","amount":45}
+		{ "item":"silicon","amount":15}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"铁生产厂",
+    "requirements":[
+	{ "item": "graphite", "amount": 90 }
+		{"item":"lead","amount":135}
+		{ "item":"silicon","amount":45}
+    ]
+    }
+}

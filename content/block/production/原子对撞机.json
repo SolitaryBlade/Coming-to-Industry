@@ -1,0 +1,50 @@
+{
+	"type": "Separator",
+	"name":"原子对撞机"
+	"description": "来自[YG]，使用两枚物质原子进行对撞，有概率制造出一种新型的合金",
+	"health": 450,
+	"itemCapacity": 60,
+	"hasItems":true
+	"hasLiquids":false
+//	"outputItem": {"item": "晶金","amount": 1},
+    "results": [
+	 {"item": "晶金", "amount": 3},
+	 {"item":"scrap","amount":7}
+	 {"item": "晶金板", "amount": 1,}
+	 {"item":"物质原子","amount":5}
+	 ]
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 45
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 10
+		"items": {
+			"items": [
+				{ "item": "物质原子", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "物质原子", "amount": 115 }
+		{"item":"铁","amount":75} 
+		{ "item":"钢化玻璃","amount":60},
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"粒子收集器",
+    "requirements":[
+	{ "item": "物质原子", "amount": 345 }
+		{"item":"铁","amount":225} 
+		{ "item":"钢化玻璃","amount":180},
+    ]
+    }
+}

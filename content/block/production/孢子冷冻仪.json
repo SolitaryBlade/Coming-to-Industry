@@ -1,1 +1,43 @@
-
+{
+	"type": "GenericCrafter",
+	"name":"孢子冷冻封存仪"
+	"description": "来自[AH]，把孢子混合进冷冻液，并且进行二次极速降温，以进行极低温封存",
+	"details":"我们不得而知AH究竟想干什么，把孢子降低活性后封存，感觉AH要有大动作，小心为妙\n名字确实好，不过造价极其低廉，而且还不能保证水里面没有其他东西"
+	"health": 350,
+	"liquidCapacity":600
+	"rotate":true
+    "invertFlip":true
+	"hasLiquids":true
+	"regionRotated1":3
+	"outputsLiquid":true
+    "outputLiquid":{"liquid":"孢子液","amount":0.5}
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes":{
+		"power":3
+		   "items":[
+		      {"item":"spore-pod","amount":5}
+		]
+		"liquid":{"liquid":"cryofluid","amount":0.5}
+		},
+	"requirements": [
+		{ "item": "titanium", "amount": 75 }
+		{"item":"silicon","amount":55}
+		{ "item":"metaglass","amount":65}
+		{"item":"thorium","amount":40}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"锅炉",
+    "requirements":[
+		{ "item": "titanium", "amount": 225 }
+		{"item":"silicon","amount":165}
+		{ "item":"metaglass","amount":195}
+		{"item":"thorium","amount":120}
+    ]
+    }
+}

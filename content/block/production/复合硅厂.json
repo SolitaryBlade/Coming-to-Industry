@@ -1,0 +1,48 @@
+{
+	"type": "GenericCrafter",
+	"name":"复合型硅工厂"
+	"description": "来自[YG],使用新技术进行复合多产线快速生产的硅工厂",
+	"health": 550,
+	"itemCapacity": 140,
+	"hasItems":true
+	"outputItem": {"item": "silicon","amount": 12},
+	"size": 4
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 6
+		"items": {
+			"items": [
+				{"item":"sand","amount":6}
+				{"item":"coal","amount":5},
+				{"item":"phase-fabric","amount":1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item":"metaglass","amount":75}
+		{"item":"thorium","amount":45}
+		{ "item":"titanium","amount":75},
+		{ "item": "silicon", "amount": 60}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"铁冶炼厂",
+    "requirements":[
+	{ "item":"metaglass","amount":225}
+		{"item":"thorium","amount":135}
+		{ "item":"titanium","amount":225},
+		{ "item": "silicon", "amount": 180}
+    ]
+    }
+}

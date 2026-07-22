@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+	"name":"气凝胶工厂"
+	"description": "来自[YG]，使用高温气体与低温液体产生反应得到超耐火材料",
+	"health": 450,
+	"itemCapacity": 60,
+	"liquidCapacity":600
+	"hasItems":true
+	"outputItem": {"item": "气凝胶","amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 25
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+			"liquids": [
+			{"liquid": "气化熔岩", "amount": 0.4},
+			{"liquid":"液氮","amount":0.6},
+			]
+		"power": 6
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 70 }
+		{"item":"titanium","amount":45}
+		{ "item":"metaglass","amount":55},
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"原子对撞机",
+    "requirements":[
+	{ "item": "silicon", "amount": 210 }
+		{"item":"titanium","amount":135}
+		{ "item":"metaglass","amount":165},
+    ]
+    }
+}

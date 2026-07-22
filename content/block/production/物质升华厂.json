@@ -1,0 +1,35 @@
+{
+	//"type": "GenericCrafter",
+	"name":"物质升华厂"
+	"description": "在[AH]拥有修改分子结构技术后的第一个工业项目\n此工厂用于当前及以后的物质分子结构修改技术的应用",
+	"health": 850,
+	"itemCapacity": 75
+	"hasItems":true
+	"size": 3,
+	"hasPower": true,
+	"craftTime": 60
+	"ambientSound":"acceleratorCharge"
+	"ambientSoundVolume":0.5
+	"buildCostMultiplier":0.75
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawWarmupRegion"
+            ]
+    },
+	"requirements": [
+		{ "item": "能源合金", "amount": 328 }
+		{ "item":"钛晶","amount":310}
+		{"item":"三合金","amount":286}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"核诱变机",
+    "requirements":[
+	    { "item": "能源合金", "amount":984 }
+		{ "item":"钛晶","amount":930}
+		{"item":"三合金","amount":858}
+    ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+	"type": "GenericCrafter",
+	"name":"冷凝锅炉"
+	"description": "来自[YG]，生产一种特制的冷凝液",
+	"health": 450,
+	"itemCapacity": 20,
+	"liquidCapacity":600
+	"hasLiquids":true
+	"outputsLiquid":true
+	"outputLiquid": {"liquid": "冷凝水","amount": 0.45},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 25
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+			"liquid": {"liquid": "water", "amount": 0.25},
+		"power": 3.5
+		"items": {
+			"items": [
+				{ "item":"graphite","amount":1},
+				{"item":"titanium","amount":1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 15 }
+		{"item":"lead","amount":30}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"A",
+    "requirements":[
+	{ "item": "copper", "amount": 45 }
+		{"item":"lead","amount":90}
+    ]
+    }
+}

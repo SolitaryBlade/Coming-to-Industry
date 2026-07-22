@@ -1,0 +1,42 @@
+{
+	"type": "GenericCrafter",
+	"name":"核物质诱变机"
+	"description": "来自[AH]，把钍诱变为更纯的铀燃料",
+	"health": 450,
+	"itemCapacity": 35
+	"hasItems":true
+	"outputItem": {"item": "铀","amount": 2},
+	"size": 2,
+	"updateEffect":"pulverizeSmall"
+	"craftEffect":"pulverize"
+	"hasPower": true,
+	"craftTime": 20
+	"ambientSound":"beamPlasmaSmall"
+	"ambientSoundVolume":0.5
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 4
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 2 }
+				{ "item": "phase-fabric", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "钢", "amount": 70 }
+		{"item":"钢化玻璃","amount":65}
+		{ "item":"铅板","amount":85}
+		{"item":"金刚石","amount":65}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"加强型矿渣炉",
+    "requirements":[
+	{ "item": "钢", "amount":210 }
+		{"item":"钢化玻璃","amount":195}
+		{ "item":"铅板","amount":255}
+		{"item":"金刚石","amount":195}
+    ]
+    }
+}

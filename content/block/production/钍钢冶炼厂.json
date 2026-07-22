@@ -1,0 +1,51 @@
+//气球投稿
+{
+	"type": "GenericCrafter",
+	"name":"钍钢冶炼厂"
+	"description":"来自[AH]，把钍先去除大部分辐射，再直接把钢熔入进钍，产出钍钢"
+	"health":270,//生命值
+	"buildTime":468//建造时间
+	"itemCapacity": 20,
+	"hasItems":true
+	"outputItem": {"item": "钍钢","amount": 1},
+	"size": 2
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120
+	"ambientSound":"loopGrind"
+	"ambientSoundVolume":0.4
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":1
+	"consumes": {
+	    "power": 4.5
+		"items": {
+			"items": [
+				{ "item":"thorium","amount":2},
+			    { "item":"钢","amount":3},
+			]
+		}
+	},
+	"requirements": [
+		{"item":"铁","amount":300}
+		{"item":"graphite","amount":300}
+		{"item":"钢","amount":420},
+		{"item":"铅板","amount":250},
+	]//建造消耗物品
+	"category": "crafting",
+ "research":{
+	"parent":"原铁精加工厂",
+    "requirements":[
+	{"item":"铁","amount":900}
+		{"item":"graphite","amount":900}
+		{"item":"钢","amount":1260},
+		{"item":"铅板","amount":750},
+    ]
+    }//前置科技树
+}

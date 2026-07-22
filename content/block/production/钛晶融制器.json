@@ -1,0 +1,49 @@
+{
+	"type": "GenericCrafter",
+	"name":"钛晶融制器"
+	"description": "来自[YG]，把钛和晶状合金融合在一起，以生产一种高级工业物品",
+	"health": 450,
+	"itemCapacity": 60,
+	"hasItems":true
+	"outputItem": {"item": "钛晶","amount": 1},
+	"size": 2
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 35
+	"ambientSound":"beamPlasmaSmall"
+	"ambientSoundVolume":0.4
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 5
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 2 }
+				{ "item":"晶金","amount":1},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 85 }
+		{"item":"metaglass","amount":75}
+		{ "item":"surge-alloy","amount":45},
+		{"item":"thorium","amount":75}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"粒子收集器",
+    "requirements":[
+	{ "item": "titanium", "amount": 255 }
+		{"item":"metaglass","amount":225}
+		{ "item":"surge-alloy","amount":135},
+		{"item":"thorium","amount":225}
+    ]
+    }
+}

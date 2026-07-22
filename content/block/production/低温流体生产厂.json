@@ -1,0 +1,35 @@
+{
+//	"type": "GenericCrafter",
+	"name":"绝对低温流体生产车间"
+	"description": "来自[YG]，用于生产极低温的液体",
+	"health": 1450,
+	"itemCapacity": 10,
+	"liquidCapacity":600
+	"hasLiquids":true
+	"outputsLiquid":true
+	"regionRotated1":2
+	"size": 2,
+	"hasPower": true,
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+			"liquid": {"liquid": "液氮", "amount": 2.5},
+		"power": 35
+		"items": {
+			"items": [
+				{ "item": "钯金", "amount": 1 }
+				{ "item":"zs","amount":2},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "钯金", "amount": 650 },
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"三合金融合厂",
+    "requirements":[
+	{ "item": "钯金", "amount": 1950 },
+    ]
+    }
+}

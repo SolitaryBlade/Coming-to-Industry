@@ -1,0 +1,49 @@
+{
+//	"type": "GenericCrafter",
+	"name":"大气分离液化装置"
+	"description": "来自[YG]，将大气中的主要成分分离并且进行低温液化",
+	"health": 450,
+	"liquidCapacity":600
+	"rotate":true
+    "invertFlip":true
+	"hasLiquids":true
+	"regionRotated1":2
+	"outputsLiquid":true
+	"size": 2,
+	"drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            "DrawLiquidOutputs",
+            "DrawGlowRegion"
+            "DrawBubbles"
+            "DrawDefault"
+        ]
+    },
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes":{
+		"power":6.5
+		"liquid":{"liquid":"cryofluid","amount":0.1}
+		},
+	"requirements": [
+		{ "item": "titanium", "amount": 70 }
+		{"item":"silicon","amount":65}
+		{ "item":"钢化玻璃","amount":45}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"锅炉",
+    "requirements":[
+		{ "item": "titanium", "amount": 210 }
+		{"item":"silicon","amount":195}
+		{ "item":"钢化玻璃","amount":135}
+    ]
+    }
+}

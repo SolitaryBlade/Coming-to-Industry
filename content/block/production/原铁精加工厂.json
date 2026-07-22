@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"name":"铁精加工厂"
+	"description": "来自[YG]，对铁进行精加工，可以得到一种更好的工业物品",
+	"health": 450,
+	"itemCapacity": 60,
+	"hasItems":true
+	"outputItem": {"item": "钢","amount": 1},
+	"size": 2
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 35
+	"ambientSound":"loopGrind"
+	"ambientSoundVolume":0.2
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 4
+		"items": {
+			"items": [
+				{ "item": "铁", "amount": 2 }
+				{ "item":"titanium","amount":1},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "铁", "amount": 75 }
+		{"item":"titanium","amount":35}
+		{ "item":"silicon","amount":45},
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"复合硅厂",
+    "requirements":[
+	{ "item": "铁", "amount": 225 }
+		{"item":"titanium","amount":105}
+		{ "item":"silicon","amount":135},
+    ]
+    }
+}

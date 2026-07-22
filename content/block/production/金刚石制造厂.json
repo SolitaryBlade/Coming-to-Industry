@@ -1,0 +1,45 @@
+{
+	"type": "GenericCrafter",
+	"name":"金刚石制造厂"
+	"description": "来自[YG]，在没有金刚石矿的情况下生产金刚石",
+	"health": 450,
+	"itemCapacity": 50
+	"hasItems":true
+	"outputItem": {"item": "金刚石","amount": 1},
+	"size": 2,
+	"updateEffect":"pulverizeSmall"
+	"craftEffect":"pulverize"
+	"hasPower": true,
+	"craftTime": 20
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 10
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 9 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "铁", "amount": 45}
+		{"item":"thorium","amount":25}
+		{ "item":"silicon","amount":30}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"铁生产厂",
+    "requirements":[
+	{ "item": "铁", "amount": 135}
+		{"item":"thorium","amount":75}
+		{ "item":"silicon","amount":90}
+    ]
+    }
+}

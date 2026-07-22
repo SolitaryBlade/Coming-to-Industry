@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+	"name":"铁生产厂"
+	"description": "来自[YG]，在没有铁矿的情况下制作铁",
+	"health": 450,
+	"itemCapacity": 35
+	"outputItem": {"item": "铁","amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 20
+	"updateEffect": "none",
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 6
+		"items": {
+			"items": [
+				{ "item": "graphite", "amount": 1 }
+				{ "item":"silicon","amount":1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 30}
+		{"item":"graphite","amount":35}
+		{ "item":"silicon","amount":30}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"A",
+    "requirements":[
+	{ "item": "titanium", "amount": 90}
+		{"item":"graphite","amount":105}
+		{ "item":"silicon","amount":90}
+    ]
+    }
+}

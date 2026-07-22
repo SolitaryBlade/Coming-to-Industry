@@ -1,0 +1,43 @@
+{
+	//"type": "GenericCrafter",
+	"name":"专用型熔岩混合装置"
+	"description": "来自[AH]，专为高级熔岩产品所制造的高级工厂\n骗你的，还能造熔岩",
+	"details":"奇怪，怎么越干越红呢？"
+	"health": 800,
+	"itemCapacity": 40
+	"liquidCapacity":360
+	"hasLiquids":true
+	"size": 2,
+	"drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            "DrawLiquidOutputs",
+            "DrawGlowRegion"
+            "DrawBubbles"
+            "DrawDefault"
+        ]
+    },
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 15
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 15 }
+		{"item":"plastanium","amount":30}
+		{ "item":"thorium","amount":45}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"原子对撞机",
+    "requirements":[
+	{ "item": "phase-fabric", "amount": 45 }
+		{"item":"plastanium","amount":90}
+		{ "item":"thorium","amount":135}
+    ]
+    }
+}

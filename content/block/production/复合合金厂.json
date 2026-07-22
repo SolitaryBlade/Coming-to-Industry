@@ -1,0 +1,53 @@
+{
+	"type": "GenericCrafter",
+	"name":"复合型合金工厂"
+	"description": "来自[YG],使用新技术进行复合多产线生产的合金工厂",
+	"health": 650,
+	"itemCapacity": 240,
+	"hasItems":true
+	"outputItem": {"item": "surge-alloy","amount": 12},
+	"size": 5
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50
+	"ambientSound":"loopGrind"
+	"ambientSoundVolume":0.2
+	"drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+			"DrawFlame"
+            ]
+    },
+	"updateEffect": "none",
+	"buildCostMultiplier":0.75
+	"consumes": {
+		"power": 6
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 4}
+				{ "item":"zs","amount":2},
+				{"item":"铁","amount":5}
+				{"item":"phase-fabric","amount":1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "铁", "amount": 95 }
+		{"item":"钢化玻璃","amount":75}
+		{ "item":"surge-alloy","amount":85},
+		{ "item": "金刚石", "amount": 70}
+		{ "item": "phase-fabric", "amount": 90}
+	]
+	"category": "crafting",
+ "research":{
+	"parent":"金刚石制造厂",
+    "requirements":[
+	    { "item": "铁", "amount": 285 }
+		{"item":"钢化玻璃","amount":225}
+		{ "item":"surge-alloy","amount":255},
+		{ "item": "金刚石", "amount": 210}
+		{ "item": "phase-fabric", "amount": 270}
+    ]
+    }
+}
