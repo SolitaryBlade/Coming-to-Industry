@@ -1,0 +1,31 @@
+{
+	"type":"CoreBlock"
+	"itemCapacity":32500,
+	"hasItems": true,
+	"health": 28000
+	"size": 6
+	"buildTime":9745
+	"unitCapModifier":64
+	"outputsPower":8
+	"allDatabaseTabs":true
+	"unitType":"HZ2型空天机",
+	"placeableLiquid":true,
+	"requirements": [
+		{"item":"zs","amount":2880},
+		{ "item": "钛晶", "amount": 2100}
+		{ "item": "合金板", "amount": 2660}
+		{ "item": "晶金板", "amount": 2500 }
+		{ "item":"能源合金","amount":2300},
+	],
+	"category": "effect",
+	"research":{
+	"parent":"A",
+    "requirements":[
+	{"item":"zs","amount":8640},
+		{ "item": "钛晶", "amount": 6300}
+		{ "item": "合金板", "amount": 7980}
+		{ "item": "晶金板", "amount": 7500 }
+		{ "item":"能源合金","amount":6900},
+    ]
+    }
+}

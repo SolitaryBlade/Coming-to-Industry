@@ -1,0 +1,21 @@
+{
+//	"type":"CoreBlock"
+	"itemCapacity":21600,
+	"hasItems": true,
+	"health": 8500
+	"size": 5
+	"buildTime":4973
+	"unitCapModifier":25
+	"unitType":"HZ1型空天机",
+	"allDatabaseTabs":true
+	"placeableLiquid":true,
+	"requirements": [
+		{"item":"zs","amount":1680},
+		{ "item": "silicon", "amount": 2650}
+		{ "item": "合金板", "amount": 1760}
+		{ "item": "晶金板", "amount": 1900 }
+		{"item":"钢","amount":2480}
+	],
+	"alwaysUnlocked":true,
+	"category": "effect",
+}
